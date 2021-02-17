@@ -1,0 +1,2874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p/>
+         </publicationStmt>
+         <sourceDesc>
+            <p/>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <u n="1">
+            <note ana="#gls">If in Ikaram they want to plant yam</note>
+            <w>
+               <note ana="#txt">èkiròm</note>
+               <note ana="#gls">Ikaram</note>
+               <note ana="#pos">nprop</note>
+               <m>
+                  <note ana="#txt">èkiròm</note>
+                  <note ana="#cf">èkiròm</note>
+                  <note ana="#gls">Ikaram</note>
+                  <note ana="#msa">nprop</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bè</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bè</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">mɔ̀là</note>
+               <note ana="#gls">plant</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">mɔ̀là</note>
+                  <note ana="#cf">mɔ̀là</note>
+                  <note ana="#gls">plant</note>
+                  <note ana="#msa">vtATR+u***e</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+         </u>
+         <u n="2">
+            <note ana="#gls">first, they clear the farm</note>
+            <w>
+               <note ana="#txt">bà</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bà</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kɔ́</note>
+               <note ana="#gls">do_first</note>
+               <note ana="#pos">preverb</note>
+               <m>
+                  <note ana="#txt">kɔ́</note>
+                  <note ana="#cf">kɔ́</note>
+                  <note ana="#gls">do_first</note>
+                  <note ana="#msa">preverb</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">wol</note>
+               <note ana="#gls">clear</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">wol</note>
+                  <note ana="#cf">wol</note>
+                  <note ana="#gls">clear</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìʃòmò</note>
+               <note ana="#gls">farm</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìʃòmò</note>
+                  <note ana="#cf">ìʃòmò</note>
+                  <note ana="#gls">farm</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+         </u>
+         <u n="3">
+            <note ana="#gls">after they have cleared it</note>
+            <w>
+               <note ana="#txt">báá</note>
+               <note ana="#gls">3PL.HUM.COND</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">báá</note>
+                  <note ana="#cf">báá</note>
+                  <note ana="#gls">3PL.HUM.COND</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">wol</note>
+               <note ana="#gls">clear</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">wol</note>
+                  <note ana="#cf">wol</note>
+                  <note ana="#gls">clear</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+         </u>
+         <u n="4">
+            <note ana="#gls">they rake it and set it on fire</note>
+            <w>
+               <note ana="#txt">bà</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bà</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kàs</note>
+               <note ana="#gls">rake</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">kàs</note>
+                  <note ana="#cf">kàs</note>
+                  <note ana="#gls">rake</note>
+                  <note ana="#msa">vt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">í</note>
+               <note ana="#gls">3PL.NHUM.S</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">í</note>
+                  <note ana="#cf">í</note>
+                  <note ana="#gls">3PL.NHUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">fida</note>
+               <note ana="#gls">set_fire</note>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">lɔ</note>
+               <note ana="#gls">throw</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɔ</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls">throw</note>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+         </u>
+         <u n="5">
+            <note ana="#gls">After they set it on fire, the fire burns it down</note>
+            <w>
+               <note ana="#txt">lɛ́hĩ̀</note>
+               <note ana="#gls">after</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɛ́hĩ̀</note>
+                  <note ana="#cf">lɛ́hĩ̀</note>
+                  <note ana="#gls">after</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìbùrɛ́ mi</note>
+               <note ana="#gls">when</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">ìbùrɛ́ mi</note>
+                  <note ana="#cf">ìbùrɛ́ mi</note>
+                  <note ana="#gls">when</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">í</note>
+               <note ana="#gls">3PL.NHUM.S</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">í</note>
+                  <note ana="#cf">í</note>
+                  <note ana="#gls">3PL.NHUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">fida</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">lɔ</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɔ</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">mi</note>
+               <note ana="#gls">SIP</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mi</note>
+                  <note ana="#cf">mi</note>
+                  <note ana="#gls">SIP</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ida</note>
+               <note ana="#gls">fire</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ida</note>
+                  <note ana="#cf">ida</note>
+                  <note ana="#gls">fire</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">tì</note>
+               <note ana="#gls">push</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">tì</note>
+                  <note ana="#cf">tì</note>
+                  <note ana="#gls">push</note>
+                  <note ana="#msa">vtATR+u***e</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">hɔ</note>
+               <note ana="#gls">away</note>
+               <note ana="#pos">postverb</note>
+               <m>
+                  <note ana="#txt">hɔ</note>
+                  <note ana="#cf">hɔ</note>
+                  <note ana="#gls">away</note>
+                  <note ana="#msa">postverb</note>
+               </m>
+            </w>
+         </u>
+         <u n="6">
+            <note ana="#gls">they rake it again</note>
+            <w>
+               <note ana="#txt">bè</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bè</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bé</note>
+               <note ana="#gls">FUT</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">bé</note>
+                  <note ana="#cf">bá</note>
+                  <note ana="#gls">FUT</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kij̀</note>
+               <note ana="#gls">repeat</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">kij̀</note>
+                  <note ana="#cf">kij̀</note>
+                  <note ana="#gls">repeat</note>
+                  <note ana="#msa">preverbATR+u***e</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kàs</note>
+               <note ana="#gls">rake</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">kàs</note>
+                  <note ana="#cf">kàs</note>
+                  <note ana="#gls">rake</note>
+                  <note ana="#msa">vt</note>
+               </m>
+            </w>
+         </u>
+         <u n="7">
+            <note ana="#gls">Once they cleared it, they will use a hoe to cultivate it</note>
+            <w>
+               <note ana="#txt">báá</note>
+               <note ana="#gls">3PL.HUM.COND</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">báá</note>
+                  <note ana="#cf">báá</note>
+                  <note ana="#gls">3PL.HUM.COND</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kàs</note>
+               <note ana="#gls">rake</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">kàs</note>
+                  <note ana="#cf">kàs</note>
+                  <note ana="#gls">rake</note>
+                  <note ana="#msa">vt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">mi</note>
+               <note ana="#gls">SIP</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mi</note>
+                  <note ana="#cf">mi</note>
+                  <note ana="#gls">SIP</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bà</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bà</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ba</note>
+               <note ana="#gls">come</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">ba</note>
+                  <note ana="#cf">ba</note>
+                  <note ana="#gls">come</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">haǹ</note>
+               <note ana="#gls">pick</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">haǹ</note>
+                  <note ana="#cf">haǹ</note>
+                  <note ana="#gls">pick</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">òwò</note>
+               <note ana="#gls">hoe</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">òwò</note>
+                  <note ana="#cf">òwò</note>
+                  <note ana="#gls">hoe</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">lɔ</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɔ</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">èsè</note>
+               <note ana="#gls">outside</note>
+               <note ana="#pos">adv</note>
+               <m>
+                  <note ana="#txt">èsè</note>
+                  <note ana="#cf">èsè</note>
+                  <note ana="#gls">outside</note>
+                  <note ana="#msa">adv</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bà</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bà</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">hɔ̃</note>
+               <note ana="#gls">cultivate</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">hɔ̃</note>
+                  <note ana="#cf">hɔ̃</note>
+                  <note ana="#gls">cultivate</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+         </u>
+         <u n="8">
+            <note ana="#gls">They pick a heap for the yam, the heap of yam is different from the
+               heap of cassava</note>
+            <w>
+               <note ana="#txt">bà</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bà</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">haǹ</note>
+               <note ana="#gls">pick</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">haǹ</note>
+                  <note ana="#cf">haǹ</note>
+                  <note ana="#gls">pick</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìtù</note>
+               <note ana="#gls">heap</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìtù</note>
+                  <note ana="#cf">ìtù</note>
+                  <note ana="#gls">heap</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">ìtù</note>
+               <note ana="#gls">heap</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìtù</note>
+                  <note ana="#cf">ìtù</note>
+                  <note ana="#gls">heap</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">jàtɔ̀ ʃí</note>
+               <note ana="#gls">apart from</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">jàtɔ̀ ʃí</note>
+                  <note ana="#cf">jàtɔ̀ ʃí</note>
+                  <note ana="#gls">be_different_from</note>
+                  <note ana="#msa">vt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìtù</note>
+               <note ana="#gls">heap</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìtù</note>
+                  <note ana="#cf">ìtù</note>
+                  <note ana="#gls">heap</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">elìbɔ́</note>
+               <note ana="#gls">cassava</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">elìbɔ́</note>
+                  <note ana="#cf">elìbɔ́</note>
+                  <note ana="#gls">cassava</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+         </u>
+         <u n="9">
+            <note ana="#gls">after cultivating the yam heap</note>
+            <w>
+               <note ana="#txt">báá</note>
+               <note ana="#gls">3PL.HUM.COND</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">báá</note>
+                  <note ana="#cf">báá</note>
+                  <note ana="#gls">3PL.HUM.COND</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">hɔ̃</note>
+               <note ana="#gls">cultivate</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">hɔ̃</note>
+                  <note ana="#cf">hɔ̃</note>
+                  <note ana="#gls">cultivate</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìtù</note>
+               <note ana="#gls">heap</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìtù</note>
+                  <note ana="#cf">ìtù</note>
+                  <note ana="#gls">heap</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">gɛn</note>
+               <note ana="#gls">finish</note>
+               <note ana="#pos">postverb</note>
+               <m>
+                  <note ana="#txt">gɛn</note>
+                  <note ana="#cf">gɛn</note>
+                  <note ana="#gls">finish</note>
+                  <note ana="#msa">postverb</note>
+               </m>
+            </w>
+         </u>
+         <u n="10">
+            <note ana="#gls">after cultivating it</note>
+            <w>
+               <note ana="#txt">lɛ́hĩ̀</note>
+               <note ana="#gls">after</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɛ́hĩ̀</note>
+                  <note ana="#cf">lɛ́hĩ̀</note>
+                  <note ana="#gls">after</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìbùrɛ́ mi</note>
+               <note ana="#gls">when</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">ìbùrɛ́ mi</note>
+                  <note ana="#cf">ìbùrɛ́ mi</note>
+                  <note ana="#gls">when</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bà</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bà</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">hɔ̃</note>
+               <note ana="#gls">cultivate</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">hɔ̃</note>
+                  <note ana="#cf">hɔ̃</note>
+                  <note ana="#gls">cultivate</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+         </u>
+         <u n="11">
+            <note ana="#gls">one brings seedlings from the place one cultivated before.</note>
+            <w>
+               <note ana="#txt">ɔni</note>
+               <note ana="#gls">person</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ɔni</note>
+                  <note ana="#cf">ɔni</note>
+                  <note ana="#gls">person</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bé</note>
+               <note ana="#gls">FUT</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">bé</note>
+                  <note ana="#cf">bá</note>
+                  <note ana="#gls">FUT</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ʃè</note>
+               <note ana="#gls">cut</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">ʃè</note>
+                  <note ana="#cf">ʃè</note>
+                  <note ana="#gls">cut</note>
+                  <note ana="#msa">vtATR(o)***no ATR+u***e</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìguj̀-iwùʃoǹ</note>
+               <note ana="#gls">seed_tubers</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìguj̀-iwùʃoǹ</note>
+                  <note ana="#cf">ìguj̀-iwùʃoǹ</note>
+                  <note ana="#gls">seed_tubers</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">òjè</note>
+               <note ana="#gls">place</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">òjè</note>
+                  <note ana="#cf">òjè</note>
+                  <note ana="#gls">place</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">mi</note>
+               <note ana="#gls">REL</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mi</note>
+                  <note ana="#cf">mi</note>
+                  <note ana="#gls">REL</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɔ́</note>
+               <note ana="#gls">s/he</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɔ́</note>
+                  <note ana="#cf">ɔ́</note>
+                  <note ana="#gls">3SG.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">hɔ̃</note>
+               <note ana="#gls">cultivate</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">hɔ̃</note>
+                  <note ana="#cf">hɔ̃</note>
+                  <note ana="#gls">cultivate</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìʃòmò</note>
+               <note ana="#gls">farm</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìʃòmò</note>
+                  <note ana="#cf">ìʃòmò</note>
+                  <note ana="#gls">farm</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">lɔ</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɔ</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">tɛ́lɛ̀</note>
+               <note ana="#gls">before</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">tɛ́lɛ̀</note>
+                  <note ana="#cf">tɛ́lɛ̀</note>
+                  <note ana="#gls">before</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+         </u>
+         <u n="12">
+            <note ana="#gls">cuts them</note>
+            <w>
+               <note ana="#txt">ɔ́</note>
+               <note ana="#gls">s/he</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɔ́</note>
+                  <note ana="#cf">ɔ́</note>
+                  <note ana="#gls">3SG.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɲan</note>
+               <note ana="#gls">split</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">ɲan</note>
+                  <note ana="#cf">ɲan</note>
+                  <note ana="#gls">split</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+         </u>
+         <u n="13">
+            <note ana="#gls">cuts the yam to sizes</note>
+            <w>
+               <note ana="#txt">ɔ́</note>
+               <note ana="#gls">s/he</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɔ́</note>
+                  <note ana="#cf">ɔ́</note>
+                  <note ana="#gls">3SG.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɲan</note>
+               <note ana="#gls">split</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">ɲan</note>
+                  <note ana="#cf">ɲan</note>
+                  <note ana="#gls">split</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ̀dɛ́n</note>
+               <note ana="#gls">that</note>
+               <note ana="#pos">dem</note>
+               <m>
+                  <note ana="#txt">ɛ̀dɛ́n</note>
+                  <note ana="#cf">ɛ̀dɛ́n</note>
+                  <note ana="#gls">that</note>
+                  <note ana="#msa">dem</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ijáwa</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+         </u>
+         <u n="14">
+            <note ana="#gls">one throws them on heaps.</note>
+            <w>
+               <note ana="#txt">ɔ́</note>
+               <note ana="#gls">s/he</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɔ́</note>
+                  <note ana="#cf">ɔ́</note>
+                  <note ana="#gls">3SG.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bá</note>
+               <note ana="#gls">FUT</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">bá</note>
+                  <note ana="#cf">bá</note>
+                  <note ana="#gls">FUT</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ki</note>
+               <note ana="#gls">put</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">ki</note>
+                  <note ana="#cf">ka</note>
+                  <note ana="#gls">put</note>
+                  <note ana="#msa">vtATR(o)***na ATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">i</note>
+               <note ana="#gls">them</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">i</note>
+                  <note ana="#cf">i</note>
+                  <note ana="#gls">3PL.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">lí</note>
+               <note ana="#gls">LOC</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">lí</note>
+                  <note ana="#cf">lí</note>
+                  <note ana="#gls">LOC</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">iʃum</note>
+               <note ana="#gls">on_top_of</note>
+               <note ana="#pos">nfc</note>
+               <m>
+                  <note ana="#txt">iʃum</note>
+                  <note ana="#cf">iʃum</note>
+                  <note ana="#gls">on_top_of</note>
+                  <note ana="#msa">nfc</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìtù</note>
+               <note ana="#gls">heap</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìtù</note>
+                  <note ana="#cf">ìtù</note>
+                  <note ana="#gls">heap</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+         </u>
+         <u n="15">
+            <note ana="#gls">they plant yam in the morning or in the evening</note>
+            <w>
+               <note ana="#txt">bò</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bò</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">wuʃò</note>
+               <note ana="#gls">plant</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">wuʃò</note>
+                  <note ana="#cf">wuʃò</note>
+                  <note ana="#gls">plant</note>
+                  <note ana="#msa">vtATR+u***o</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">i</note>
+               <note ana="#gls">them</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">i</note>
+                  <note ana="#cf">i</note>
+                  <note ana="#gls">3PL.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìkúdùkud</note>
+               <note ana="#gls">morning</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìkúdùkud</note>
+                  <note ana="#cf">ìkúdùkud</note>
+                  <note ana="#gls">morning</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àbi</note>
+               <note ana="#gls">or</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">àbi</note>
+                  <note ana="#cf">àbi</note>
+                  <note ana="#gls">or</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">idédumon</note>
+               <note ana="#gls">evening</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">idédumon</note>
+                  <note ana="#cf">idédumon</note>
+                  <note ana="#gls">evening</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">boó</note>
+               <note ana="#gls">3PL.HUM.HAB</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">boó</note>
+                  <note ana="#cf">baá</note>
+                  <note ana="#gls">3PL.HUM.HAB</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">mòó</note>
+               <note ana="#gls">HAB</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mòó</note>
+                  <note ana="#cf">màá</note>
+                  <note ana="#gls">HAB</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">wuʃò</note>
+               <note ana="#gls">plant</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">wuʃò</note>
+                  <note ana="#cf">wuʃò</note>
+                  <note ana="#gls">plant</note>
+                  <note ana="#msa">vtATR+u***o</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+         </u>
+         <u n="16">
+            <note ana="#gls">after planting the yam</note>
+            <w>
+               <note ana="#txt">lɛ́hĩ̀</note>
+               <note ana="#gls">after</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɛ́hĩ̀</note>
+                  <note ana="#cf">lɛ́hĩ̀</note>
+                  <note ana="#gls">after</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìbùrɛ́</note>
+               <note ana="#gls">that_time</note>
+               <note ana="#pos">adv</note>
+               <m>
+                  <note ana="#txt">ìbùrɛ́</note>
+                  <note ana="#cf">ìbùrɛ́</note>
+                  <note ana="#gls">that_time</note>
+                  <note ana="#msa">adv</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bò</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bò</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">wuʃò</note>
+               <note ana="#gls">plant</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">wuʃò</note>
+                  <note ana="#cf">wuʃò</note>
+                  <note ana="#gls">plant</note>
+                  <note ana="#msa">vtATR+u***o</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+         </u>
+         <u n="17">
+            <note ana="#gls">from January to February</note>
+            <w>
+               <note ana="#txt">àdɔ̀m</note>
+               <note ana="#gls">moon</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àdɔ̀m</note>
+                  <note ana="#cf">àdɔ̀m</note>
+                  <note ana="#gls">moon</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àkɔ́kɔ́</note>
+               <note ana="#gls">first</note>
+               <note ana="#pos">ordnum</note>
+               <m>
+                  <note ana="#txt">àkɔ́kɔ́</note>
+                  <note ana="#cf">àkɔ́kɔ́</note>
+                  <note ana="#gls">first</note>
+                  <note ana="#msa">ordnum</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìbɛ̀rɛ̀</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">ʃí</note>
+               <note ana="#gls">LOC</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">ʃí</note>
+                  <note ana="#cf">ʃí</note>
+                  <note ana="#gls">LOC</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àdɔ̀m</note>
+               <note ana="#gls">month</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àdɔ̀m</note>
+                  <note ana="#cf">àdɔ̀m</note>
+                  <note ana="#gls">month</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ̀jà</note>
+               <note ana="#gls">number</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ɛ̀jà</note>
+                  <note ana="#cf">ɛ̀jà</note>
+                  <note ana="#gls">number</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ídiàn</note>
+               <note ana="#gls">two</note>
+               <note ana="#pos">cardnum</note>
+               <m>
+                  <note ana="#txt">ídiàn</note>
+                  <note ana="#cf">ídiàn</note>
+                  <note ana="#gls">two</note>
+                  <note ana="#msa">cardnum</note>
+               </m>
+            </w>
+         </u>
+         <u n="18">
+            <note ana="#gls">they will start mulching</note>
+            <w>
+               <note ana="#txt">bà</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bà</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bɛ̀rɛ̀</note>
+               <note ana="#gls">start</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">bɛ̀rɛ̀</note>
+                  <note ana="#cf">bɛ̀rɛ̀</note>
+                  <note ana="#gls">start</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ó</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">ó</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kulìhã́j̀</note>
+               <note ana="#gls">mulch</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">kulìhã́j̀</note>
+                  <note ana="#cf">kulìhã́j̀</note>
+                  <note ana="#gls">mulch</note>
+                  <note ana="#msa">viATR+u***o</note>
+               </m>
+            </w>
+         </u>
+         <u n="19">
+            <note ana="#gls">after mulching, when the yam is growing, when it rains, they will put
+               sticks</note>
+            <w>
+               <note ana="#txt">lɛ́hĩ̀</note>
+               <note ana="#gls">after</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɛ́hĩ̀</note>
+                  <note ana="#cf">lɛ́hĩ̀</note>
+                  <note ana="#gls">after</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìbùrɛ</note>
+               <note ana="#gls">time</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìbùrɛ</note>
+                  <note ana="#cf">ìbùrɛ</note>
+                  <note ana="#gls">time</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bò</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bò</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kulìhã́j̀</note>
+               <note ana="#gls">mulch</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">kulìhã́j̀</note>
+                  <note ana="#cf">kulìhã́j̀</note>
+                  <note ana="#gls">mulch</note>
+                  <note ana="#msa">viATR+u***o</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">gɛn</note>
+               <note ana="#gls">finish</note>
+               <note ana="#pos">postverb</note>
+               <m>
+                  <note ana="#txt">gɛn</note>
+                  <note ana="#cf">gɛn</note>
+                  <note ana="#gls">finish</note>
+                  <note ana="#msa">postverb</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">mi</note>
+               <note ana="#gls">SIP</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mi</note>
+                  <note ana="#cf">mi</note>
+                  <note ana="#gls">SIP</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ŋanà</note>
+               <note ana="#gls">germinate</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">ŋanà</note>
+                  <note ana="#cf">ŋanà</note>
+                  <note ana="#gls">germinate</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">mi</note>
+               <note ana="#gls">SIP</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mi</note>
+                  <note ana="#cf">mi</note>
+                  <note ana="#gls">SIP</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">eji</note>
+               <note ana="#gls">rain</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">eji</note>
+                  <note ana="#cf">eji</note>
+                  <note ana="#gls">rain</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">jel</note>
+               <note ana="#gls">rain</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">jel</note>
+                  <note ana="#cf">jel</note>
+                  <note ana="#gls">rain</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">bà</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bà</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">sù</note>
+               <note ana="#gls">stick</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">sù</note>
+                  <note ana="#cf">sù</note>
+                  <note ana="#gls">stick</note>
+                  <note ana="#msa">vt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àlàj</note>
+               <note ana="#gls">yam_stake</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àlàj</note>
+                  <note ana="#cf">àlàj</note>
+                  <note ana="#gls">yam_stake</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+         </u>
+         <u n="20">
+            <note ana="#gls">after putting the sticks for the yam</note>
+            <w>
+               <note ana="#txt">báá</note>
+               <note ana="#gls">3PL.HUM.COND</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">báá</note>
+                  <note ana="#cf">báá</note>
+                  <note ana="#gls">3PL.HUM.COND</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">sù</note>
+               <note ana="#gls">stick</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">sù</note>
+                  <note ana="#cf">sù</note>
+                  <note ana="#gls">stick</note>
+                  <note ana="#msa">vt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àlàj</note>
+               <note ana="#gls">yam_stake</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àlàj</note>
+                  <note ana="#cf">àlàj</note>
+                  <note ana="#gls">yam_stake</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ʃí</note>
+               <note ana="#gls">LOC</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">ʃí</note>
+                  <note ana="#cf">ʃí</note>
+                  <note ana="#gls">LOC</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ̀dɛ́n</note>
+               <note ana="#gls">that</note>
+               <note ana="#pos">dem</note>
+               <m>
+                  <note ana="#txt">ɛ̀dɛ́n</note>
+                  <note ana="#cf">ɛ̀dɛ́n</note>
+                  <note ana="#gls">that</note>
+                  <note ana="#msa">dem</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">gɛn</note>
+               <note ana="#gls">finish</note>
+               <note ana="#pos">postverb</note>
+               <m>
+                  <note ana="#txt">gɛn</note>
+                  <note ana="#cf">gɛn</note>
+                  <note ana="#gls">finish</note>
+                  <note ana="#msa">postverb</note>
+               </m>
+            </w>
+         </u>
+         <u n="21">
+            <note ana="#gls">when the yam germinates, they will start curling it around the
+               stick</note>
+            <w>
+               <note ana="#txt">mi</note>
+               <note ana="#gls">SIP</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mi</note>
+                  <note ana="#cf">mi</note>
+                  <note ana="#gls">SIP</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bá</note>
+               <note ana="#gls">FUT</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">bá</note>
+                  <note ana="#cf">bá</note>
+                  <note ana="#gls">FUT</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ŋanà</note>
+               <note ana="#gls">germinate</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">ŋanà</note>
+                  <note ana="#cf">ŋanà</note>
+                  <note ana="#gls">germinate</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">báa</note>
+               <note ana="#gls">DES</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">báa</note>
+                  <note ana="#cf">báa</note>
+                  <note ana="#gls">DES</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kèd</note>
+               <note ana="#gls">carry</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">kèd</note>
+                  <note ana="#cf">kèd</note>
+                  <note ana="#gls">carry</note>
+                  <note ana="#msa">vtATR+u***a ATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɔbɔ</note>
+               <note ana="#gls">hand</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ɔbɔ</note>
+                  <note ana="#cf">ɔbɔ</note>
+                  <note ana="#gls">hand</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">its</note>
+               <note ana="#pos">poss</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.POSS</note>
+                  <note ana="#msa">poss</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">lɔ</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɔ</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ijes</note>
+               <note ana="#gls">against</note>
+               <note ana="#pos">nfc</note>
+               <m>
+                  <note ana="#txt">ijes</note>
+                  <note ana="#cf">ijes</note>
+                  <note ana="#gls">against</note>
+                  <note ana="#msa">nfcATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àlàj</note>
+               <note ana="#gls">yam_stake</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àlàj</note>
+                  <note ana="#cf">àlàj</note>
+                  <note ana="#gls">yam_stake</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+         </u>
+         <u n="22">
+            <note ana="#gls">it is climbing up the stick</note>
+            <w>
+               <note ana="#txt">í</note>
+               <note ana="#gls">3PL.NHUM.S</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">í</note>
+                  <note ana="#cf">í</note>
+                  <note ana="#gls">3PL.NHUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">deŋ</note>
+               <note ana="#gls">climb</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">deŋ</note>
+                  <note ana="#cf">deŋ</note>
+                  <note ana="#gls">climb</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àlàj</note>
+               <note ana="#gls">yam_stake</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àlàj</note>
+                  <note ana="#cf">àlàj</note>
+                  <note ana="#gls">yam_stake</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+         </u>
+         <u n="23">
+            <note ana="#gls">once they climb up the sticks, weeds on the farm will grow</note>
+            <w>
+               <note ana="#txt">ìdɛ́n</note>
+               <note ana="#gls">those</note>
+               <note ana="#pos">dem</note>
+               <m>
+                  <note ana="#txt">ìdɛ́n</note>
+                  <note ana="#cf">ìdɛ́n</note>
+                  <note ana="#gls">those</note>
+                  <note ana="#msa">dem</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìbùrɛ́ mi</note>
+               <note ana="#gls">when</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">ìbùrɛ́ mi</note>
+                  <note ana="#cf">ìbùrɛ́ mi</note>
+                  <note ana="#gls">when</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">í</note>
+               <note ana="#gls">3PL.NHUM.S</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">í</note>
+                  <note ana="#cf">í</note>
+                  <note ana="#gls">3PL.NHUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">deŋ</note>
+               <note ana="#gls">climb</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">deŋ</note>
+                  <note ana="#cf">deŋ</note>
+                  <note ana="#gls">climb</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àlàj</note>
+               <note ana="#gls">yam_stake</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àlàj</note>
+                  <note ana="#cf">àlàj</note>
+                  <note ana="#gls">yam_stake</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">gɛn</note>
+               <note ana="#gls">finish</note>
+               <note ana="#pos">postverb</note>
+               <m>
+                  <note ana="#txt">gɛn</note>
+                  <note ana="#cf">gɛn</note>
+                  <note ana="#gls">finish</note>
+                  <note ana="#msa">postverb</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">mi</note>
+               <note ana="#gls">SIP</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mi</note>
+                  <note ana="#cf">mi</note>
+                  <note ana="#gls">SIP</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìʃòmò</note>
+               <note ana="#gls">farm</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìʃòmò</note>
+                  <note ana="#cf">ìʃòmò</note>
+                  <note ana="#gls">farm</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ̀dɛ́n</note>
+               <note ana="#gls">that</note>
+               <note ana="#pos">dem</note>
+               <m>
+                  <note ana="#txt">ɛ̀dɛ́n</note>
+                  <note ana="#cf">ɛ̀dɛ́n</note>
+                  <note ana="#gls">that</note>
+                  <note ana="#msa">dem</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">deŋ</note>
+               <note ana="#gls">climb</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">deŋ</note>
+                  <note ana="#cf">deŋ</note>
+                  <note ana="#gls">climb</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+         </u>
+         <u n="24">
+            <note ana="#gls">you will use the hoe to clear the weeds</note>
+            <w>
+               <note ana="#txt">asáà</note>
+               <note ana="#gls">1PL.NEG</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">asáà</note>
+                  <note ana="#cf">asáà</note>
+                  <note ana="#gls">1PL.NEG</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">haǹ</note>
+               <note ana="#gls">pick</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">haǹ</note>
+                  <note ana="#cf">haǹ</note>
+                  <note ana="#gls">pick</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">òwò</note>
+               <note ana="#gls">hoe</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">òwò</note>
+                  <note ana="#cf">òwò</note>
+                  <note ana="#gls">hoe</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">lɔ</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɔ</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">èsè</note>
+               <note ana="#gls">outside</note>
+               <note ana="#pos">adv</note>
+               <m>
+                  <note ana="#txt">èsè</note>
+                  <note ana="#cf">èsè</note>
+                  <note ana="#gls">outside</note>
+                  <note ana="#msa">adv</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">asóò</note>
+               <note ana="#gls">1PL.NEG</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">asóò</note>
+                  <note ana="#cf">asáà</note>
+                  <note ana="#gls">1PL.NEG</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">tu</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">tu</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+         </u>
+         <u n="25">
+            <note ana="#gls">after clearing the farm</note>
+            <w>
+               <note ana="#txt">bóó</note>
+               <note ana="#gls">3PL.HUM.COND</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bóó</note>
+                  <note ana="#cf">báá</note>
+                  <note ana="#gls">3PL.HUM.COND</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">tu</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">tu</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ</note>
+                  <note ana="#cf">ɛ</note>
+                  <note ana="#gls">3SG.NHUM.OBJ</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">lɛ́hĩ̀</note>
+               <note ana="#gls">after</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">lɛ́hĩ̀</note>
+                  <note ana="#cf">lɛ́hĩ̀</note>
+                  <note ana="#gls">after</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bò</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bò</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">tu</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">tu</note>
+                  <note ana="#cf"/>
+                  <note ana="#gls"/>
+                  <note ana="#msa"/>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìʃòmò</note>
+               <note ana="#gls">farm</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìʃòmò</note>
+                  <note ana="#cf">ìʃòmò</note>
+                  <note ana="#gls">farm</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">gɛn</note>
+               <note ana="#gls">finish</note>
+               <note ana="#pos">postverb</note>
+               <m>
+                  <note ana="#txt">gɛn</note>
+                  <note ana="#cf">gɛn</note>
+                  <note ana="#gls">finish</note>
+                  <note ana="#msa">postverb</note>
+               </m>
+            </w>
+         </u>
+         <u n="26">
+            <note ana="#gls"/>
+            <w>
+               <note ana="#txt">awaá</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ʃɛrɛ̀</note>
+               <note ana="#gls">cut</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">ʃɛrɛ̀</note>
+                  <note ana="#cf">ʃɛrɛ̀</note>
+                  <note ana="#gls">cut</note>
+                  <note ana="#msa">vt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">hɔ̀n</note>
+               <note ana="#gls">carve</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">hɔ̀n</note>
+                  <note ana="#cf">hɔ̀n</note>
+                  <note ana="#gls">carve</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+         </u>
+         <u n="27">
+            <note ana="#gls"> until the yam has grown</note>
+            <w>
+               <note ana="#txt">títí</note>
+               <note ana="#gls">for_a_long_time</note>
+               <note ana="#pos"/>
+               <m>
+                  <note ana="#txt">títí</note>
+                  <note ana="#cf">títí</note>
+                  <note ana="#gls">for_a_long_time</note>
+                  <note ana="#msa">&lt;Not Sure&gt;</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">mi</note>
+               <note ana="#gls">REL</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">mi</note>
+                  <note ana="#cf">mi</note>
+                  <note ana="#gls">REL</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìʃòmò</note>
+               <note ana="#gls">farm</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìʃòmò</note>
+                  <note ana="#cf">ìʃòmò</note>
+                  <note ana="#gls">farm</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bá</note>
+               <note ana="#gls">FUT</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">bá</note>
+                  <note ana="#cf">bá</note>
+                  <note ana="#gls">FUT</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">hoj</note>
+               <note ana="#gls">grow</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">hoj</note>
+                  <note ana="#cf">hoj</note>
+                  <note ana="#gls">grow</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+         </u>
+         <u n="28">
+            <note ana="#gls">the seventh month</note>
+            <w>
+               <note ana="#txt">bè</note>
+               <note ana="#gls">they</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">bè</note>
+                  <note ana="#cf">bà</note>
+                  <note ana="#gls">3PL.HUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ʃe</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">oʃù</note>
+               <note ana="#gls">month</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">oʃù</note>
+                  <note ana="#cf">oʃù</note>
+                  <note ana="#gls">month</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kedʒe</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+         </u>
+         <u n="29">
+            <note ana="#gls">the seventh month of the year, the eighth month of the year</note>
+            <w>
+               <note ana="#txt">àdɔ̀m</note>
+               <note ana="#gls">month</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àdɔ̀m</note>
+                  <note ana="#cf">àdɔ̀m</note>
+                  <note ana="#gls">month</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ̀jà</note>
+               <note ana="#gls">number</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ɛ̀jà</note>
+                  <note ana="#cf">ɛ̀jà</note>
+                  <note ana="#gls">number</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">íʃenèʃ</note>
+               <note ana="#gls">seven</note>
+               <note ana="#pos">cardnum</note>
+               <m>
+                  <note ana="#txt">íʃenèʃ</note>
+                  <note ana="#cf">íʃenèʃ</note>
+                  <note ana="#gls">seven</note>
+                  <note ana="#msa">cardnum</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìwùd</note>
+               <note ana="#gls">in</note>
+               <note ana="#pos">nfc</note>
+               <m>
+                  <note ana="#txt">ìwùd</note>
+                  <note ana="#cf">ìwùd</note>
+                  <note ana="#gls">in</note>
+                  <note ana="#msa">nfcATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ijel</note>
+               <note ana="#gls">year</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ijel</note>
+                  <note ana="#cf">ijel</note>
+                  <note ana="#gls">year</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">àdɔ̀m</note>
+               <note ana="#gls">month</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àdɔ̀m</note>
+                  <note ana="#cf">àdɔ̀m</note>
+                  <note ana="#gls">month</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ̀jà</note>
+               <note ana="#gls">number</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ɛ̀jà</note>
+                  <note ana="#cf">ɛ̀jà</note>
+                  <note ana="#gls">number</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ànaàniŋ</note>
+               <note ana="#gls">eight</note>
+               <note ana="#pos">cardnum</note>
+               <m>
+                  <note ana="#txt">ànaàniŋ</note>
+                  <note ana="#cf">ànaàniŋ</note>
+                  <note ana="#gls">eight</note>
+                  <note ana="#msa">cardnum</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìwùd</note>
+               <note ana="#gls">in</note>
+               <note ana="#pos">nfc</note>
+               <m>
+                  <note ana="#txt">ìwùd</note>
+                  <note ana="#cf">ìwùd</note>
+                  <note ana="#gls">in</note>
+                  <note ana="#msa">nfcATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ijel</note>
+               <note ana="#gls">year</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ijel</note>
+                  <note ana="#cf">ijel</note>
+                  <note ana="#gls">year</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+         </u>
+         <u n="30">
+            <note ana="#gls">the seventh month we celebrate the new yam</note>
+            <w>
+               <note ana="#txt">àdɔ̀m</note>
+               <note ana="#gls">month</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àdɔ̀m</note>
+                  <note ana="#cf">àdɔ̀m</note>
+                  <note ana="#gls">month</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ̀jà</note>
+               <note ana="#gls">number</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ɛ̀jà</note>
+                  <note ana="#cf">ɛ̀jà</note>
+                  <note ana="#gls">number</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">íʃenèʃ</note>
+               <note ana="#gls">seven</note>
+               <note ana="#pos">cardnum</note>
+               <m>
+                  <note ana="#txt">íʃenèʃ</note>
+                  <note ana="#cf">íʃenèʃ</note>
+                  <note ana="#gls">seven</note>
+                  <note ana="#msa">cardnum</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">gí</note>
+               <note ana="#gls">FOC</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">gí</note>
+                  <note ana="#cf">gí</note>
+                  <note ana="#gls">FOC</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">asaá</note>
+               <note ana="#gls">1PL.HAB</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">asaá</note>
+                  <note ana="#cf">asaá</note>
+                  <note ana="#gls">1PL.HAB</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">màá</note>
+               <note ana="#gls">HAB</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">màá</note>
+                  <note ana="#cf">màá</note>
+                  <note ana="#gls">HAB</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">munà</note>
+               <note ana="#gls">celebrate_new_yam</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">munà</note>
+                  <note ana="#cf">munà</note>
+                  <note ana="#gls">celebrate_new_yam</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+         </u>
+         <u n="31">
+            <note ana="#gls">so that is when one starts harvesting the yam</note>
+            <w>
+               <note ana="#txt">sò,</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">ìbùrɛ</note>
+               <note ana="#gls">time</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìbùrɛ</note>
+                  <note ana="#cf">ìbùrɛ</note>
+                  <note ana="#gls">time</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">gí</note>
+               <note ana="#gls">FOC</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">gí</note>
+                  <note ana="#cf">gí</note>
+                  <note ana="#gls">FOC</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɔni</note>
+               <note ana="#gls">person</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ɔni</note>
+                  <note ana="#cf">ɔni</note>
+                  <note ana="#gls">person</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bɛ̀rɛ̀</note>
+               <note ana="#gls">start</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">bɛ̀rɛ̀</note>
+                  <note ana="#cf">bɛ̀rɛ̀</note>
+                  <note ana="#gls">start</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kɔn</note>
+               <note ana="#gls">harvest</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">kɔn</note>
+                  <note ana="#cf">kɔn</note>
+                  <note ana="#gls">harvest</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+         </u>
+         <u n="32">
+            <note ana="#gls">when they finish harvesting the yam, October has arrived </note>
+            <w>
+               <note ana="#txt">báá</note>
+               <note ana="#gls">3PL.HUM.COND</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">báá</note>
+                  <note ana="#cf">báá</note>
+                  <note ana="#gls">3PL.HUM.COND</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">kɔn</note>
+               <note ana="#gls">harvest</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">kɔn</note>
+                  <note ana="#cf">kɔn</note>
+                  <note ana="#gls">harvest</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">gɛn</note>
+               <note ana="#gls">finish</note>
+               <note ana="#pos">postverb</note>
+               <m>
+                  <note ana="#txt">gɛn</note>
+                  <note ana="#cf">gɛn</note>
+                  <note ana="#gls">finish</note>
+                  <note ana="#msa">postverb</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt"/>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">gí</note>
+               <note ana="#gls">FOC</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">gí</note>
+                  <note ana="#cf">gí</note>
+                  <note ana="#gls">FOC</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ́</note>
+               <note ana="#gls">it</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">ɛ́</note>
+                  <note ana="#cf">ɛ́</note>
+                  <note ana="#gls">3SG.NHUM.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">be</note>
+               <note ana="#gls"/>
+               <note ana="#pos"/>
+            </w>
+            <w>
+               <note ana="#txt">niŋ</note>
+               <note ana="#gls">arrive</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">niŋ</note>
+                  <note ana="#cf">niŋ</note>
+                  <note ana="#gls">arrive</note>
+                  <note ana="#msa">viATR+u***e</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">àdɔ̀m</note>
+               <note ana="#gls">moon</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">àdɔ̀m</note>
+                  <note ana="#cf">àdɔ̀m</note>
+                  <note ana="#gls">moon</note>
+                  <note ana="#msa">nATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛ̀jà</note>
+               <note ana="#gls">number</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ɛ̀jà</note>
+                  <note ana="#cf">ɛ̀jà</note>
+                  <note ana="#gls">number</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìjof</note>
+               <note ana="#gls">ten</note>
+               <note ana="#pos">cardnum</note>
+               <m>
+                  <note ana="#txt">ìjof</note>
+                  <note ana="#cf">ìjof</note>
+                  <note ana="#gls">ten</note>
+                  <note ana="#msa">cardnum</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìwùd</note>
+               <note ana="#gls">in</note>
+               <note ana="#pos">nfc</note>
+               <m>
+                  <note ana="#txt">ìwùd</note>
+                  <note ana="#cf">ìwùd</note>
+                  <note ana="#gls">in</note>
+                  <note ana="#msa">nfcATR(o)***na</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ijel</note>
+               <note ana="#gls">year</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ijel</note>
+                  <note ana="#cf">ijel</note>
+                  <note ana="#gls">year</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+         </u>
+         <u n="33">
+            <note ana="#gls">we start cutting the seedlings</note>
+            <w>
+               <note ana="#txt">à</note>
+               <note ana="#gls">we</note>
+               <note ana="#pos">pro</note>
+               <m>
+                  <note ana="#txt">à</note>
+                  <note ana="#cf">à</note>
+                  <note ana="#gls">1PL.S</note>
+                  <note ana="#msa">pro</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">sì</note>
+               <note ana="#gls">SCM</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">sì</note>
+                  <note ana="#cf">sì</note>
+                  <note ana="#gls">SCM</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">bɛ̀rɛ̀</note>
+               <note ana="#gls">start</note>
+               <note ana="#pos">vi</note>
+               <m>
+                  <note ana="#txt">bɛ̀rɛ̀</note>
+                  <note ana="#cf">bɛ̀rɛ̀</note>
+                  <note ana="#gls">start</note>
+                  <note ana="#msa">viATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">é</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">é</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ʃè</note>
+               <note ana="#gls">cut</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">ʃè</note>
+                  <note ana="#cf">ʃè</note>
+                  <note ana="#gls">cut</note>
+                  <note ana="#msa">vtATR(o)***no ATR+u***e</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìguj̀-iwùʃoǹ</note>
+               <note ana="#gls">seed_tubers</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìguj̀-iwùʃoǹ</note>
+                  <note ana="#cf">ìguj̀-iwùʃoǹ</note>
+                  <note ana="#gls">seed_tubers</note>
+                  <note ana="#msa">n</note>
+               </m>
+            </w>
+         </u>
+         <u n="34">
+            <note ana="#gls">to start cultivating yam again</note>
+            <w>
+               <note ana="#txt">á</note>
+               <note ana="#gls">PROG</note>
+               <note ana="#pos">prt</note>
+               <m>
+                  <note ana="#txt">á</note>
+                  <note ana="#cf">á</note>
+                  <note ana="#gls">PROG</note>
+                  <note ana="#msa">prt</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">hɔ̃</note>
+               <note ana="#gls">cultivate</note>
+               <note ana="#pos">vt</note>
+               <m>
+                  <note ana="#txt">hɔ̃</note>
+                  <note ana="#cf">hɔ̃</note>
+                  <note ana="#gls">cultivate</note>
+                  <note ana="#msa">vtATR+u***a</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ìtù</note>
+               <note ana="#gls">heap</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ìtù</note>
+                  <note ana="#cf">ìtù</note>
+                  <note ana="#gls">heap</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ewùlò</note>
+               <note ana="#gls">yam</note>
+               <note ana="#pos">n</note>
+               <m>
+                  <note ana="#txt">ewùlò</note>
+                  <note ana="#cf">ewùlò</note>
+                  <note ana="#gls">yam</note>
+                  <note ana="#msa">nATR(o)***no</note>
+               </m>
+            </w>
+            <w>
+               <note ana="#txt">ɛjɔ̀g</note>
+               <note ana="#gls">another</note>
+               <note ana="#pos">adj</note>
+               <m>
+                  <note ana="#txt">ɛjɔ̀g</note>
+                  <note ana="#cf">ɛjɔ̀g</note>
+                  <note ana="#gls">another</note>
+                  <note ana="#msa">adj</note>
+               </m>
+            </w>
+         </u>
+      </body>
+   </text>
+</TEI>

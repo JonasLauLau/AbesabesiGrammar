@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/content.html" data-template-at="inner-content">
+    <h4>Advanced Search</h4>
+    <div class="w3-row-padding" style="margin:0 -16px">
+        <div class=" w3-threequarter">
+            <div class="w3-container w3-white w3-padding-16 w3-margin-bottom">
+                Chose one of the following search options to find the information you are searching for within the Abesabesi grammar.  
+            </div>
+            <h6>Search by ID</h6>
+            <div class="w3-container w3-white w3-padding-16 w3-margin-bottom">
+                Search for 
+                <select id="element" name="nested">
+                    <option value="all">Paragraph</option>
+                    <option value="section">Section</option>
+                    <option value="example">Interlinear example</option>
+                    <option value="paragraph">Table</option>
+                    <option value="paragraph">List</option>
+                    <option value="paragraph">Figure</option>
+                </select>
+                <input type="text" value="1.1#001"/>
+                in Version
+                <select id="version" name="nested">
+                    <option value="all">1.0</option>
+                    <option value="section">1.1</option>
+                    <option value="paragraph">1.2</option>
+                </select>
+                
+                    <input type="submit" style="float:right" value="Submit"/>
+            </div>
+            
+            <h6>Search text in element</h6>
+            <div class="w3-container w3-white w3-padding-16 w3-margin-bottom">
+                <select id="type4" name="type">
+                    <option value="example">Text</option>
+                    <option value="example">Term</option>
+                    <option value="term">Abbreviation</option>
+                    <option value="word">Abesabesi text</option>
+                    <option value="table">Phone</option>
+                    <option value="table">Phoneme</option>
+                    <option value="table">Syllable</option>
+                    <option value="table">Morpheme</option>
+                    <option value="table">Lexeme</option>
+                </select> <input type="text"/>
+                in 
+                <select id="nested" name="nested">
+                    <option value="all">All</option>
+                    <option value="section">Section</option>
+                    <option value="example">Interlinear example</option>
+                    <option value="paragraph">Table</option>
+                </select>
+                
+                <input type="submit" style="float:right" value="Submit"/>
+            </div>
+            
+            <h6>Combined search queries </h6>
+            <div class="w3-container w3-white w3-padding-16 w3-margin-bottom">
+                <table>
+                    <tr>
+                        <td/>
+                        <td/>
+                        <td>Type</td>
+                        <td>Text</td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td/>
+                        <td>
+                            <select id="type" name="type">
+                                <option value="example">Text</option>
+                                <option value="example">Abbreviation</option>
+                                <option value="term">Term</option>
+                                <option value="word">Abesabesi text</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="w3-margin-right fas fa-minus-circle"/>
+                        </td>
+                        <td>
+                            <select>
+                        <option>And</option>
+                        <option>Or</option>
+                        </select>
+                        </td>
+                        <td>
+                            <select id="type2" name="type">
+                                <option value="example">Text</option>
+                                <option value="example">Abbreviation</option>
+                                <option value="term">Term</option>
+                                <option value="word">Abesabesi text</option>
+                        </select>
+                        </td>
+                        <td>
+                            <input type="text"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <i class="w3-margin-right fas fa-minus-circle"/>
+                        </td>
+                        <td>
+                            <select>
+                            <option>And</option>
+                            <option>Or</option>
+                        </select>
+                        </td>
+                        <td>
+                            <select id="type3" name="type">
+                                <option value="example">Text</option>
+                                <option value="example">Abbreviation</option>
+                                <option value="term">Term</option>
+                                <option value="word">Abesabesi text</option>
+                        </select>
+                        </td>
+                        <td>
+                            <input type="text"/>
+                        </td>
+                        <td> <i class="w3-margin-left fas fa-plus-circle"/>
+                        </td>
+                    </tr>
+                </table>
+                <input type="submit" style="float:right" value="Submit"/>
+            </div>
+            
+            
+        </div>
+        <div class="w3-quarter">
+            <div class="w3-bar-block w3-white w3-padding-16">
+                <a href="grammar-entry.html" class="w3-button w3-bar-item">
+                    <i class="fa fa-play fa-fw"/> Start reading</a>
+            </div>
+            <h5>Tools</h5>
+            
+            <div class="w3-bar-block w3-white w3-margin-bottom">
+                <a href="glossary.html" class="w3-button w3-bar-item" style="padding-left:10px;" title="Abbreviations used in the text reveal their meaning when hovered upon">
+                    <i class="far fa-list-alt" style="padding-right:5px;"/>  Abbreviations </a>
+                <a href="bibliography.html" class="w3-button w3-bar-item" style="padding-left:10px;">
+                    <i class="fa fa-book-open" style="padding-right:5px;"/>  Bibliography</a>
+                <a class="w3-button w3-bar-item" onclick="myAccFunc('oldV')" style="padding-left:10px;">
+                    <i class="fa fa-history" style="padding-right:5px;"/> Older versions</a>
+                <div id="oldV" class="w3-hide w3-white">
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.0 (25-11-2018)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.1 (17-12-2018)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.2 (04-04-2020 - current)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Overview edits</a>
+                </div>
+                <a class="w3-button w3-bar-item" onclick="myAccFunc('export')" style="padding-left:10px;">
+                    <i class="fa fa-file-download" style="padding-right:5px;"/> Export</a>
+                <div id="export" class="w3-hide w3-white">
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (this database)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (entire grammar)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (this database)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (entire grammar)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

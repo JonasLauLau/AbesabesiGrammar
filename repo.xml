@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>Abesabesi Grammar</description>
+    <author/>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>Abesabesi</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+
+
+<deployed>2020-10-23T15:28:02.287+02:00</deployed>
+</meta>

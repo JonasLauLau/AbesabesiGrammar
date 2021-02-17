@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+            <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <cit type="example" xml:id="ibe298-00.088">
+                <media mimeType="audio/wav" url="ibe298-00m.wav"/>
+                <media mimeType="video/mp4" url="ibe298-00m.mp4"/>
+                <index>
+                    <term ref="terminology.xml#vowel-nasality"/>
+                </index>
+                <quote>
+                    <s>
+                        <note ana="#gls">lower leg</note>
+                        <w lemmaRef="dictionary.xml#ɔhɔ̃_893d577c-f10f-43d1-8740-75f215f5c7e1">
+                            <note ana="#txt">ɔhɔ̃</note>
+                            <note ana="#gls">neck</note>
+                        </w>
+                        <w lemmaRef="dictionary.xml#òdùg_58cf6f74-dd60-4e23-a77c-f2489df75ba5">
+                            <note ana="#txt">òdùg</note>
+                            <note ana="#gls">leg</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">[ɔhõdùg]</note>
+                            <note ana="#gls"/>
+
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+
+            <cit type="example" xml:id="ibe350-00.042">
+                <quote>
+                    <s>
+                        <note ana="#gls">harvest palm fruits</note>
+                        <w lemmaRef="dictionary.xml#hɔ̃_35e67248-594f-4de8-a081-058dd559e973">
+                            <note ana="#txt">hɔ̃</note>
+                            <note ana="#gls">cultivate</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ebid</note>
+                            <note ana="#gls">palm_fruit</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">[hẽbid]</note>
+                            <note ana="#gls"/>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe168-00.038">
+                <quote>
+                    <s>
+                        <note ana="#gls">if I bring my book today, I will eat it</note>
+                        <w lemmaRef="dictionary.xml#hɔ̃_35e67248-594f-4de8-a081-058dd559e973">
+                            <note ana="#txt">náá</note>
+                            <note ana="#gls">1sg.cond</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">toǹ</note>
+                            <note ana="#gls">carry</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ìwé</note>
+                            <note ana="#gls">book</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">no</note>
+                            <note ana="#gls">1sg.poss</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ba</note>
+                            <note ana="#gls">come</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ìdʒɛ,</note>
+                            <note ana="#gls">today</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ǹ</note>
+                            <note ana="#gls">1sg</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">bá</note>
+                            <note ana="#gls">fut</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">kàj</note>
+                            <note ana="#gls">read</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ɛ</note>
+                            <note ana="#gls">3sg.nhum.obj</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+
+            <cit type="example" xml:id="ibe057-00.009">
+                <index>
+                    <term ref="terminology.xml#vowel-harmony-prefix"/>
+                    <term ref="terminology.xml#vowel-atr"/>
+                    <term ref="terminology.xml#vowel-harmony-suffix"/>
+                </index>
+                <quote>
+                    <s>
+                        <note ana="#gls">They like me.</note>
+                        <w>
+                            <note ana="#txt">bè</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">dɛ̀n</note>
+                            <note ana="#gls">like</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">na</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe281-00.198">
+                <quote>
+                    <s>
+                        <note ana="#gls">I saw them.</note>
+                        <w>
+                            <note ana="#txt">bà</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">bá</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#fut"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">kèd</note>
+                            <note ana="#gls">arrest</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">so</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#secondP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe327-00.069">
+                <quote>
+                    <s>
+                        <note ana="#gls">They tied the goat.</note>
+                        <w>
+                            <note ana="#txt">bè</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">fe</note>
+                            <note ana="#gls">tie</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ɛbuji</note>
+                            <note ana="#gls">goat</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">[bèfɛ́bʷi]</note>
+                            <note ana="#gls"/>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe346-00.160">
+                <quote>
+                    <s>
+                        <note ana="#gls">It was me who swept the floor.</note>
+                        <w>
+                            <note ana="#txt">ònì</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">gí</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#foc"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ʃag</note>
+                            <note ana="#gls">sweep</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">atɔ</note>
+                            <note ana="#gls">ground</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe065-00.066">
+                <quote>
+                    <s>
+                        <note ana="#gls">It is me they gave birth to first.</note>
+                        <w>
+                            <note ana="#txt">ònì</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">gí</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#foc"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">bà</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                                <abbr corresp="glossary.xml#s"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">kud</note>
+                            <note ana="#gls">do_first</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">dʒo</note>
+                            <note ana="#gls">give_birth</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe365-00.081">
+                <quote>
+                    <s>
+                        <note ana="#gls">It is me he did a favor for.</note>
+                        <w>
+                            <note ana="#txt">ònì</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">gí</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#foc"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ɔ́</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#s"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">mĩ</note>
+                            <note ana="#gls">do</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">èɲèm</note>
+                            <note ana="#gls">favor</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ʃa</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#dat"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe346-00.158">
+                <quote>
+                    <s>
+                        <note ana="#gls">It was me who swept the floor.</note>
+                        <w>
+                            <note ana="#txt">ònì</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">ʃag</note>
+                            <note ana="#gls">sweep</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">atɔ</note>
+                            <note ana="#gls">ground</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe203-00.178">
+                <quote>
+                    <s>
+                        <note ana="#gls">Me and my older sibling.</note>
+                        <w>
+                            <note ana="#txt">ònì</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">íni</note>
+                            <note ana="#gls">and</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ohij</note>
+                            <note ana="#gls">older_sibling</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">no</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#poss"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe065-00.182">
+                <quote>
+                    <s>
+                        <note ana="#gls">Her and her husband.</note>
+                        <w>
+                            <note ana="#txt">àu</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">àti</note>
+                            <note ana="#gls">and</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">owos</note>
+                            <note ana="#gls">husband</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">u</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#poss"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe301-00.135">
+                <quote>
+                    <s>
+                        <note ana="#gls">They beat his family and himself.</note>
+                        <w>
+                            <note ana="#txt">bò</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">bug</note>
+                            <note ana="#gls">beat</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">àti</note>
+                            <note ana="#gls">and</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ani</note>
+                            <note ana="#gls">people</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">u</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#hum"/>.<abbr corresp="glossary.xml#poss"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">àti</note>
+                            <note ana="#gls">and</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">àtɛ̀n</note>
+                            <note ana="#gls">and</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">u</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#hum"/>.<abbr corresp="glossary.xml#poss"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe140-00.050">
+                <quote>
+                    <s>
+                        <note ana="#gls">There is no person like him/her.</note>
+                        <w>
+                            <note ana="#txt">ɔni</note>
+                            <note ana="#gls">person</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">èdʒì</note>
+                            <note ana="#gls">like</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">àu</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">té</note>
+                            <note ana="#gls">exist</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">è</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#neg"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe265-00.053">
+                <quote>
+                    <s>
+                        <note ana="#gls">only me</note>
+                        <w>
+                            <note ana="#txt">ègido</note>
+                            <note ana="#gls">only</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ònì</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe167-00.005">
+                               <quote>
+                    <s>
+                        <note ana="#gls">for us farmers</note>
+                        <w>
+                            <note ana="#txt">íʃa</note>
+                            <note ana="#gls">for</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">àbès</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">àgbɛ̀</note>
+                            <note ana="#gls">farmer</note>
+                        </w>
+
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe346-00.140">
+                <quote>
+                    <s>
+                        <note ana="#gls">It is me.</note>
+                        <w>
+                            <note ana="#txt">ònì</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">gó</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#foc"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe241-00.118">
+                <quote>
+                    <s>
+                        <note ana="#gls">the house of them, who want to marry this year</note>
+                        <w>
+                            <note ana="#txt">iʃo</note>
+                            <note ana="#gls">house</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">àba</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">mi</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#rel"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">bé</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#fut"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">moɲo</note>
+                            <note ana="#gls">marry</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ijel</note>
+                            <note ana="#gls">year</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">èéni</note>
+                            <note ana="#gls">this</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe140-00.258">
+                <quote>
+                    <s>
+                        <note ana="#gls">two of them</note>
+                        <w>
+                            <note ana="#txt">àba</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#idp"/>
+                            </note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">ídiàn</note>
+                            <note ana="#gls">two</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe292-00.045">
+                <quote>
+                    <s>
+                        <note ana="#gls">a dead chickens</note>
+                        <w>
+                            <note ana="#txt">ìkokò</note>
+                            <note ana="#gls">chicken</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">ehuhu</note>
+                            <note ana="#gls">dead</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe001-01.120">
+                <index>
+                    <term ref="terminology.xml#noun-property"/>
+                    <term ref="terminology.xml#agreement"/>
+                    <term ref="terminology.xml#noun-classification"/>
+                </index>
+                <quote>
+                    <s>
+                        <note ana="#gls">a dead person</note>
+                        <w>
+                            <note ana="#txt">ɔni</note>
+                            <note ana="#gls">person</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">ohuhu</note>
+                            <note ana="#gls">dead</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe104-00.140">
+                <quote>
+                    <s>
+                        <note ana="#gls">You are allowed. (lit.: there is permission for you)</note>
+                        <w>
+                            <note ana="#txt">àjè</note>
+                            <note ana="#gls">permission</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">té</note>
+                            <note ana="#gls">exist</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">sá</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#secondP"/>
+                                <abbr corresp="glossary.xml#sg"/>
+                                <abbr corresp="glossary.xml#dat"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe096-00.217">
+                <quote>
+                    <s>
+                        <note ana="#gls">There is no Bar Beach in Ikaram</note>
+                        <w>
+                            <note ana="#txt">bábìʃ</note>
+                            <note ana="#gls">place_name</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">té</note>
+                            <note ana="#gls">exist</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">èkiròm</note>
+                            <note ana="#gls">Ikaram</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">è</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#neg"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe033-00.112">
+                <quote>
+                    <s>
+                        <note ana="#gls">Where is your house?</note>
+                        <w>
+                            <note ana="#txt">iʃo</note>
+                            <note ana="#gls">house</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">so</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#secondP"/>
+                                <abbr corresp="glossary.xml#sg"/>
+                                <abbr corresp="glossary.xml#poss"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">síkɔ́</note>
+                            <note ana="#gls">where_is</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe117-00.079">
+                <quote>
+                    <s>
+                        <note ana="#gls">What about your family?</note>
+                        <w>
+                            <note ana="#txt">ani</note>
+                            <note ana="#gls">people</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">sa</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#secondP"/>
+                                <abbr corresp="glossary.xml#sg"/>
+                                <abbr corresp="glossary.xml#poss"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">síkɔ́</note>
+                            <note ana="#gls">what_about</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe224-00.091">
+                <quote>
+                    <s>
+                        <note ana="#gls">A horse is running.</note>
+                        <w>
+                            <note ana="#txt">ègèdʒi</note>
+                            <note ana="#gls">horse</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">á</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#prog"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ʃu</note>
+                            <note ana="#gls">run</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe224-00.029">
+                <quote>
+                    <s>
+                        <note ana="#gls">The snake died.</note>
+                        <w>
+                            <note ana="#txt">ɛɲɔ</note>
+                            <note ana="#gls">snake</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">hu</note>
+                            <note ana="#gls">die</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe327-00.115">
+                <quote>
+                    <s>
+                        <note ana="#gls">My wife beat the goat.</note>
+                        <w>
+                            <note ana="#txt">oɲo</note>
+                            <note ana="#gls">wife</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">no</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#poss"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">bug</note>
+                            <note ana="#gls">beat</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ɛbuj</note>
+                            <note ana="#gls">goat</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe017-00.105">
+                <quote>
+                    <s>
+                        <note ana="#gls">I am hungry.</note>
+                        <w>
+                            <note ana="#txt">imũ</note>
+                            <note ana="#gls">hunger</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">á</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#prog"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">kɛ̀m</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#absv"/>_hunger</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">na</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe182-00.112">
+                <quote>
+                    <s>
+                        <note ana="#gls">I am sick.</note>
+                        <w>
+                            <note ana="#txt">ɛ́</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#nhum"/>
+                            </note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">dìg</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#absv"/>_sickness</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">no</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe224-00.031">
+                <quote>
+                    <s>
+                        <note ana="#gls">I am feeling cold.</note>
+                        <w>
+                            <note ana="#txt">ɔ̀ʃìŋ</note>
+                            <note ana="#gls">cold</note>
+                        </w>
+
+                        <w>
+                            <note ana="#txt">é</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#prog"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">mi</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#absv"/>_cold</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">no</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe057-00.198">
+                <quote>
+                    <s>
+                        <note ana="#gls">They gave us money.</note>
+                        <w>
+                            <note ana="#txt">bà</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ki</note>
+                            <note ana="#gls">give</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ès</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ɛmũ</note>
+                            <note ana="#gls">money</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe089-00.025">
+                <quote>
+                    <s>
+                        <note ana="#gls">They taught me Ekiromi.</note>
+                        <w>
+                            <note ana="#txt">bà</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">kɔ́</note>
+                            <note ana="#gls">teach</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">na</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">èkiròm</note>
+                            <note ana="#gls">Ekiromi</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe057-00.159">
+                <quote>
+                    <s>
+                        <note ana="#gls">They fight against me.</note>
+                        <w>
+                            <note ana="#txt">bà</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ton</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#com"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">no</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">á</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#prog"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">kɔn</note>
+                            <note ana="#gls">fight</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe057-00.188">
+                <quote>
+                    <s>
+                        <note ana="#gls">They waited for me.</note>
+                        <w>
+                            <note ana="#txt">bà</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">nàbù</note>
+                            <note ana="#gls">wait</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">kpa</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#ben"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">na</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe089-00.010">
+                <quote>
+                    <s>
+                        <note ana="#gls">They gave you a book.</note>
+                        <w>
+                            <note ana="#txt">bà</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">gbà</note>
+                            <note ana="#gls">put</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ìwé</note>
+                            <note ana="#gls">book</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">sá</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#secondP"/>
+                                <abbr corresp="glossary.xml#sg"/>. <abbr corresp="glossary.xml#dat"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe089-00.016">
+                <quote>
+                    <s>
+                        <note ana="#gls">They gave a book to the king.</note>
+                        <w>
+                            <note ana="#txt">bà</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">gbà</note>
+                            <note ana="#gls">put</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ìwé</note>
+                            <note ana="#gls">book</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ʃa</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#dat"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ɔmis</note>
+                            <note ana="#gls">king</note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe229-00.096">
+                <quote>
+                    <s>
+                        <note ana="#gls">He picked one out of the oranges and gave it to him.</note>
+                        <w>
+                            <note ana="#txt">mi</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#sip"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ɔ́</note>
+                            <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#hum"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ba</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#pst"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">haǹ</note>
+                            <note ana="#gls">pick</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ìwùd</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#par"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">òrom̀bó</note>
+                            <note ana="#gls">orange</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ìdɛ́n</note>
+                            <note ana="#gls">those</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">si</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#sequ"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ba</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#pst"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ki</note>
+                            <note ana="#gls">give</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">u</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#hum"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ɛ</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#nhum"/>.<abbr corresp="glossary.xml#obj"/>
+                            </note>
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe363-00.014">
+                <quote>
+                    <s>
+                        <note ana="#gls">The dog sleeps.</note>
+                        <w>
+                            <note ana="#txt">ebo</note>
+                            <note ana="#gls">dog</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">H</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#oneh"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">miʃ</note>
+                            <note ana="#gls">sleep</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">[ebó miʃ]</note>
+                            <note ana="#gls"/>                            
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe363-00.043">
+                <quote>
+                    <s>
+                        <note ana="#gls">The dog does not sleep.</note>
+                        <w>
+                            <note ana="#txt">ebo</note>
+                            <note ana="#gls">dog</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">miʃ</note>
+                            <note ana="#gls">sleep</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">è</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#neg"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">[ebo miʃijè]</note>
+                            <note ana="#gls"/>                            
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe124-00.199">
+                <quote>
+                    <s>
+                        <note ana="#gls">We climbed.</note>
+                        <w>
+                            <note ana="#txt">à</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#pl"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">H</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#oneh"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">deŋ</note>
+                            <note ana="#gls">sleep</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">[àdéŋ]</note>
+                            <note ana="#gls"/>                            
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <cit type="example" xml:id="ibe124-00.207">
+                <quote>
+                    <s>
+                        <note ana="#gls">We did not climb.</note>
+                        <w>
+                            <note ana="#txt">asáà</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#neg"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">deŋ</note>
+                            <note ana="#gls">sleep</note>
+                        </w>
+                        <w>
+                            <note ana="#txt">è</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#neg"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">[asáà deŋjè]</note>
+                            <note ana="#gls"/>                            
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            
+            <cit type="example" xml:id="ibe190-00.104">
+                <quote>
+                    <s>
+                        <note ana="#gls">he is not writing a letter, he is sleeping</note>
+                        <w>
+                            <note ana="#txt">ɔ́ɔ̀</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#neg"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">á</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#prog"/>
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">kɔ</note>
+                            <note ana="#gls">
+                                write
+                            </note>
+                        </w>
+                        <w>
+                            <note ana="#txt">ìwé</note>
+                            <note ana="#gls">letter</note>                            
+                        </w>
+                        <w>
+                            <note ana="#txt">è,</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#neg"/>
+                            </note>                            
+                        </w>
+                        <w>
+                            <note ana="#txt">ŋ̀gí</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#cfoc"/>
+                            </note>                            
+                        </w>
+                        <w>
+                            <note ana="#txt">ɔ́</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>
+                                <abbr corresp="glossary.xml#hum"/>
+                            </note>                            
+                        </w>
+                        <w>
+                            <note ana="#txt">á</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#prog"/>
+                            </note>                            
+                        </w>
+                        <w>
+                            <note ana="#txt">miʃ</note>
+                            <note ana="#gls">sleep</note>                            
+                        </w>
+                    </s>
+                </quote>
+            </cit>
+            <!-- =====================================ABBR========================================= -->
+            <interpGrp>
+                <interp xml:id="gls">Gloss</interp>
+                <interp xml:id="txt">Text</interp>
+            </interpGrp>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list type="ontology" xml:id="myOntology">
+                <head>Abesabesi Categories</head>
+                <item xml:id="noun">
+                    <term>Noun</term>
+                    <gloss> The noun is a word class that refer to a broad range of entities or
+                        experiences in the world. In contrast to verbs, they start with a vowel. </gloss>
+                    <list>
+                        <item xml:id="noun-classification">
+                            <term>Classification </term>
+                            <gloss> Nominal classification is a phenomenon in some languages, where
+                                nouns are grouped in noun classes according to semantic traits. Noun
+                                classes can be morphologically marked. </gloss>
+                        </item>
+                        <item xml:id="noun-functionNoun">
+                            <term>Function Noun</term>
+                            <gloss> Function nouns are a subclass of nouns. They express a
+                                grammatical or semantic relation towards another constituent of the
+                                clause and are thus semantically similar to prepositions. </gloss>
+                        </item>
+                        <item xml:id="noun-property">
+                            <term>Property Noun</term>
+                            <gloss> Property nouns are a subclass of nouns. They express a
+                                property and can be used alone or as nominal modifiers. </gloss>
+                        </item>
+                    </list>
+                </item>
+                <item xml:id="allomorph">
+                    <term>Allomorph</term>
+                    <gloss> Allomorphs are considered to be alternative representations of a
+                        Morpheme. </gloss>
+                </item>
+                <item xml:id="agreement">
+                    <term>Agreement</term>
+                    <gloss> A word agrees with another word, when it changes form to take on the same value of the other word's grammatical 
+                        category. </gloss>
+                </item>
+                <item xml:id="languages">
+                    <term>Languages</term>
+                    <gloss> other languages than Abesabesi </gloss>
+                    <list>
+                        <item xml:id="languages-ukaan">
+                            <term>Ukaan</term>
+                            <gloss> Ukaan is a surrounding language. </gloss>
+                            <list>
+                                <item xml:id="languages-ukaan-ikaan">
+                                    <term>Ikaan</term>
+                                    <gloss>Ikaan is a dialect of Ukaan</gloss>
+                                </item>
+                            </list>
+                        </item>
+                        <item xml:id="languages-akokoid">
+                            <term>Akokoid</term>
+                            <gloss> Akokoid is a surrounding language. </gloss>
+                        </item>
+                        <item xml:id="languages-ayereahan">
+                            <term>Ayere-Ahan</term>
+                            <gloss> Ayere and Ahan are two surrounding languages. </gloss>
+                        </item>
+                        <item xml:id="languages-yoruba">
+                            <term>Yoruba</term>
+                            <gloss> Yoruba is a surrounding language and the lingua franca of the
+                                south west of Nigeria. </gloss>
+                        </item>
+                        <item xml:id="languages-edoid">
+                            <term>Edoid</term>
+                            <gloss> Edoid is a language family present in the Akoko region. </gloss>
+                        </item>
+                    </list>
+                </item>
+                <item xml:id="akoko">
+                    <term>Akoko</term>
+                    <gloss> Akoko is a region in the north of Ondo state, Nigeria. </gloss>
+                </item>
+                <item xml:id="vowel">
+                    <term>Vowel</term>
+                    <gloss>Vowels are segmental phonemes that involve an underhindered stream of
+                        air</gloss>
+                    <list>
+                        <item xml:id="vowel-atr">
+                            <term>Advanced Tongue Root</term>
+                            <gloss> Advanced Tongue Root (ATR) is a feature on vowels. </gloss>
+                        </item>
+                        <item xml:id="vowel-harmony">
+                            <term>Harmony</term>
+                            <gloss> Vowel harmony is is a special type of assimilation, where vowels
+                                are classified into two or more groups based on specific features
+                                and words usually consist of only vowels of one of those groups.
+                                Vowels in affixes then assimilate to the root vowels' group in order
+                                to fit into that group. </gloss>
+                            <list>
+                                <item xml:id="vowel-harmony-prefix">
+                                    <term>Prefix</term>
+                                    <gloss>Prefix vowel harmony is a type of vowel harmony in
+                                        Abesabesi that only applies to prefixes, such as bound
+                                        subject pronouns and tam morphemes.</gloss>
+                                </item>
+                                <item xml:id="vowel-harmony-suffix">
+                                    <term>Suffix</term>
+                                    <gloss>Suffix vowel harmony is a type of vowel harmony in
+                                        Abesabesi that only applies to prefixes, such as bound
+                                        object/possessive pronouns, the pluractionalis extension or
+                                        the gerund suffix.</gloss>
+                                </item>
+                            </list>
+                        </item>
+                        <item xml:id="vowel-quality">
+                            <term>Quality</term>
+                            <gloss>Vowel quality in Abesabesi is defined by the tongue position,
+                                lowness, roundedness and the ATR value.</gloss>
+                        </item>
+                        <item xml:id="vowel-nasality">
+                            <term>Nasality</term>
+                            <gloss>A nasal vowel is produced when the velum is lowered so that parts
+                                of the airstream escapes through the nasal cavity.</gloss>
+                        </item>
+                    </list>
+                </item>
+                <item xml:id="pronoun">
+                    <term>Pronoun</term>
+                    <gloss>A pronoun is a word that replaces a noun</gloss>
+                    <list>
+                        <item xml:id="pronoun-independent">
+                            <term>Independent Pronoun</term>
+                            <gloss>Independent Pronouns are a class of pronouns that are independent and generally used
+                            to express emphasis.</gloss>
+                        </item>
+                        <item xml:id="pronoun-emphatic">
+                            <term>Emphatic Pronoun</term>
+                            <gloss> An emphatic pronoun is a specific type of personal pronoun. They are
+                                used in similar context than independent pronouns, but put an emphasis on
+                                the referenced person. </gloss>
+                        </item>
+                    </list>
+                </item>
+                
+                <item xml:id="verb">
+                    <term>Verb</term>
+                    <gloss> A verb is... </gloss>
+                    <list>
+                        <item xml:id="verb-defunct">
+                            <term>Defunct Verb</term>
+                            <gloss> The subclass of defunct verbs encompasses three verbs: té 'exist', gó 'it is', and síkɔ́ 'where is/what about'. </gloss>
+                        </item>
+                    </list>
+                </item>
+                <item xml:id="focus">
+                    <term>Focus</term>
+                    <gloss/>
+                    <list>
+                        <item xml:id="focus-construction">
+                            <term>Focus construction</term>
+                            <gloss>A focus construction is a specific type of clause, where one constituent is fronted to express
+                                focus.</gloss>
+                        </item>
+                        <item xml:id="focus-contrastive">
+                            <term>Contrastive focus</term>
+                            <gloss>Contrastive focus is a way to mark that the proposition of a clause is contrary to the presupposition of the interlocutor.</gloss>
+                        </item>
+                    </list>
+                    
+                </item>              
+                <item xml:id="emphasis">
+                    <term>Emphasis</term>
+                    <gloss>Emphasis is a functional category that can be attributed to a form.</gloss>
+                </item>
+                <item xml:id="clause">
+                    <term>Clause</term>
+                    <gloss>A clause is a syntactic unit that minimally contains a subject and a predicate.</gloss>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

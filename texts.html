@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
+    <div class="w3-row-padding" style="padding-top:15px">
+        <div class="w3-row-padding w3-twothird jl-content">
+            <div class="w3-quarter">
+                <div class="app:previousText"/>
+            </div>
+            <div class="w3-half">
+                <div class="w3-container w3-teal w3-padding-16" style="cursor:pointer">
+                    
+                    <div class="app:title-text"/>
+                </div>
+            </div>
+            <div class="w3-quarter">
+                <div class="app:nextText"/>
+            </div>
+        </div>
+        
+    </div>
+    <hr/>
+    <div class="w3-row-padding">
+        <div class="w3-twothird jl-content">
+            <div class="app:content-text"/>
+        </div>
+        
+        <div class="w3-third">
+            <div class="w3-bar-block w3-white w3-margin-bottom">
+                <a class="w3-button w3-bar-item" style="padding-left:35px;">
+                    Metadata </a>
+                <a class="w3-button w3-bar-item" onclick="myAccFunc('audio')" style="padding-left:35px;">
+                    Audio </a>
+                <div class="app:audio"/>
+                <a class="w3-button w3-bar-item" onclick="myAccFunc('video')" style="padding-left:35px;">
+                    Video </a>
+                <div class="app:video"/>
+                <a class="w3-button w3-bar-item" style="padding-left:35px;">
+                    Archive Deposit </a>
+            </div>
+            <h5>Texts</h5>
+            <div class="app:texts"/>
+            
+            <h5>Tools</h5>
+            
+            <div class="w3-bar-block w3-white w3-margin-bottom">
+                <a href="glossary.html" class="w3-button w3-bar-item" style="padding-left:10px;" title="Abbreviations used in the text reveal their meaning when hovered upon">
+                    <i class="far fa-list-alt" style="padding-right:5px;"/>  Abbreviations </a>
+                <a href="bibliography.html" class="w3-button w3-bar-item" style="padding-left:10px;">
+                    <i class="fa fa-book-open" style="padding-right:5px;"/>  Bibliography</a>
+                <a class="w3-button w3-bar-item" onclick="myAccFunc('oldV')" style="padding-left:10px;">
+                    <i class="fa fa-history" style="padding-right:5px;"/> Older versions</a>
+                <div id="oldV" class="w3-hide w3-white">
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.0 (25-11-2018)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.1 (17-12-2018)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.2 (04-04-2020 - current)</a>
+                </div>
+                <a class="w3-button w3-bar-item" onclick="myAccFunc('export')" style="padding-left:10px;">
+                    <i class="fa fa-file-download" style="padding-right:5px;"/> Export</a>
+                <div id="export" class="w3-hide w3-white">
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (this text)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (all texts)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (this text)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (all texts)</a>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <footer class="w3-container w3-padding-16 w3-light-grey">
+        <div class="w3-row">
+            <div class="w3-col" style="width:110px; padding:8px 16px 8px 0px"> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+                </a> </div>
+            <div class="w3-rest">The Abesabesi Grammar is edited by Jonas Lau and licensed under a 
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                    Attribution-NonCommercial-ShareAlike 4.0 International Licence</a>. |  <a href="legal.html" class="intext-button">Legal Notice</a>
+            </div> 
+        </div>
+    </footer>
+</div>

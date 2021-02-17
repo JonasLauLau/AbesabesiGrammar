@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Abesabesi Grammar </title>
+                <author>Lau, Jonas</author>
+                <funder ref="https://artes.phil-fak.uni-koeln.de/">a.r.t.e.s. Graduate School for
+                    the Humanities Cologne</funder>
+                <funder ref="https://www.eldp.net/">Endangered Languages Documentation Programme
+                    (ELDP)</funder>
+                <principal>Lau, Jonas</principal>
+                <respStmt>
+                    <resp> provided language data </resp>
+                    <name>people of Ikaram-Akoko, Ondo State, Nigeria</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">First draft, contains the whole section structure of a grammar and
+                    eight example sections with content.</edition>
+            </editionStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> This file is a digitally born grammar of the Nigerian language Abesabesi. The
+                    encoding style examplifies how TEI could be used as a digital data format for
+                    reference grammars. While the content was originally produced within this TEI
+                    format, the encoding style is intended to also suit the encoding of analog
+                    reference grammars.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p> This file contains eight examplary sections to demonstrate the encoding of a
+                    reference grammar. The chosen sections should represent different parts of a
+                    grammar and including a big range of text-elements typically found in reference
+                    grammars.</p>
+            </samplingDecl>
+            <refsDecl>
+                <p> The <att>xml:id</att> attribute of each element in this corpus carries a unique
+                    identifying code for the whole text. This code, prefixed by a #, is used in the
+                        <att>ref</att>, <att>target</att>, or <att>corresp</att> attributes of other
+                    elements to reference the element with the identifying code. This file
+                    identifies and references to the following elements in particular: Chapters and
+                    sections represented by the tag <gi>div</gi>, paragraphs represented by the tag
+                        <gi>p</gi> and figure and tables represented by the tags <gi>figure</gi> and
+                        <gi>table</gi>, and example placeholders represented by the tags
+                        <gi>joinGrp</gi> and <gi>ptr</gi>. These elements, except the paragraps also
+                    carry the <att>n</att> attribute. This number is a counter for each element
+                    type, but is not used for identification. </p>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date when="2020-06">June 2020</date>
+                <rs type="city">Cologne</rs>
+            </creation>
+            <langUsage>
+                <language ident="en-US" usage="90">American English</language>
+                <language ident="ibe" usage="9">Abesabesi</language>
+                <language ident="yor" usage="1">Yoruba</language>
+            </langUsage>
+            <abstract>
+                <p>This file contains exemplary sections of a sketch grammar of Abesabesi, an
+                    endangered language spoken in Ondo State, Nigeria. Its purpose is to examplify
+                    the TEI encoding of reference grammars.</p>
+            </abstract>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="tableOfContent"/>
+            <divGen type="listOfFigures"/>
+            <divGen type="listOfTables"/>
+            <divGen type="listOfAbbreviations"/>
+        </front>
+        <body>
+            <div xml:id="ch1" type="chapter" n="1">
+                <head>Introduction</head>
+                <div xml:id="ch1-sc1" type="section" n="1.1">
+                    <head>Abesabesi</head>
+                    <div xml:id="ch1-sc1-1" type="section" n="1.1.1">
+                        <head>Naming the language</head>
+                        <p xml:id="p1">The language with the ISO 639-3 code ibe and the glottocode
+                            akpe1248 is known as <name>Akpes</name> in literature. However, Akpes is
+                            the name of one of the five dialects (see section <ref target="#ch1-sc1-4"/>) and therefore not supported by the speakers
+                            as a name for the entire language. If asked to name their language,
+                            speakers usually use the dialect's name or the name of their settlement.
+                            In order to chose an acceptable term for the entirety of all four
+                            dialects, representatives of the nine communities have agreed on the
+                            term <name>Àbèsàbèsì</name> to denote the language. This meeting of
+                            representatives has become the <name>Àbèsàbèsì Language Development
+                                Committee</name> (see section <ref target="#ch1-sc1-6"/>).
+                            Henceforth, the term has mainly been used by the main researcher and
+                            native speaker of the language Dr. Taiwo Agoyi. Speakers use it only
+                            scarcely but recognize it as a name for the language. It is used in some
+                            formal and semi-formal contexts such as in speeches at the local
+                            festivals, in language-related meetings and activities, and in names for
+                            social media groups dedicated to communicate in the language. Àbèsàbèsì
+                            is a reduplication of the word <ref type="lemma" target="dictionary.xml#àbès_c88881c1-1206-4f23-b42c-a725787ef4df">
+                                <foreign xml:lang="ibe">àbès</foreign>
+                            </ref> meaning 'we'. The reduplicated form <foreign xml:lang="ibe">àbèsàbès</foreign> signifies 'ourselves'. </p>
+                        <p> Throughout this text, <name>Abesabesi</name> will be used to refer to
+                            the language and the people, as it is a term chosen by representatives
+                            of all communities speaking it. As all Yoruba and Abesabesi names and
+                            terms will be written without accent marks within this text to avoid
+                            spelling errors (see spelling conventions in section <ref target="#ch1-sc1-9"/>), this also affects the term Abesabesi. A list
+                            of all those terms with correct accent marks will also be given in
+                            sectionbe given in section <ref target="#ch1-sc1-9"/>. The spelling of
+                                <name>Abesabesi</name> differs from the spelling that is used for
+                            Abesabesi language data within this text (see section <ref target="#ch2-sc6"/>), where final deleted vowels are not written.
+                        </p>
+                    </div>
+                    <div xml:id="ch1-sc1-2" type="section" n="1.1.2">
+                        <head>Location and surrounding languages</head>
+                        <index>
+                            <term ref="terminology.xml#languages"/>
+                            <term ref="terminology.xml#languages-ukaan"/>
+                            <term ref="terminology.xml#languages-ukaan-ikaan"/>
+                            <term ref="terminology.xml#languages-akokoid"/>
+                            <term ref="terminology.xml#languages-yoruba"/>
+                            <term ref="terminology.xml#languages-edoid"/>
+                            <term ref="terminology.xml#languages-ayereahan"/>
+                            <term ref="terminology.xml#akoko"/>
+                        </index>
+                        <p> Abesabesi is spoken in nine settlements in the north of <ref target="web#https://en.wikipedia.org/wiki/Ondo_State">Ondo
+                                State</ref>, Nigeria. These nine settlements include six independent
+                            towns (Akunnu, Ase, Gedegede, Ibaram, Ikaram and Iyani) and three
+                            communities within the rather recently founded town Ajowa. Disputes
+                            about land and sovereignty has led to a relocation of seven different
+                            communities and resulted in the foundation of Ajowa <ref target="bibliography.xml#d1e693">(Agoyi, 2014, p. 4)</ref>. Of these
+                            seven communities, three are Abesabesi-speaking ones: Daja, Eshuku and
+                            Ilọdun. Another community of Ajowa, the Efifa, are known to have spoken
+                            a dialect of Abesabesi in the past but switched to the local Yoruba
+                            variety Owe <ref target="bibliography.xml#d1e558">(Agoyi, 2013, p.
+                                74)</ref>. All of the Abesabesi-speaking towns and the different
+                            quarters of Ajowa's communities can be seen in figure <ref target="#fig1-1"/>
+                        </p>
+
+                        <figure xml:id="fig1-1" n="1.1">
+                            <head>The Abesabesi speaking communities</head>
+                            <graphic url="resources/images/Abesabesi-map.png"/>
+                        </figure>
+
+                        <p>Figure <ref target="#fig1-1"/> and <ref target="#fig1-2"/> are both
+                            created by the author. Most of the GPS data was provided by Sophie
+                            Salffner. Information about the town-language relation has been taken
+                            from several sources - most notably <ref target="bibliography.xml#d1e2184">Ohiri-Aniche (1999)</ref>, <ref target="bibliography.xml#d1e2258">Olumuyiwa and Oshodi (2012)</ref>
+                            and <ref target="bibliography.xml#d1e1489">Elugbe (1989)</ref>. The maps
+                            attribute one "native" language to each town. If not possible, towns are
+                            marked with "multiple languages". Although the decision about which
+                            language is "native" to a town is rather problematic, it is necessary to
+                            such a cartographic approach. This means, that the maps do not show the
+                            lingua francas Standard Yoruba, English, or Nigerian Pidgin English; the
+                            languages of various farm settlements and camps; nor the languages of
+                            recent immigrants who settled down in the towns.</p>
+
+                        <p> The Abesabesi-speaking area is located in the north of Ondo State in an
+                            area referred to as Akoko. This hilly region is composed of four Local
+                            Government Areas (LGA). Except Akunnu, which is located in the Akoko
+                            North East LGA, all other Abesabesi-speaking communities are within the
+                            Akoko North West LGA. </p>
+
+                        <p> The Akoko region is a highly multilingual area, where eight distinct
+                            native languages are spoken next to the dominant lingua franca -
+                            Standard Yoruba and its manifold local varieties of the region.
+                            Moreover, the region is home to different immigrant communities such as
+                            Ebiras, Fulanis, Hausas and Igbos. Figure <ref target="#fig1-2"/>
+                            displays the different towns and villages of the Akoko region with their
+                            respective native language.</p>
+
+                        <figure xml:id="fig1-2" n="1.2">
+                            <head>Languages of the Akoko towns</head>
+                            <graphic url="resources/images/Akoko-towns.png"/>
+                        </figure>
+
+                        <p> Yoruba is the dominant language of the region. While Standard Yoruba is
+                            the lingua franca of the region, different local varieties are native to
+                            most of the Akoko towns, especially in the West and the South, notably
+                            the biggest town Ikare and the home of the local university, Akungba. </p>
+
+                        <p> The south of Akoko is home to a couple of Edoid languages of the Osse
+                            branch <ref target="bibliography.xml#d1e1489">(Elugbe 1989, p.
+                            24)</ref>. Ehueun spoken in Epinmi, Ukue spoken in Ipe and Igbede Ipe,
+                            and Uhami spoken in Oyara Ishua, Ishua Oke, Ishua Ile, Shosan Oke and
+                            Shosan Ile. The main area of Edoid languages extends further south and
+                            east of the Akoko in Edo state. </p>
+
+                        <p> In the east, the Ukaan language is spoken in Auga, Ishe, Ayanran and two
+                            towns called Ikakumo. The language is sometimes also referred to as
+                                <name>AIKA</name>, an acronym for the five villages Auga, Ishe,
+                            Kakumo, Kakumo and Ayanran. The genetic affiliation of Ukaan remains
+                            controversial. It has been attributed to both West Benue-Congo and East
+                            Benue Congo. Its closest relative based on the lexicon, however, seems
+                            to be Abesabesi <ref target="bibliography.xml#d1e2184">(Ohiri-Aniche
+                                1999, p. 83)</ref>. </p>
+
+                        <p>In the north, seven towns and three communities within Ajọwa (Uro and
+                            Ojo) speak Akokoid, a language cluster that is part of the Benue-Congo
+                            branch. <ref target="bibliography.xml#d1e1665">Fadoro (2013)</ref>
+                            classifies Akokoid into two languages: Arigidi (spoken in Arigidi and
+                            Erushu) and Ọwọn (spoken in Eriti, Igashi, two quarters of Ajowa,
+                            Oyin, Oke-Agbe and Iye). The whole cluster was originally grouped
+                            together with Ayere and Ahan as the <name>Northern Akoko Cluster</name>
+                            by <ref target="bibliography.xml#d1e1988">Hoffmann (1976)</ref>.</p>
+
+                        <p>Abesabesi is located in the north east of the Akoko region. It is
+                            surrounded by Akokoid in the west, Yoruba in the south, Ukaan in the
+                            east and Ayere in the north. Ikaram, where the data has been recorded,
+                            is home to the native Abesabesi-speaking population, which is gradually
+                            shifting to Yoruba. </p>
+
+                        <p> In contrast to Abesabesi, which a lot of younger people and immigrants
+                            do not speak, virtually everybody speaks Yoruba. Most people speak
+                            Standard Yoruba as it is taught and spoken in schools, some speak local
+                            varieties. Apart from Yoruba, Nigerian English is spoken by people with
+                            a higher education. Pidgin English is also common among less educated
+                            people, especially in conversations with non-Yoruba speaking people.
+                            Other peoples living in Ikaram include Yoruba, Ebira and Fulani. The
+                            Yoruba mainly came as spouses or in higher educated positions such as
+                            priests, teachers or medical personal. Only some of them learned some
+                            Abesabesi. The Ebira have lived in Ikaram for a couple of generations.
+                            Some Ebira (mainly older people) speak Abesabesi. Nomadic Fulani are
+                            present in the whole Akoko region. Some of them have been granted to
+                            settle down in Ikaram in the past. Yoruba, Ebira and Fulani are
+                            generally seen as part of the community of Ikaram, recognize the king
+                            (Akala) of Ikaram and contribute to the town's festivals with
+                            performances, masquerades or speeches. </p>
+                    </div>
+                    <div xml:id="ch1-sc1-3" type="section" n="1.1.3">
+                        <head>Number of speakers</head>
+                        <p>The number of speakers of Abesabesi is not easy to determine. The only
+                            existing estimation I could find is 10,000 <ref target="bibliography.xml#d9e1333">Lewis, Simons, &amp; Fennig
+                                (2018)</ref>. This estimation is from 1992 and therefore quite
+                            dated. Agoyi does not present speaker estimations in any of her
+                            publications, but gives population census data from the Abesabesi
+                            settlements and mentions the difficulties of estimating speaker numbers
+                                <ref target="bibliography.xml#d1e693">(Agoyi 2014, p. 1)</ref>
+                        </p>
+                        <p>Indeed, there are severe difficulties when it comes to estimating the
+                            amount of Abesabesi speakers. On the one hand, only old census data is
+                            available and data about languages or ethnicity is not included. On the
+                            other hand, the percentage of Abesabesi speakers among the population of
+                            the nine settlements can only be estimated. Lastly, quite a substantial
+                            part of the Abesabesi live elsewhere in Nigeria or abroad. The
+                            percentage of Abesabesi-speakers among these diaspora-Abesabesi, again,
+                            can only be an estimate.</p>
+                        <p> Nevertheless, I want to attempt an estimate in order to give a more
+                            accurate and current view on the speaker number. As an estimation
+                            depends on several factors, I will present a transparent description of
+                            how I reached the estimated number.</p>
+                        <p>Starting with the population data of all Abesabesi-speaking settlements,
+                            the most suitable and current figures seem to be those collected in the
+                            scope of the Millennium Village Project Ikaram-Ibaram, a model project
+                            to exemplify the Millennium Development Goals of the United Nations (see
+                            section <ref target="#ch1-sc2"/>. <ref target="bibliography.xml#d1e1202">Chovwen et al. (2009)</ref> states figures for all Abesabesi-
+                            speaking settlements except for Akunnu. </p>
+
+                        <table>
+                            <head>Population figures by <unclear>\citeA{Chovwen2009}</unclear>
+                            </head>
+                            <row>
+                                <cell>Town name</cell>
+                                <cell>Population</cell>
+                            </row>
+                            <row>
+                                <cell>Ikaram</cell>
+                                <cell>4982</cell>
+                            </row>
+                            <row>
+                                <cell>Ase</cell>
+                                <cell>72 </cell>
+                            </row>
+                            <row>
+                                <cell>Ibaram</cell>
+                                <cell>613</cell>
+                            </row>
+                            <row>
+                                <cell>Iyani</cell>
+                                <cell>514</cell>
+                            </row>
+                            <row>
+                                <cell>Gedegede</cell>
+                                <cell>995</cell>
+                            </row>
+                            <row>
+                                <cell>Ajowa</cell>
+                                <cell>8064</cell>
+                            </row>
+                        </table>
+
+                        <p>For Akunnu, <ref target="bibliography.xml#d1e145">Agoyi (2008)</ref>
+                            cites the Nigerian Population Census 1991 and gives a population of
+                            2385. As all figures of the \ac{npc} 1991 are about double the amount of
+                            the more recent Millenium Village figures, I assume a population of 1193
+                            people in Akunnu (half of 2385) . As Ajowa is composed of eight
+                            quarters, of which three are Abesabesi settlements, I assume a
+                            population of 3024 for Daja, Eshuku and Ilodun (three eighths of 8064).
+                            This makes up a total population of 11393 for all Abesabesi-speaking
+                            settlements.</p>
+                        <p> Speaker percentages are not available - the closest figures are the
+                            speaker percentages across age groups in <ref target="bibliography.xml#d1e693">Agoyi (2014, p. 4)</ref>. However,
+                            there is no population curve available, which is why speaker percentages
+                            can not be derived from those figures. The estimate I purely base on my
+                            own impressions and informal interviews with speakers is 50%. This is
+                            because most children and young adults under 30 years do not speak
+                            Abesabesi, people above 30 years have varying speaker percentages from
+                            10% to 95% depending on the settlement and most settlements have a small
+                            percentage of immigrants that do not speak it either. The estimated
+                            amount of Abesabesi speakers in the nine settlements is therefore 5697
+                            people.</p>
+                        <p> Also the Abesabesi population living outside the nine settlements can
+                            only be estimated. From conversations with speakers and personal
+                            impressions, I assume the number is rather high, but only very little of
+                            the diaspora population speaks Abesabesi, as many of them are born and
+                            raised in the diaspora. I am estimating around 1300 more speakers to
+                            round up the total amount of speakers to 7000 people.</p>
+                        <p> As mentioned before, this estimation of around 7000 speakers is based on
+                            a lot of assumptions, personal impressions and conversations with
+                            speakers and should be used with care.</p>
+
+                    </div>
+                    <div xml:id="ch1-sc1-4" type="section" n="1.1.4">
+                        <head>Internal classification</head>
+
+                    </div>
+                    <div xml:id="ch1-sc1-5" type="section" n="1.1.5">
+                        <head>External classification</head>
+
+                    </div>
+                    <div xml:id="ch1-sc1-6" type="section" n="1.1.6">
+                        <head>Sociolinguistics</head>
+
+                    </div>
+                    <div xml:id="ch1-sc1-7" type="section" n="1.1.7">
+                        <head>History</head>
+
+                    </div>
+                    <div xml:id="ch1-sc1-8" type="section" n="1.1.8">
+                        <head>Typological sketch</head>
+
+                    </div>
+                    <div xml:id="ch1-sc1-9" type="section" n="1.1.9">
+                        <head>Conventions</head>
+                    </div>
+                </div>
+                <div xml:id="ch1-sc2" type="section" n="1.2">
+                    <head>The field site</head>
+
+                </div>
+                <div xml:id="ch1-sc3" type="section" n="1.3">
+                    <head>Methodology</head>
+
+
+                </div>
+                <div xml:id="ch1-sc4" type="section" n="1.4">
+                    <head>Previous research</head>
+
+                </div>
+            </div>
+            <div xml:id="ch2" type="chapter" n="2">
+                <head>Phonology</head>
+                <div xml:id="ch2-sc1" type="section" n="2.1">
+                    <head>Vowels</head>
+                    <index>
+                        <term ref="terminology.xml#vowel"/>
+                        <term ref="terminology.xml#vowel-quality"/>
+                        <term ref="terminology.xml#vowel-atr"/>
+                        <term ref="terminology.xml#vowel-nasality"/>
+                    </index>
+                    <note ana="#qual" cert="75">Draft</note>
+                    <note ana="#typRel" cert="10"/>
+                    <note ana="#langRel" cert="100"/>
+                    <p> Abesabesi distinguishes seven oral vowels. Table <ref target="#tb2-1"/>
+                        contains minimal pairs distinguishing the seven oral vowels as phonemes.</p>
+                    <table xml:id="tb2-1" n="2.1">
+                        <head>Minimal sets - oral vowels</head>
+                        <row>
+                            <cell>
+                                <foreign xml:lang="ibe">/i/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/e/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/ɛ/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/a/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/ɔ/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/o/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/u/</foreign>
+                            </cell>
+                        </row>
+
+                        <row>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#tì_5673c41e-9b51-4443-9b1a-740d864dc5fa">
+                                    <foreign xml:lang="ibe">tì</foreign> - <gloss>push</gloss>
+                                </ref>
+                            </cell>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#té_c2258897-4d89-474c-8924-9bcef58d751e">
+                                    <foreign xml:lang="ibe">té</foreign> - <gloss>exist</gloss>
+                                </ref>
+                            </cell>
+                            <cell/>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#ta1_a92518ff-748e-4ea7-a224-2c6ce090cd77">
+                                    <foreign xml:lang="ibe">ta</foreign> - <gloss>build</gloss>
+                                </ref>
+                            </cell>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#tɔ_fc846fde-c061-4c80-83fd-c97afe2b5fc6">
+                                    <foreign xml:lang="ibe">tɔ</foreign> - <gloss>roast</gloss>
+                                </ref>
+                            </cell>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#to1_24f94f5d-db32-408d-8e4b-0cfb10dbd205">
+                                    <foreign xml:lang="ibe">to</foreign> - <gloss>pound</gloss>
+                                </ref>
+                            </cell>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#tu_a680ff50-c406-44f8-87e2-d63012f96027">
+                                    <foreign xml:lang="ibe">tu</foreign> - <gloss>be</gloss>
+                                </ref>
+                            </cell>
+                        </row>
+
+                        <row>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">je</foreign> - <gloss>see</gloss>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">jɛ̀</foreign> - <gloss>slice</gloss>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">ja</foreign> - <gloss>be short</gloss>
+                            </cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">jo</foreign> - <gloss>dance</gloss>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">jù</foreign> - <gloss>bury</gloss>
+                            </cell>
+                        </row>
+
+                        <row>
+                            <cell>
+                                <foreign xml:lang="ibe">imũ</foreign> - <gloss>hunger</gloss>
+                            </cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">ɛmũ</foreign> - <gloss>money</gloss>
+                            </cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">ɔmũ</foreign> - <gloss>bee</gloss>
+                            </cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </table>
+                    <p> The oral vowels attest a distinction of [+ATR] and [-ATR] vowels in the mid
+                        position, which is also essential to the vowel harmony system (see section
+                            <ref target="#ch2-sc4-4"/>. Table <ref target="#tb2-2"/> contains
+                        minimal pairs exemplifying this distinction. For simplicity reasons, the
+                        +ATR vowels are transcribed as <foreign xml:lang="ibe">/e/</foreign> and
+                            <foreign xml:lang="ibe">/o/</foreign>, while the -ATR vowels are
+                        transcribed as <foreign xml:lang="ibe">/ɛ/</foreign> and <foreign xml:lang="ibe">/ɔ/</foreign>. </p>
+                    <table xml:id="tb2-2" n="2.2">
+                        <head>Minimal pairs - ATR-distinction</head>
+                        <row>
+                            <cell>
+                                <foreign xml:lang="ibe">/e/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/ɛ/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/o/</foreign>
+                            </cell>
+                            <cell>
+                                <foreign xml:lang="ibe">/ɔ/</foreign>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#tèn2_553bc4f3-16b5-4779-9987-c81866cc9a23">
+                                    <foreign xml:lang="ibe">tèn</foreign> - <gloss>follow</gloss>
+                                </ref>
+                            </cell>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#tɛ̀n_c914505c-8f55-4c86-b8a6-3e30b69f58b6">
+                                    <foreign xml:lang="ibe">tɛ̀n</foreign> - <gloss>join</gloss>
+                                </ref>
+                            </cell>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#ton_27b830fe-93c9-45a1-882c-2f101da41c41">
+                                    <foreign xml:lang="ibe">ton</foreign> - <gloss>meet</gloss>
+                                </ref>
+                            </cell>
+                            <cell>
+                                <ref type="pair" target="dictionary.xml#tɔ̀n_3acd34f9-b882-4783-9b3b-4a2254fe4f98">
+                                    <foreign xml:lang="ibe">tɔ̀n</foreign> - <gloss>be caused
+                                        by</gloss>
+                                </ref>
+                            </cell>
+                        </row>
+                    </table>
+                    <p> Abesabesi also distinguishes oral from nasal vowels, which can be seen in
+                        the minimal pair <ref type="pair" target="dictionary.xml#hɔ_e813b671-df7e-4028-b5c9-9f41e7c1fad9">
+                            <foreign xml:lang="ibe">hɔ</foreign> - <gloss>too much</gloss>
+                        </ref> vs. <ref type="pair" target="dictionary.xml#hɔ̃_35e67248-594f-4de8-a081-058dd559e973">
+                            <foreign xml:lang="ibe">hɔ̃</foreign> - <gloss>cultivate</gloss>
+                        </ref>. The five nasal vowels do not include phonemic nasalized versions of
+                        the +ATR vowels <foreign xml:lang="ibe">/e/</foreign> and <foreign xml:lang="ibe">/o/</foreign>. Their phonetic realization, however,
+                        occurs frequently, as deleted vowels retain their nasality, which is then
+                        realized on the remaining vowel (example <ref target="#ex2-1"/>). </p>
+
+                    <joinGrp xml:id="ex2-1" n="2.1">
+                        <ptr n="a" target="examples.xml#ibe298-00.088"/>
+                        <ptr n="b" target="examples.xml#ibe350-00.042"/>
+                    </joinGrp>
+
+                    <p> Summing up, Abesabesi has twelve phonemic vowels that differ in height,
+                        backness, roundness, nasalization, and tongue root position. Tables <ref target="#tb2-3"/> and <ref target="#tb2-4"/> show all oral and nasal
+                        vowels respectively. </p>
+
+                    <table xml:id="tb2-3" n="2.3">
+                        <head>Oral vowels</head>
+                        <row>
+                            <cell/>
+                            <cell>front</cell>
+                            <cell>central</cell>
+                            <cell>back</cell>
+                        </row>
+                        <row>
+                            <cell>high</cell>
+                            <cell>
+                                <foreign xml:lang="ibe">i</foreign>
+                            </cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">u</foreign>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>mid</cell>
+                            <cell>
+                                <foreign xml:lang="ibe">e ɛ</foreign>
+                            </cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">o ɔ</foreign>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>low</cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">a</foreign>
+                            </cell>
+                            <cell/>
+                        </row>
+                    </table>
+                    <table xml:id="tb2-4" n="2.4">
+                        <head>Nasal vowels</head>
+                        <row>
+                            <cell/>
+                            <cell>front</cell>
+                            <cell>central</cell>
+                            <cell>back</cell>
+                        </row>
+                        <row>
+                            <cell>high</cell>
+                            <cell>
+                                <foreign xml:lang="ibe">ĩ</foreign>
+                            </cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">ũ</foreign>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>mid</cell>
+                            <cell>
+                                <foreign xml:lang="ibe">ɛ̃</foreign>
+                            </cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">ɔ̃</foreign>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>low</cell>
+                            <cell/>
+                            <cell>
+                                <foreign xml:lang="ibe">ã</foreign>
+                            </cell>
+                            <cell/>
+                        </row>
+                    </table>
+
+                    <p>The high vowels <foreign xml:lang="ibe">/i/</foreign> and <foreign xml:lang="ibe">/u/</foreign> occur to have had an ATR distinction in the
+                        past (<foreign xml:lang="ibe">/i/</foreign> vs. <foreign xml:lang="ibe">/ɪ/</foreign> and <foreign xml:lang="ibe">/u/</foreign> vs. <foreign xml:lang="ibe">/ʊ/</foreign>). Evidence for this claim can be taken from
+                        their behavior in respect of vowel harmony, which will be discussed in
+                        section <ref target="ch2-sc4-4"/>.</p>
+                </div>
+                <div xml:id="ch2-sc2" type="section" n="2.2">
+                    <head>Consonants</head>
+                </div>
+                <div xml:id="ch2-sc3" type="section" n="2.3">
+                    <head>Syllables and words</head>
+                </div>
+                <div xml:id="ch2-sc4" type="section" n="2.4">
+                    <head>Processes</head>
+                    <div xml:id="ch2-sc4-1" type="section" n="2.4.1">
+                        <head>Vowel deletion</head>
+                    </div>
+                    <div xml:id="ch2-sc4-2" type="section" n="2.4.2">
+                        <head>Dissimilation</head>
+                    </div>
+                    <div xml:id="ch2-sc4-3" type="section" n="2.4.3">
+                        <head>Assimilation</head>
+                    </div>
+                    <div xml:id="ch2-sc4-4" type="section" n="2.4.4">
+                        <head>Vowel harmony</head>
+                        <note ana="#qual" cert="75">Draft</note>
+                        <note ana="#typRel" cert="10"/>
+                        <note ana="#langRel" cert="100"/>
+
+                        <index>
+                            <term ref="terminology.xml#vowel-harmony"/>
+                            <term ref="terminology.xml#vowel-atr"/>
+                            <term ref="terminology.xml#vowel-harmony-prefix"/>
+                            <term ref="terminology.xml#vowel-harmony-suffix"/>
+                        </index>
+
+                        <p> Abesabesi attests a rather complex <abbr corresp="glossary.xml#vh"/>
+                            system. As comprehensive research on this topic exists for all dialects
+                                (<ref target="bibliography.xml#d1e145">Agoyi2008</ref>, <ref target="bibliography.xml#d1e191">Agoyi2010</ref>, <ref target="bibliography.xml#d1e418">Agoyi2012</ref>), this section will
+                            cover <abbr corresp="glossary.xml#vh"/> in all four dialects after
+                            presenting this research's findings on <abbr corresp="glossary.xml#vh"/>
+                            in Ekiromi. </p>
+                        <p> Vowel harmony is is a special type of assimilation, where vowels are
+                            classified into two or more groups based on specific features and words
+                            usually consist of only vowels of one of those groups. Vowels in affixes
+                            then assimilate to the root vowels' group in order to fit into that
+                            group. </p>
+                        <p> In Ekiromi only some restrictions exist on which vowels can be in one
+                            word. In order to investigate vowel distribution, the sample contains
+                            only V.CV-words that are not borrowed. This is the only word structure
+                            where compounding can completely be precluded. The total number of items
+                            used here is 107. Vowel distribution in these basic Ekiromi lexemes
+                            attests three peculiarities (see table <ref target="#fig2-1"/>):
+                            Firstly, the [+ATR] mid vowels <foreign xml:lang="ibe">/e/</foreign>,
+                                <foreign xml:lang="ibe">/o/</foreign> never appear in a basic lexeme
+                            with [-ATR] vowels <foreign xml:lang="ibe">/ɛ/</foreign>, and <foreign xml:lang="ibe">/ɔ/</foreign> (red shading). As Ekiromi attests an
+                            ATR distinction only among the mid vowels, root-internal <abbr corresp="glossary.xml#atr"/>-<abbr corresp="glossary.xml#vh"/> also
+                            seems to be restricted to the mid vowels. Secondly, the low vowel
+                                <foreign xml:lang="ibe">/a/</foreign> never appears after one of the
+                            [+ATR] mid vowels <foreign xml:lang="ibe">/e/</foreign> or <foreign xml:lang="ibe">/o/</foreign> (blue shading). Thirdly, no word
+                            attests an initial <foreign xml:lang="ibe">/u/</foreign> (yellow
+                            shading). This last restriction is also common in Standard Yoruba
+                            \hl{cite}. The combination <foreign xml:lang="ibe">/i/</foreign> as
+                            first and <foreign xml:lang="ibe">/e/</foreign> as second vowel is also
+                            not attested. This might be a gap in the database, as there are plenty
+                            of examples of V.CV.C-roots with this combination (e.g., <ref type="pair" target="dictionary.xml#ijel_647f8458-e24f-4ce8-b8fa-1ae04af2e144">
+                                <foreign xml:lang="ibe">ijel</foreign> - <gloss>year</gloss>
+                            </ref>, or <ref type="pair" target="dictionary.xml#idʒej_2e2fea10-6fa3-4fd1-a7ac-4c3979f67326">
+                                <foreign xml:lang="ibe">idʒej</foreign> - <gloss>pounded yam</gloss>
+                            </ref> ). </p>
+
+                        <figure xml:id="fig2-1" n="2.1">
+                            <head>Vowel distribution in non-borrowed V.CV-words</head>
+                            <graphic url="resources/images/vowel-combinations.png"/>
+                        </figure>
+
+                        <p>Ekiromi also attests <abbr corresp="glossary.xml#vh"/> in affixes. Two
+                            different <abbr corresp="glossary.xml#vh"/>-types can be distinguished,
+                            as <abbr corresp="glossary.xml#vh"/> in suffixes differs from <abbr corresp="glossary.xml#vh"/>} in prefixes. Table <ref target="#tb2-5"/> displays alternations of the suffixed <abbr corresp="glossary.xml#firstP"/>
+                            <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#poss"/>/<abbr corresp="glossary.xml#obj"/>-morpheme. Depending on the
+                            quality of the stem's vowels, the morpheme is realized as <foreign xml:lang="ibe">na</foreign> or <foreign xml:lang="ibe">no</foreign>.
+                            Like the root-internal <abbr corresp="glossary.xml#vh"/>, the
+                                suffix-<abbr corresp="glossary.xml#vh"/> shows a clear distinction
+                            between [+ATR] vowels and [-ATR] vowels. While the [+ATR] vowels
+                                <foreign xml:lang="ibe">/e/</foreign> and <foreign xml:lang="ibe">/o/</foreign> in a root trigger the suffix vowel <foreign xml:lang="ibe">/o/</foreign>, the [-ATR] vowels <foreign xml:lang="ibe">/ɛ/</foreign> and <foreign xml:lang="ibe">/ɔ/</foreign> trigger the suffix vowel <foreign xml:lang="ibe">/a/</foreign>. The high vowels <foreign xml:lang="ibe">/i/</foreign> and <foreign xml:lang="ibe">/u/</foreign> do not have
+                            an overt <abbr corresp="glossary.xml#atr"/> distinction. Yet, they can
+                            trigger either suffix alternation, depending on the lexeme. This means,
+                            if they are the only vowels of a stem, the triggered vowel is not
+                            predictable. This is indicative of a former ATR distinction of the high
+                            vowels, which does not surface anymore. The result is high vowels with
+                            lexically specified <abbr corresp="glossary.xml#atr"/> values. As it is
+                            not detectable on a phonetic level, it has to be stored on a lexical
+                            level. The vowel <foreign xml:lang="ibe">/a/</foreign> on the other hand
+                            is neutral, as it can occur in both sets. If it is the only vowel in a
+                            stem, it always triggers the vowel <foreign xml:lang="ibe">/a/</foreign>
+                            in morphemes. This is why it is attributed to Set II. The difference
+                            between the neutral vowel <foreign xml:lang="ibe">/a/</foreign> and the
+                            high vowels <foreign xml:lang="ibe">/i/</foreign> and <foreign xml:lang="ibe">/u/</foreign> is their behavior in roots containing
+                            only one type of these three vowels, such as <ref target="dictionary.xml#afa_dacabaf3-f223-4d92-8100-3e6373dfab8e" type="pair">
+                                <foreign xml:lang="ibe">afa</foreign> - <gloss>leaf</gloss>
+                            </ref>, <ref target="dictionary.xml#ta1_a92518ff-748e-4ea7-a224-2c6ce090cd77" type="pair">
+                                <foreign xml:lang="ibe">ta</foreign> - <gloss>build</gloss>
+                            </ref> or <ref target="dictionary.xml#iʃi_dafc5314-0508-4953-9b2b-3bb0cfd3cbc4" type="pair">
+                                <foreign xml:lang="ibe">iʃi</foreign> - <gloss>housefly</gloss>
+                            </ref>. While roots containing only the vowel <foreign xml:lang="ibe">/a/</foreign> trigger [-ATR] suffixes of the set II, roots only
+                            containing high vowels take phonetically unpredictable suffixes -- their
+                            ATR value is lexically specified. For example, <ref target="dictionary.xml#afa_dacabaf3-f223-4d92-8100-3e6373dfab8e" type="pair">
+                                <foreign xml:lang="ibe">afa</foreign> - <gloss>leaf</gloss>
+                            </ref> only contains the vowel <foreign xml:lang="ibe">/a/</foreign>.
+                            Therefore, it has the phonetically predictable ATR value [-ATR] and
+                            takes the <abbr corresp="glossary.xml#firstP"/>
+                            <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#poss"/>
+                            suffix <foreign xml:lang="ibe">na</foreign>: <foreign xml:lang="ibe">afa
+                                na</foreign>. The ATR value of the noun <ref target="dictionary.xml#iʃi_dafc5314-0508-4953-9b2b-3bb0cfd3cbc4" type="pair">
+                                <foreign xml:lang="ibe">iʃi</foreign> - <gloss>housefly</gloss>
+                            </ref> on the other hand is not phonetically predictable, as it only
+                            contains high vowels. Its ATR value is lexically specified as [+ATR],
+                            which is why it takes the <abbr corresp="glossary.xml#firstP"/>
+                            <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#poss"/>
+                            suffix <foreign xml:lang="ibe">no</foreign>: <foreign xml:lang="ibe">iʃi
+                                no</foreign>. Any of these three vowels can appear in a root
+                            together with the mid vowels <foreign xml:lang="ibe">/e/</foreign>,
+                                <foreign xml:lang="ibe">/o/</foreign>, <foreign xml:lang="ibe">/ɛ/</foreign>, and <foreign xml:lang="ibe">/ɔ/</foreign>, where the
+                            ATR value will be determined by the mid vowels. </p>
+
+                        <figure xml:id="fig2-2" n="2.2">
+                            <head>Suffix-VH examples with 1SG.POSS/OBJ pronoun <foreign xml:lang="ibe">na/no</foreign>
+                            </head>
+                            <graphic url="resources/images/prefix-VH.png"/>
+                        </figure>
+
+                        <p>Suffix-<abbr corresp="glossary.xml#vh"/> applies to the following
+                            suffixes </p>
+
+                        <list xml:id="list2-1" n="2.1">
+                            <head>Suffix vowel harmony</head>
+                            <item>The object/possessive pronouns <foreign xml:lang="ibe">na/no</foreign> - <gloss>1SG.POSS/OBJ</gloss>, <foreign xml:lang="ibe">sa/so</foreign>
+                                <gloss>2SG.POSS/OBJ</gloss>, and <foreign xml:lang="ibe">ba/bo</foreign> - <gloss>3PL.POSS/OBJ</gloss>
+                            </item>
+                            <item>The gerund <foreign xml:lang="ibe">i- -aǹ </foreign> and <foreign xml:lang="ibe">i- -oǹ</foreign>
+                            </item>
+                            <item>The pluractionalis forms <foreign xml:lang="ibe">-adiàg</foreign>,
+                                    <foreign xml:lang="ibe">-odiòg</foreign>, <foreign xml:lang="ibe">-àd</foreign>, <foreign xml:lang="ibe">-òd</foreign>, <foreign xml:lang="ibe">-àg</foreign>, and
+                                    <foreign xml:lang="ibe">-òg</foreign>
+                            </item>
+                        </list>
+
+                        <figure xml:id="fig2-3" n="2.3">
+                            <head>Prefix-VH examples with PRF morpheme <foreign xml:lang="ibe">ka/ke/ko</foreign>
+                            </head>
+                            <graphic url="resources/images/suffix-VH.png"/>
+                        </figure>
+
+                        <p>Table <ref target="#fig2-3"/> displays alternations of the prefixed <abbr corresp="glossary.xml#prf"/>-morpheme. Depending of the verbs first
+                            vowel, the morpheme is realized as either <foreign xml:lang="ibe">ka</foreign>, <foreign xml:lang="ibe">ke</foreign> or <foreign xml:lang="ibe">ko</foreign>. This type of <abbr corresp="glossary.xml#prf"/> behaves almost like the suffix-<abbr corresp="glossary.xml#vh"/>. Only <foreign xml:lang="ibe">/u/</foreign> with an inherent [+ATR] value does not belong to Set
+                            I [+ATR], but forms a separate set. The triggered vowels are <foreign xml:lang="ibe">/e/</foreign> for [+ATR] vowels (Set I), <foreign xml:lang="ibe">/a/</foreign> for [-ATR] vowels (Set II), and
+                                <foreign xml:lang="ibe">/o/</foreign> for <foreign xml:lang="ibe">/u/</foreign> with an inherent [+ATR] value. </p>
+
+                        <p>The following prefixes adhere to prefix-<abbr corresp="glossary.xml#vh"/>: the <abbr corresp="glossary.xml#thirdP"/>
+                            <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#s"/>
+                            pronoun <foreign xml:lang="ibe">bà/bè/bò</foreign>, the irrealis
+                            pronouns náà/néè/nóò - <gloss>
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#irr"/>
+                            </gloss>, <foreign xml:lang="ibe">sáà/séè/sóò</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#secondP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#irr"/>
+                            </gloss>, <foreign xml:lang="ibe">anáà/anéè/anóò</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#irr"/>
+                            </gloss>, <foreign xml:lang="ibe">asáà/aséè/asóò</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#secondP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#irr"/>
+                            </gloss>, and <foreign xml:lang="ibe">báà/béè/bóò</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#irr"/>
+                            </gloss> and almost all <abbr corresp="glossary.xml#tam"/> morphemes
+                                (<foreign xml:lang="ibe">á/é/ó</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#prog"/>
+                            </gloss>, <foreign xml:lang="ibe">bá/bé/bó</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#fut"/>
+                            </gloss>, <foreign xml:lang="ibe">báa/bée/bóo</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#des"/>
+                            </gloss>, <foreign xml:lang="ibe">ka/ke/ko</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#prf"/>
+                            </gloss>, <foreign xml:lang="ibe">kinà/kinè/kinò</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#prf"/>.<abbr corresp="glossary.xml#neg"/>
+                            </gloss>, <foreign xml:lang="ibe">màá/mèé/mòó</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#hab"/>
+                            </gloss>, <foreign xml:lang="ibe">bá wa/bé we/bó wo</foreign> - <gloss>
+                                <abbr corresp="glossary.xml#epn"/>
+                            </gloss>. </p>
+
+                        <p>Summing up, Ekiromi attests <abbr corresp="glossary.xml#atr"/> harmony
+                            within word-roots and a constraint of <foreign xml:lang="ibe">/a/</foreign> after [+ATR] vowels. Moreover, suffixes adhere to an
+                                <abbr corresp="glossary.xml#atr"/> harmony and prefixes to an <abbr corresp="glossary.xml#atr"/> harmony with a third set consisting
+                            only of <foreign xml:lang="ibe">/u/</foreign> (see table <ref target="#fig2-4"/>).</p>
+
+                        <figure xml:id="fig2-4" n="2.4">
+                            <head>VH types in Ekiromi</head>
+                            <graphic url="resources/images/ekiromi-VH.png"/>
+                        </figure>
+
+                        <p>A few CVC verbs seemingly contradict these <abbr corresp="glossary.xml#vh"/> types. For example, the verb <ref type="pair" target="dictionary.xml#dɛ̀n_8b2e148d-a728-4114-ae17-cb57194b0ef1">
+                                <foreign xml:lang="ibe">dɛ̀n</foreign> - <gloss>to like</gloss>
+                            </ref> triggers the <abbr corresp="glossary.xml#thirdP"/>
+                            <abbr corresp="glossary.xml#pl"/> pronoun <foreign xml:lang="ibe">bè</foreign> instead of <foreign xml:lang="ibe">bà</foreign> and
+                            the verb <ref type="pair" target="dictionary.xml#kèd1_5459d762-889f-4669-b6ba-401272b2c133">
+                                <foreign xml:lang="ibe">kèd</foreign> - <gloss>to arrest</gloss>
+                            </ref> triggers <foreign xml:lang="ibe">bà</foreign> instead of <foreign xml:lang="ibe">bè</foreign> (examples <ref target="#ex2-2"/> a+b).
+                            Looking at vowel deletion between verbs and vowels, this can be
+                            explained. If root vowels are deleted, vowel harmony aligns to the
+                            deleted vowel's quality instead of the remaining vowel (see example <ref target="#ex2-2"/> c). These seemingly unfitting cases are thus
+                            likely to have originated as verb-noun compounds, where the underlying
+                            verb is often not retraceable. </p>
+
+                        <joinGrp xml:id="ex2-2" n="2.2">
+                            <ptr n="a" target="examples.xml#ibe057-00.009"/>
+                            <ptr n="b" target="examples.xml#ibe281-00.198"/>
+                            <ptr n="c" target="examples.xml#ibe327-00.069"/>
+                        </joinGrp>
+
+                        <p>
+                            <ref target="bibliography.xml#d1e145">Agoyi (2008)</ref> investigated
+                                <abbr corresp="glossary.xml#vh"/>in all dialects. She claims that
+                                <abbr corresp="glossary.xml#atr"/> restrictions within a root are
+                            only present in the Ekiromi dialect, where the mid vowels <foreign xml:lang="ibe">/ɛ/</foreign> and <foreign xml:lang="ibe">/ɔ/</foreign> can not co-occur with their [+ATR] counterparts
+                                <foreign xml:lang="ibe">/e/</foreign> and <foreign xml:lang="ibe">/o/</foreign>. The restriction of the vowel <foreign xml:lang="ibe">/a/</foreign>, which cannot follow a [+ATR] vowel, however, applies
+                            to all dialects. She distinguishes six <abbr corresp="glossary.xml#vh"/>
+                            types based on the features <abbr corresp="glossary.xml#atr"/>, lowness
+                            and roundedness. Figure <ref target="#fig2-5"/> and <ref target="#fig2-6"/> displays all six types. Type 3 (ATR+low) was
+                            added in <ref target="bibliography.xml#d1e418">Agoyi (2008)</ref>, where
+                            she lists two different types for the Oshugu dialect. Her analysis
+                            includes four different domains: the prefixed <abbr corresp="glossary.xml#tam"/> morphemes, the prefixed subject
+                            prounoun <foreign xml:lang="ibe">ba/be/bɔ/bo</foreign>
+                            <note n="1">As this is Agoyi's analysis, her transcription is used, but
+                                without tones, as they are inconsistently transcribed</note>, the
+                            suffixed object/possessive pronouns <foreign xml:lang="ibe">nã/nɔ̃/nõ</foreign>, <foreign xml:lang="ibe">sa/sɔ/so</foreign>,
+                            and <foreign xml:lang="ibe">ba/bɔ/bo</foreign>, and the nominalization
+                            circumfix <foreign xml:lang="ibe">i- -anĩ/i- -enĩ/i- ɔnĩ/i-
+                                -onĩ</foreign>.</p>
+
+                        <figure xml:id="fig2-5" n="2.5">
+                            <head>VH types with two sets according to Agoyi (2008/2012b)</head>
+                            <graphic url="resources/images/2setVH.png"/>
+                        </figure>
+                        <figure xml:id="fig2-6" n="2.6">
+                            <head>VH types with three sets according to Agoyi (2008)</head>
+                            <graphic url="resources/images/3setVH.png"/>
+                        </figure>
+
+                        <table xml:id="tb2-5" n="2.5">
+                            <head>VH types in different dialects according to Agoyi (2008,
+                                2012b)</head>
+                            <row>
+                                <cell>Domain/Dialect</cell>
+                                <cell>Ilueni</cell>
+                                <cell>Ekiromi</cell>
+                                <cell>Akpes</cell>
+                                <cell>Oshugu</cell>
+                            </row>
+                            <row>
+                                <cell>Prefix:TAM</cell>
+                                <cell>ATR(e)</cell>
+                                <cell>ATR+u</cell>
+                                <cell>ATR+round</cell>
+                                <cell>ATR+Low</cell>
+                            </row>
+                            <row>
+                                <cell>Prefix:PRO</cell>
+                                <cell>ATR(e)</cell>
+                                <cell>ATR+u</cell>
+                                <cell>ATR+round</cell>
+                                <cell>ATR+Low<note n="2">Agoyi (2008) claims Oshugu uses the Low
+                                        type in all domains although her data shows that the
+                                        prefixed domains do not behave according to her Low type.
+                                        Agoyi (2012) adds the ATR+low type and says it applies to
+                                        the TAM domain but does not mention the subject pronoun
+                                        domain. As the data for subject pronouns in Agoyi (2008, p.
+                                        82} is also evocative of the ATR+low type, this table
+                                        attributes ATR+low to the Prefix:PRO domain of
+                                        Oshugu.</note>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Suffix:NMLZ</cell>
+                                <cell>ATR(e)</cell>
+                                <cell>ATR(o)</cell>
+                                <cell>Low</cell>
+                                <cell>Low</cell>
+                            </row>
+                            <row>
+                                <cell>Suffix:PRO</cell>
+                                <cell>/</cell>
+                                <cell>ATR(o)</cell>
+                                <cell>Low</cell>
+                                <cell>Low</cell>
+                            </row>
+                        </table>
+
+                        <p>These <abbr corresp="glossary.xml#vh"/> types are the base of her
+                            internal classification (see table <ref target="#tb2-5"/>. Each dialect
+                            has one <abbr corresp="glossary.xml#vh"/> type for prefixation and one
+                            for suffixation. The only exception is the Ilueni dialect, which has the
+                            most reduced system with one single type for all remaining domains. A
+                            few points of Agoyi's analysis do not match with the findings of this
+                            research. As my data is restricted to the Ekiromi dialect, additions and
+                            changes to her analysis are only verified for Ekiromi but an analogous
+                            application to the other dialects might be possible with more data. Her
+                            types 2 (ATR(o)) and 6 (ATR+u) match the Ekiromi prefixation and
+                            suffixation <abbr corresp="glossary.xml#vh"/>-types described earlier.
+                            Yet, she attributes <foreign xml:lang="ibe">/i/</foreign> and <foreign xml:lang="ibe">/u/</foreign> only to one set in each type and does
+                            not analyze <foreign xml:lang="ibe">/a/</foreign> as a neutral vowel.
+                        </p>
+                    </div>
+                </div>
+                <div xml:id="ch2-sc5" type="section" n="2.5">
+                    <head>Tonology</head>
+                </div>
+                <div xml:id="ch2-sc6" type="section" n="2.6">
+                    <head>Orthography</head>
+                </div>
+            </div>
+            <div xml:id="ch3" type="chapter" n="3">
+                <head>The sentence - an overview</head>
+
+                <div xml:id="ch3-sc1" n="3.1">
+
+                    <head>The clause</head>
+                    <index>
+                        <term ref="terminology.xml#clause"/>
+                    </index>
+                </div>
+                <div xml:id="ch3-sc2" n="3.2">
+
+                    <head>Phrase types</head>
+                    <div xml:id="ch3-sc2-1" n="3.2.1">
+
+                        <head>Noun phrase</head>
+                    </div>
+                    <div xml:id="ch3-sc2-2" n="3.2.2">
+
+                        <head>Verb phrase</head>
+                    </div>
+                    <div xml:id="ch3-sc2-3" n="3.2.3">
+
+                        <head>Prepositional phrase</head>
+                    </div>
+                </div>
+
+                <div xml:id="ch3-sc3" n="3.3">
+
+                    <head>Word classes</head>
+
+                    <p>Abesabesi offers a formal distinction between two major classes:
+                        vowel-initial and consonant initial words. This separation is probably a
+                        relic of a former noun-class system with vowel prefixes (see Section <ref target="#ch4-sc2-2"/>) which resulted in a separation of nouns and
+                        noun-like words from verbs. Henceforth, I will call the vowel-initial words
+                        consisting of nouns and noun-like words <term ref="terminology.xml#nominal">nominals</term> and the consonant-initial words <term ref="terminology.xml#verb">verbs</term>. In fact, there are a few nouns
+                        with initial consonant, mostly loan-words. However, as they are reanalyzed
+                        as words with deleted initial <foreign>/i/</foreign>, they are seen as words
+                        with an underlying initial <foreign>/i/</foreign>. For a short discussion,
+                        see Section <ref target="#ch2-sc3"/>. The major syntactic distinction
+                        between these two broad classes is that nominals can head <abbr corresp="glossary.xml#np"/>s and verbs can head <abbr corresp="glossary.xml#vp"/>s. </p>
+                    <p>Nominals consist of prototypical nouns and their subclasses, demonstratives,
+                        and pronouns. Besides their initial vowel and their ability to head an <abbr corresp="glossary.xml#np"/>, which distinguishes them from verbs,
+                        nominals also feature a human/non-human distinction, which is a leftover
+                        from the former noun-class system. This distinction might be inherently
+                        determined (such as in prototypical nouns) or marked by agreement (such as
+                        on property nouns or pronouns). The word class of nouns is discussed in
+                        Chapter <ref target="#ch4"/> along with nominal morphology, non-prototypical
+                        nouns, and the noun phrase. Determiners are discussed in Section <ref target="#ch7-sc1"/> and Pronouns in Section <ref target="#ch7-sc2"/>.</p>
+                    <p>Verbs are consonant-initial, and can head <abbr corresp="glossary.xml#vp"/>s.
+                        They are discussed in Section <ref target="#ch5"/> along with verbal
+                        morphology, <abbr corresp="glossary.xml#tam"/> categories, non-prototypical
+                        verbs, and verb phrases. </p>
+                    <p>The word class of adverbs might have developed from nouns as they have an
+                        initial vowel. They cannot, however, be categorized as nominals, because
+                        they cannot function as core arguments and do not head <abbr corresp="glossary.xml#np"/>s. A detailed discussion can be found in
+                        Section <ref target="#ch6-sc3"/>.</p>
+                    <p>Lastly, the particle category encompasses all little words that are purely
+                        functional and cannot be assigned to one of the other categories. They are
+                        discussed in Section <ref target="#ch6-sc4"/>
+                    </p>
+                    <p>We distinguish the following word classes and sub-classes:</p>
+                    <list>
+                        <item>Nominals <list>
+                                <item>Nouns<list>
+                                        <item>Prototypical nouns <list>
+                                                <item>e.g., <ref type="pair" target="dictionary.xml#ìtɔ̀j_dfa28c76-6d62-4c79-abca-241518f94dff">
+                                                        <foreign>ìtɔ̀j</foreign>
+                                                  <gloss>grass</gloss>
+                                                    </ref>, <ref type="pair" target="dictionary.xml#ɔ̀jɛ̀_5d116638-9e76-4d28-9261-64d6b3a2c8aa">
+                                                        <foreign>ɔ̀jɛ̀</foreign>
+                                                  <gloss>music</gloss>
+                                                    </ref>, <ref type="pair" target="dictionary.xml#èkiròm_7296a2f1-c391-4c3b-a5b1-688b183877b4">
+                                                        <foreign>èkiròm</foreign>
+                                                  <gloss>Ikaram</gloss>
+                                                    </ref>
+                                                </item>
+                                            </list>
+                                        </item>
+                                        <item> Property nouns <list>
+                                                <item>e.g., <ref type="pair" target="dictionary.xml#ɛŋa_fc72809f-4c63-4cd9-ac4a-becaf4ca65e4">
+                                                        <foreign>ɛŋa</foreign>
+                                                  <gloss>new</gloss>
+                                                    </ref>, <ref type="pair" target="dictionary.xml#ɛmiɲɛ_2108b78f-afc6-4a68-b9ea-5f1329a9fe83">
+                                                        <foreign>ɛmiɲɛ</foreign>
+                                                  <gloss>small</gloss>
+                                                    </ref>, <ref type="pair" target="dictionary.xml#efo_97e41ba2-95e7-4c86-ad9f-e1d4d550beea">
+                                                        <foreign>efo</foreign>
+                                                  <gloss>white</gloss>
+                                                    </ref>
+                                                </item>
+                                            </list>
+                                        </item>
+                                        <item> Numerals<list>
+                                                <item>e.g., <ref type="pair" target="dictionary.xml#ekìn_d2efb603-de74-4c28-84c5-0ed54439acd4">
+                                                        <foreign>ekìn</foreign>
+                                                  <gloss>one</gloss>
+                                                    </ref>, <ref type="pair" target="dictionary.xml#íʃánas_d156bc37-41ad-4f84-ad4b-4ae5a8d2de87">
+                                                        <foreign>íʃánas</foreign>
+                                                  <gloss>six</gloss>
+                                                    </ref>, <ref type="pair" target="dictionary.xml#ànaàniŋ_3b47ae8d-03bd-4b9b-95d6-131893840316">
+                                                        <foreign>ànaàniŋ</foreign>
+                                                  <gloss>eight</gloss>
+                                                    </ref>
+                                                </item>
+                                            </list>
+                                        </item>
+                                        <item> Function nouns <list>
+                                                <item>e.g., <ref type="pair" target="dictionary.xml#òʃum_a3d09010-ef3b-4e1b-a2a5-98ddece0dce8">
+                                                        <foreign>òʃum</foreign>
+                                                  <gloss>back/behind/after</gloss>
+                                                    </ref>, <ref type="pair" target="dictionary.xml#òkú_5300d3e4-1014-4b5e-8359-bbe90c33fce8">
+                                                        <foreign>òkú</foreign>
+                                                  <gloss>all</gloss>
+                                                    </ref>
+                                                </item>
+                                            </list>
+                                        </item>
+                                        <item> Deverbal nouns <list>
+                                                <item>e.g., <foreign>ikòoǹ</foreign>
+                                                  <gloss>falling</gloss>, <foreign>idàsaǹ</foreign>
+                                                  <gloss>going</gloss>, <foreign>ohu</foreign>
+                                                  <gloss>death</gloss>
+                                                </item>
+                                            </list>
+                                        </item>
+                                    </list>
+                                </item>
+                                <item>Demonstratives <list>
+                                        <item>e.g., <foreign>èéni</foreign>
+                                            <gloss>this</gloss>, <foreign>ɛ̀dɛ́n</foreign>
+                                            <gloss>that</gloss>, <foreign>ìdín</foreign>
+                                            <gloss>these</gloss>
+                                        </item>
+                                    </list>
+                                </item>
+                                <item>Pronouns <list>
+                                        <item>e.g., <foreign>àu</foreign>
+                                            <gloss>
+                                                <abbr corresp="glossary.xml#thirdP"/>
+                                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>/ <abbr corresp="glossary.xml#log"/>
+                                            </gloss>,
+                                                <foreign>èɲeɲès</foreign>
+                                            <gloss>ours</gloss>, <foreign>ɔńtɔn</foreign>
+                                            <gloss>anybody</gloss>
+                                        </item>
+                                    </list>
+                                </item>
+                            </list>
+                        </item>
+
+                        <item>Verbs <list>
+                                <item>Prototypical verbs <list>
+                                        <item>e.g., <foreign>miʃ</foreign>
+                                            <gloss>sleep</gloss>, <foreign>jotu</foreign>
+                                            <gloss>steal</gloss>, <foreign>tì</foreign>
+                                            <gloss>push</gloss>
+                                        </item>
+                                    </list>
+                                </item>
+                                <item>Property verbs <list>
+                                        <item>e.g., <foreign>honò</foreign>
+                                            <gloss>be hard</gloss>, <foreign>ɲa</foreign>
+                                            <gloss>be read</gloss>, <foreign>ʃen</foreign>
+                                            <gloss>be good</gloss>
+                                        </item>
+                                    </list>
+                                </item>
+                                <item>Defunct verbs <list>
+                                        <item>e.g., <foreign>gó</foreign>
+                                            <gloss>it is...</gloss>, <foreign>té</foreign>
+                                            <gloss>there is</gloss>, <foreign>síkɔ́</foreign>
+                                            <gloss>how about?</gloss>
+                                        </item>
+                                    </list>
+                                </item>
+                                <item>Auxiliary verbs <list>
+                                        <item>e.g., <foreign>jànà</foreign>
+                                            <gloss>early</gloss>, <foreign>fàŋ</foreign>
+                                            <gloss>
+                                                <abbr corresp="glossary.xml#cpor"/>
+                                            </gloss>
+                                        </item>
+                                    </list>
+                                </item>
+                            </list>
+                        </item>
+                        <item>Adverbs <list>
+                                <item>e.g., <foreign>èhen</foreign>
+                                    <gloss>now</gloss>, <foreign>òhen</foreign>
+                                    <gloss>here</gloss>, <foreign>ìdʒɛ</foreign>
+                                    <gloss>today</gloss>
+                                </item>
+                            </list>
+                        </item>
+                        <item>Particles <list>
+                                <item>e.g., <foreign>gí</foreign>
+                                    <gloss>
+                                        <abbr corresp="glossary.xml#foc"/>
+                                    </gloss>,
+                                        <foreign>è</foreign>
+                                    <gloss>
+                                        <abbr corresp="glossary.xml#neg"/>
+                                    </gloss>,
+                                        <foreign>mi</foreign>
+                                    <gloss>
+                                        <abbr corresp="glossary.xml#rel"/>
+                                    </gloss>
+                                </item>
+                            </list>
+                        </item>
+                    </list>
+                </div>
+            </div>
+            <div xml:id="ch4" n="4">
+                <head>Nouns and the noun phrase</head>
+                <div xml:id="ch4-sc1" n="4.1">
+                    <head>The noun</head>
+                </div>
+                <div xml:id="ch4-sc2" n="4.2">
+                    <head>Nominal morphology</head>
+                    <div xml:id="ch4-sc2-1" n="4.2.1">
+                        <head>Number</head>
+                    </div>
+                    <div xml:id="ch4-sc2-2" n="4.2.2">
+                        <head>Noun class</head>
+
+                        <p> While only some languages of the region still have a productive noun
+                            class system (see <ref target="bibliography.xml#d1e2568">Salffner (2009,
+                                p.59-61)</ref> for Ukaan), most languages only exhibit traces, such
+                            as the initial vowels in nouns. This is also the case in Abesabesi.
+                            These initial vowels, former noun class prefixes, can represent an
+                            affiliation to a semantic domain, mark number and give a distinction
+                            between human and non-human. The former noun-class system is clearly
+                            decaying, as most of these traits have become optional. </p>
+                        <p>Assuming the quality of the initial vowel represented the affiliation to
+                            a certain noun class, as it is the case in neighboring Ukaan, some
+                            semantic domains can be spotted. Table <ref target="#tb4-1"/> shows,
+                            that most lexical items denoting people start with an <foreign xml:lang="ibe">/o/</foreign> or <foreign xml:lang="ibe">/ɔ/</foreign>, most animals and all properties start with an
+                                <foreign xml:lang="ibe">/e/</foreign> or <foreign xml:lang="ibe">/ɛ/</foreign>, and gerunds all start with an <foreign xml:lang="ibe">/i/</foreign>. </p>
+                        <table xml:id="tb4-1" n="4.1">
+                            <head>Initial vowels matched with semantic domains</head>
+                            <row>
+                                <cell>
+                                    <foreign xml:lang="ibe">o-/ɔ-</foreign>
+                                </cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">e-/ɛ-</foreign>
+                                </cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">i-</foreign>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɔni_5a7750dd-47ba-4d55-b593-685e577c5d5a">
+                                        <foreign xml:lang="ibe">ɔni</foreign> -
+                                            <gloss>person</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɛnam_a16e3dc4-4e12-409d-9c18-1f24585e0f58">
+                                        <foreign xml:lang="ibe">ɔni</foreign> -
+                                            <gloss>person</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#das_29f4e809-ea23-47c7-98b2-dab579de8229">
+                                        <foreign xml:lang="ibe">idàsaǹ</foreign> -
+                                            <gloss>going</gloss>
+                                    </ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#oɲo_5152bb42-1d47-4056-beff-5ea419a01d08">
+                                        <foreign xml:lang="ibe">oɲo</foreign> - <gloss>wife</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ehu_f3607d4d-0ee1-4ce2-a7fe-d622a300981a">
+                                        <foreign xml:lang="ibe">ehu</foreign> - <gloss>rat</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#bug_4bf51fc7-6682-4aa1-8e87-f6c4cc64d8be">
+                                        <foreign xml:lang="ibe">ibùgoǹ</foreign> -
+                                            <gloss>beating</gloss>
+                                    </ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#owos_565b4936-646c-4c95-9275-8992741f36b3">
+                                        <foreign xml:lang="ibe">owos</foreign> -
+                                            <gloss>husband</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɛbuj_43ea3d5f-d490-4307-af57-77689b4fcae4">
+                                        <foreign xml:lang="ibe">ɛbuj</foreign> - <gloss>goat</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ku1_7af86fae-a662-4742-b67e-6624757490d4">
+                                        <foreign xml:lang="ibe">ikòoǹ</foreign> -
+                                            <gloss>falling</gloss>
+                                    </ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#otu_19c4be6e-cc47-485c-8336-dad305c0fa01">
+                                        <foreign xml:lang="ibe">otu</foreign> - <gloss>thief</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ebo_a2d7fd54-a7c4-4fe0-b7c0-7311348a90c5">
+                                        <foreign xml:lang="ibe">ebo</foreign> - <gloss>dog</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#wuʃò_59b6395e-24cd-4850-9b1f-f566c62083c3">
+                                        <foreign xml:lang="ibe">iwùʃoǹ</foreign> -
+                                            <gloss>planting</gloss>
+                                    </ref>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɔmis_f6876478-4364-403c-8f3d-ad913441aa98">
+                                        <foreign xml:lang="ibe">ɔmis</foreign> - <gloss>king</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɛna_cdaeed9d-f203-4c30-bc83-d2d98dd01c9e">
+                                        <foreign xml:lang="ibe">ɛna</foreign> - <gloss>cow</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>etc.</cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#òtòj_a89da70e-f4f3-46b5-a943-b6fdf5e7c9da">
+                                        <foreign xml:lang="ibe">òtòj</foreign> - <gloss>girl</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɛdug_803b2ef6-8a58-438e-a5e4-f17cfaf2a897">
+                                        <foreign xml:lang="ibe">ɛdug</foreign> - <gloss>big</gloss>
+                                    </ref>
+                                </cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɔʃamis_912e463d-4336-4da9-9200-fa576fc31f17">
+                                        <foreign xml:lang="ibe">ɔʃamis</foreign> -
+                                            <gloss>friend</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɛmiɲɛ_2108b78f-afc6-4a68-b9ea-5f1329a9fe83">
+                                        <foreign xml:lang="ibe">ɛmiɲɛ</foreign> -
+                                            <gloss>small</gloss>
+                                    </ref>
+                                </cell>
+                                <cell/>
+                            </row>
+                            <row>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɔban_0fba4c54-9b60-43ca-b903-353aa2faa361">
+                                        <foreign xml:lang="ibe">ɔban</foreign> -
+                                            <gloss>child</gloss>
+                                    </ref>
+                                </cell>
+                                <cell>
+                                    <ref type="pair" target="dictionary.xml#ɛŋa_fc72809f-4c63-4cd9-ac4a-becaf4ca65e4">
+                                        <foreign xml:lang="ibe">ɛŋa</foreign> - <gloss>new</gloss>
+                                    </ref>
+                                </cell>
+                                <cell/>
+                            </row>
+                        </table>
+                        <p>These former noun classes are also reflected in the human/non-human
+                            distinction in the pronoun paradigms of Abesabesi. While the bound <abbr corresp="glossary.xml#thirdP"/>
+                            <abbr corresp="glossary.xml#sg"/> pronoun for humans is <foreign xml:lang="ibe">ɔ́</foreign>, the pronoun for non-humans is <foreign xml:lang="ibe">ɛ́</foreign>. This distinction is also present in the
+                            third person plural pronouns <foreign xml:lang="ibe">bà/bè/bò</foreign>
+                            (human) and <foreign xml:lang="ibe">í</foreign> (non-human). </p>
+                        <p>Number marking is another trace of the noun-class system. As discussed in
+                            the previous section, human plural nouns start with an <foreign xml:lang="ibe">/a/</foreign>, while non-human plural nouns start
+                            with an <foreign xml:lang="ibe">/i/</foreign>. Demonstratives and
+                            property nouns both agree in number with the noun they modify. Only one
+                            instance of a property noun agrees with human nouns by switching the
+                            initial vowel to <foreign xml:lang="ibe">/o/</foreign> (see example <ref target="#ex4-1"/>).</p>
+                        <joinGrp xml:id="ex4-1" n="4.1">
+                            <ptr n="a" target="examples.xml#ibe292-00.045"/>
+                            <ptr n="b" target="examples.xml#ibe001-01.120"/>
+                        </joinGrp>
+                        <p>If we look at Ukaan, to compare Abesabesi to a productive noun class
+                            system of the region, we can see many similarities amongst the noun
+                            class prefixes (see figure <ref target="#fig4-1"/>). For example, the
+                            prefix for the first noun class including mostly humans is also O- and
+                            its plural is A-. The other plural class has the prefix -I. In Abesabesi
+                            and Ukaan, the <abbr corresp="glossary.xml#atr"/> value is not critical
+                            for the affiliation to noun classes, which is why capital letters are
+                            used as archiphones. Ukaan's noun class system could be a possible
+                            representation of how Abesabesi's system could have looked like before
+                            it lost the agreement classes. This system is also similar to the Edoid
+                            one. <ref target="bibliography.xml#d1e1489">Elugbe (1989, p. 123)</ref>
+                            reconstructs the five vocalic singular noun prefixes U-, I-, E-, O-, and
+                            A- and two plural prefixes A- and I-.</p>
+
+                        <figure xml:id="fig4-1" n="4.1">
+                            <head>Ukaan noun classes. (Salffner 2009, p.60)</head>
+                            <graphic url="resources/images/ukaanNounClasses.png"/>
+                        </figure>
+
+                        <p>Synchronically, however, Abesabesi's system has reduced to four classes,
+                            distinguishing human from non-human and singular from plural (see table
+                                <ref target="#tb4-2"/>). Agreement has been reduced to a
+                            singular/plural distinction, while pronoun paradigms distinguish all
+                            four classes.</p>
+
+                        <table xml:id="tb4-2" n="4.2">
+                            <head>Synchronous analysis of noun classes</head>
+                            <row>
+                                <cell>Class</cell>
+                                <cell>Prefixes</cell>
+                                <cell>Agreement</cell>
+                                <cell>Subject pronoun</cell>
+                            </row>
+                            <row>
+                                <cell>Human Singular</cell>
+                                <cell>mostly O-</cell>
+                                <cell>E-</cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">ɔ́</foreign>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Human Plural</cell>
+                                <cell>mostly A-</cell>
+                                <cell>I-</cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">bà/bè/bò</foreign>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Non-human Singular</cell>
+                                <cell>A-/E-/I-/O-</cell>
+                                <cell>E-</cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">ɛ́</foreign>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Non-human Plural</cell>
+                                <cell>I-</cell>
+                                <cell>I-</cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">í</foreign>
+                                </cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div xml:id="ch4-sc2-3" n="4.2.3">
+                        <head>Goal</head>
+                    </div>
+                </div>
+                <div xml:id="ch4-sc3" n="4.3">
+                    <head>Non-prototypical nouns</head>
+                    <div xml:id="ch4-sc3-1" n="4.3.1">
+                        <head>Property nouns</head>
+                    </div>
+                    <div xml:id="ch4-sc3-2" n="4.3.2">
+                        <head>Numerals</head>
+                    </div>
+                    <div xml:id="ch4-sc3-3" n="4.3.3">
+                        <head>Function nouns</head>
+                    </div>
+                    <div xml:id="ch4-sc3-4" n="4.3.4">
+                        <head>Deverbal nouns</head>
+                    </div>
+                </div>
+                <div xml:id="ch4-sc4" n="4.4">
+                    <head>Noun phrase</head>
+                </div>
+            </div>
+            <div xml:id="ch5" n="5">
+                <head>Verbs and the verb phrase</head>
+                <div xml:id="ch5-sc1" n="5.1">
+                    <head>The verb</head>
+                </div>
+                <div xml:id="ch5-sc2" n="5.2">
+                    <head>Verbal morphology</head>
+                    <div xml:id="ch5-sc2-3" n="5.2.3">
+                        <head>Object pronouns</head>
+                    </div>
+                </div>
+                <div xml:id="ch5-sc3" n="5.3">
+                    <head>Non-prototypical verbs</head>
+                    <div xml:id="ch5-sc3-1" n="5.3.1">
+                        <head>Property verbs</head>
+                    </div>
+                    <div xml:id="ch5-sc3-2" n="5.3.2">
+                        <head>Auxiliary verbs</head>
+                    </div>
+                    <div xml:id="ch5-sc3-3" n="5.3.3">
+                        <head>Defunct verbs</head>
+                        <index>
+                            <term ref="terminology.xml#verb-defunct"/>
+                        </index>
+                        <p> Abesabesi has three words that look like verbs, and take up a verbal
+                            position in a clause but feature a couple of deviant traits that
+                            distinguish them from prototypical verbs. As they can be categorized
+                            somewhere between verbs and particles, they will be called defunct
+                            verbs. </p>
+                        <p>The first defunct verb is <foreign xml:lang="ibe">gó</foreign>, which can
+                            roughly be translated as 'it is...'. Together with a preceding <abbr corresp="glossary.xml#np"/>, it constitutes a separate utterance and
+                            forms the independent focus construction (see Section <ref target="#ch9-sc2"/>).</p>
+                        <joinGrp xml:id="ex5-1" n="5.1">
+                            <ptr n="a" target="examples.xml#ibe346-00.140"/>
+                        </joinGrp>
+
+                        <p>
+                            <foreign xml:lang="ibe">gó</foreign> never appears negated, as the
+                            negated equivalent is <foreign xml:lang="ibe">ɛ́ɛ̀ tu ... è</foreign>,
+                            literally translated as <gloss>it is not</gloss>. This construction uses
+                            the verbal copula <foreign xml:lang="ibe">tu</foreign> and is discussed
+                            in Section <ref target="#ch9-sc2"/>. </p>
+
+                        <p>The second defunct verb is <ref type="pair" target="dictionary.xml#té_c2258897-4d89-474c-8924-9bcef58d751e">
+                                <foreign xml:lang="ibe">té</foreign>
+                            </ref> and can be translated as <gloss>there is...</gloss>. It is
+                            preceded by an <abbr corresp="glossary.xml#np"/> and forms an
+                            existential clause. Optionally, it can be followed by a dative object
+                            (valence-increasing auxiliary <ref type="lemma" target="dictionary.xml#ʃa2_f73a0eb2-b242-447a-aa40-76d79a7d74ba">
+                                <foreign xml:lang="ibe">ʃa</foreign>
+                            </ref> plus object), an adjunct (<abbr corresp="glossary.xml#np"/> or
+                                <abbr corresp="glossary.xml#pp"/>), or a negation particle <foreign xml:lang="ibe">è</foreign>. </p>
+                        <joinGrp xml:id="ex5-2" n="5.2">
+                            <ptr n="a" target="examples.xml#ibe104-00.140"/>
+                            <ptr n="b" target="examples.xml#ibe096-00.217"/>
+                        </joinGrp>
+                        <p>The third defunct verb is <ref type="pair" target="dictionary.xml#síkɔ́_0f996e0e-45de-40d5-a2d9-43d5adc848c6">
+                                <foreign xml:lang="ibe">síkɔ́</foreign> - <gloss>where is/what
+                                    about</gloss>
+                            </ref>. It is as well preceded by an <abbr corresp="glossary.xml#np"/>
+                            and may be used to inquire a location (where is) or to lead a question
+                            towards another referent (what about). <ref type="lemma" target="dictionary.xml#síkɔ́_0f996e0e-45de-40d5-a2d9-43d5adc848c6">
+                                <foreign xml:lang="ibe">síkɔ́</foreign>
+                            </ref> does not appear with the negation particle <foreign xml:lang="ibe">è</foreign>.</p>
+                        <joinGrp xml:id="ex5-3" n="5.3">
+                            <ptr n="a" target="examples.xml#ibe033-00.112"/>
+                            <ptr n="b" target="examples.xml#ibe117-00.079"/>
+                        </joinGrp>
+                        <p>All of these three defunct verbs have a verbal form (CV or CVCV), but
+                            carry high tones. Lexical high tones are not frequent. High tones mostly
+                            are used as tonemes (see Section <ref target="#ch2-sc5"/>) or are
+                            carried by function words. Defunct verbs indeed rather have a
+                            grammatical function than a meaning. Furthermore, they never appear with
+                                <abbr corresp="glossary.xml#tam"/> markers or bound subject
+                            pronouns. Independent pronouns have to be used (as in Example <ref target="#ex5-1"/>). The preceding <abbr corresp="glossary.xml#np"/>
+                            does not take a <abbr corresp="glossary.xml#oneh"/> (described in
+                            Section <ref target="#ch2-sc5"/>) as in affirmative verbal clauses.</p>
+                    </div>
+                </div>
+                <div xml:id="ch5-sc4" n="5.4">
+                    <head>Verb phrase</head>
+                </div>
+            </div>
+            <div xml:id="ch6" n="6">
+                <head>Minor word classes</head>
+                <index>
+                    <term ref="terminology.xml#wordclass"/>
+                </index>
+
+                <div xml:id="ch6-sc1" n="6.1">
+
+                    <head>Determiners</head>
+                </div>
+                <div xml:id="ch6-sc2" n="6.2">
+                    <head>Pronouns</head>
+                    <p> Pronouns are classified as a nominal category as they start with a vowel and
+                        can be the heads of NPs. This, however, only applies to free pronouns, as
+                        the three bound pronoun sets (subject, object, and possessive pronouns)
+                        attach to verbs or nouns. This section discusses all bound and free pronouns
+                        in Abesabesi.  Table <ref target="#tb6-2"/> lists all pronoun paradigms and rlinks to the respective section in which they are discussed.</p>
+                    
+                    <table xml:id="tb6-2">
+                        <head>Pronouns</head>
+                        <row>
+                            <cell>Pronouns</cell>
+                            <cell>Morpheme type</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-1">Bound subject</ref>
+                            </cell>
+                            <cell>Bound</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-2">Bound object</ref>
+                            </cell>
+                            <cell>Bound</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-3">Bound possessive</ref>
+                            </cell>
+                            <cell>Bound</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-4">Independent</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-5">Logophoric</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-6">Dative</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-7">Independent possessive</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-8">Emphatic</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-9">Indefinite</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-10">Reciprocal</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-11">Demonstrative</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ref target="#ch6-sc2-12">Interrogative</ref>
+                            </cell>
+                            <cell>Free</cell>
+                        </row>
+                    </table>
+                    <p>Of these twelve pronoun sets, the first eight are personal pronouns (bound
+                        subject, bound object, bound possessive, independent, logophoric, dative,
+                        independent possessive, and emphatic). All personal pronouns, whether free
+                        or bound, distinguish three persons and two numbers (singular and plural).
+                        The third person in all personal pronoun types additionally distinguishes
+                        between human and non-human referents. </p>
+                    <div xml:id="ch6-sc2-1" n="6.2.1">
+                        <head>Subject pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-2" n="6.2.2">
+                        <head>Possessive pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-3" n="6.2.3">
+                        <head>Possessive pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-4" n="6.2.4">
+                        <head>Independent Pronouns</head>
+
+                        <note ana="#qual" cert="75">Draft</note>
+                        <note ana="#typRel" cert="50"/>
+                        <note ana="#langRel" cert="80"/>
+
+                        <index>
+                            <term ref="terminology.xml#pronoun-independent"/>
+                            <term ref="terminology.xml#verb-defunct"/>
+                            <term ref="terminology.xml#focus-construction"/>
+                            <term ref="terminology.xml#emphasis"/>
+                        </index>
+
+
+                        <p> This paradigm contains pronouns that are prosodically, morphologically
+                            and syntactically independent. The pronouns all start with the
+                                vowel<foreign xml:lang="ibe">/ò/</foreign> or <foreign xml:lang="ibe">/à/</foreign> followed by a part that is formally
+                            similar to the possessive/object pronouns (sections <ref target="#ch5-sc1-3"/> and <ref target="#ch6-sc1-3"/>). While the
+                            first and second person pronouns carry only low tones, the third person
+                            human pronouns carry a low and a mid tone. Independent pronouns never
+                            adhere to vowel harmony.</p>
+
+                        <table xml:id="tb6-1" n="6.1">
+                            <head>Independent pronouns</head>
+                            <row>
+                                <cell/>
+                                <cell>Singular</cell>
+                                <cell>Plural</cell>
+                            </row>
+                            <row>
+                                <cell>1P</cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">ònì</foreign>
+                                </cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">àbès</foreign>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>2P</cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">òsì</foreign>
+                                </cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">àbèn</foreign>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>3P.HUM</cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">àu</foreign>
+                                </cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">àba</foreign>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>3P.NHUM</cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">ɛ̀jì</foreign>
+                                </cell>
+                                <cell>
+                                    <foreign xml:lang="ibe">ìjì</foreign>
+                                </cell>
+                            </row>
+                        </table>
+                        <p> These pronouns are generally used to express emphasis. A pronoun in the
+                            fronted focus position, for example, must be an independent pronoun. In
+                            this position, the pronoun can function as subject, primary object, or
+                            auxiliary object (see example <ref target="#ex6-1"/>). Example <ref target="#ex6-1"/> c shows a fronted pronoun that is the object of
+                            the auxiliary verb <foreign xml:lang="ibe">ʃa</foreign> (auxiliary verbs
+                            are discussed in section <ref target="#ch6-2"/>).</p>
+
+
+                        <joinGrp xml:id="ex6-1" n="6.1">
+                            <ptr n="a" target="examples.xml#ibe346-00.160"/>
+                            <ptr n="b" target="examples.xml#ibe065-00.066"/>
+                            <ptr n="c" target="examples.xml#ibe365-00.081"/>
+                        </joinGrp>
+
+                        <p>Independent pronouns can also be used as subject pronouns without the
+                            focus marker <foreign xml:lang="ibe">gí</foreign> and replace the bound
+                            subject pronoun. In this position, they carry the <abbr corresp="glossary.xml#oneh"/> (see section <ref target="#ch2-sc5"/>). A semantic difference between example <ref target="#ex4-2"/> and
+                                <ref target="#ex6-1"/> a is not perceived by speakers. In both
+                            cases, the pronoun is emphasized.</p>
+
+                        <joinGrp xml:id="ex6-2" n="6.2">
+                            <ptr n="" target="examples.xml#ibe346-00.158"/>
+                        </joinGrp>
+
+                        <p>Besides the fronted focus position, there are other contexts, where
+                            independent pronouns must be used instead of bound pronouns. Firstly,
+                            they are required with the conjunction <foreign xml:lang="ibe">íni</foreign> or its Yoruba equivalent <foreign xml:lang="ibe">àti</foreign>. Only the <term ref="terminology.xml#pronoun-emphatic">emphatic pronoun</term> can
+                            also occur in that position (see <ref target="#ex6-3"/>c).</p>
+
+                        <joinGrp xml:id="ex6-3" n="6.3">
+                            <ptr n="a" target="examples.xml#ibe203-00.178"/>
+                            <ptr n="b" target="examples.xml#ibe065-00.182"/>
+                            <ptr n="c" target="examples.xml#ibe301-00.135"/>
+                        </joinGrp>
+
+                        <p>Secondly, they have to be used after certain function nouns, such as <ref type="pair" target="dictionary.xml#èdʒì_13507b7c-3de4-44a1-a8da-0ec532ca9caa">
+                                <foreign xml:lang="ibe">èdʒì</foreign>
+                                <gloss>like</gloss>
+                            </ref>, <foreign xml:lang="ibe">ègido</foreign>
+                            <gloss>only</gloss>, and <foreign xml:lang="ibe">íʃa</foreign>
+                            <gloss>for</gloss> (example <ref target="#ex6-4"/>)</p>
+
+                        <joinGrp xml:id="ex6-4" n="6.4">
+                            <ptr n="a" target="examples.xml#ibe140-00.050"/>
+                            <ptr n="b" target="examples.xml#ibe265-00.053"/>
+                            <ptr n="c" target="examples.xml#ibe167-00.005"/>
+                        </joinGrp>
+
+                        <p> Thirdly, they have to be used before defunct verbs (see section <ref target="#ch6-sc2"/>). </p>
+
+                        <joinGrp xml:id="ex6-5" n="6.5">
+                            <ptr target="examples.xml#ibe346-00.140"/>
+                        </joinGrp>
+
+                        <p>And lastly, only independent pronouns can be modified by relative clauses
+                            or numerals.</p>
+                        <joinGrp xml:id="ex6-6" n="6.6">
+                            <ptr n="a" target="examples.xml#ibe241-00.118"/>
+                            <ptr n="b" target="examples.xml#ibe140-00.258"/>
+                        </joinGrp>
+
+                        <p>The forms <foreign xml:lang="ibe">àbès</foreign>
+                            <gloss>
+                                <abbr corresp="glossary.xml#firstP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#idp"/>
+                            </gloss> and <foreign xml:lang="ibe">àbèn</foreign>
+                            <gloss>
+                                <abbr corresp="glossary.xml#secondP"/>
+                                <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#idp"/>
+                            </gloss> are also used as possessive and object pronouns (sections
+                                <ref target="#ch5-sc1-3"/> and <ref target="#ch6-sc1"/>). The forms
+                                <foreign xml:lang="ibe">àu</foreign>
+                            <gloss>
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#hum"/>
+                                <abbr corresp="glossary.xml#idp"/>
+                            </gloss> and <foreign xml:lang="ibe">ɛ̀jì</foreign>
+                            <gloss>
+                                <abbr corresp="glossary.xml#thirdP"/>
+                                <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#nhum"/>.<abbr corresp="glossary.xml#idp"/>
+                            </gloss> are also used as
+                            logophoric pronouns (see following paragraph).</p>
+                    </div>
+                    <div xml:id="ch6-sc2-5" n="6.2.5">
+                        <head>Logophoric Pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-6" n="6.2.6">
+                        <head>Dative Pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-7" n="6.2.7">
+                        <head>Independent Possessive Pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-8" n="6.2.8">
+                        <head>Emphatic Pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-9" n="6.2.9">
+                        <head>Indefinite Pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-10" n="6.2.10">
+                        <head>Reciprocal Pronoun</head>
+                    </div>
+                    <div xml:id="ch6-sc2-11" n="6.2.11">
+                        <head>Demonstrative Pronouns</head>
+                    </div>
+                    <div xml:id="ch6-sc2-12" n="6.2.12">
+                        <head>Interrogative Pronouns</head>
+                    </div>
+                </div>
+                <div xml:id="ch6-sc3" n="6.3">
+                    <head>Adverbs</head>
+                </div>
+                <div xml:id="ch6-sc4" n="6.4">
+                    <head>Particles</head>
+                </div>
+            </div>
+            <div xml:id="ch7" n="7">
+                <head>Word Formation</head>
+                <div xml:id="ch7-sc1" n="7.1">
+                    <head>Deverbal Nominalization</head>
+                    <div xml:id="ch7-sc1-1" n="7.1.1">
+                        <head>Simple Nominalization</head>
+                        <p> This strategy is the simpler one, as only a vowel is prefixed in order
+                            to match the form of a noun. The quality of the noun is not
+                            determinable. Many of the words created by simple nominalization may
+                            have been coined when the noun class system were still productive, so
+                            that the vowel quality indicated the affiliation to a noun class. These
+                            words include, for example, <foreign xml:lang="ibe">ɔʃu</foreign> -
+                                <gloss>a run</gloss> from <ref type="pair" target="dictionary.xml#ʃu_f17c1005-a2bd-4d48-b41a-f19595251aae">
+                                <foreign xml:lang="ibe">ʃu</foreign> - <gloss>to run</gloss>
+                            </ref>, <ref type="pair" target="dictionary.xml#ɛkɔn_ace3778a-5be6-4621-bcda-a60600b13079">
+                                <foreign xml:lang="ibe">ɛkɔn</foreign> - <gloss>a fight</gloss>
+                            </ref> or <ref type="pair" target="dictionary.xml#ikɔn_d7012c40-2c2a-43de-bfde-5235038ae95b">
+                                <foreign xml:lang="ibe">ikɔn</foreign> - <gloss>a war</gloss>
+                            </ref> from <ref type="pair" target="dictionary.xml#kɔn1_e7aac233-28d6-4f51-b71e-27ce31789200">
+                                <foreign xml:lang="ibe">kɔn</foreign> - <gloss>to fight</gloss>
+                            </ref>, and <ref type="pair" target="dictionary.xml#ohu_8c2b1288-b724-4ccf-8971-c28ae1f20869">
+                                <foreign xml:lang="ibe">ohu</foreign> - <gloss>death</gloss>
+                            </ref> from <ref type="pair" target="dictionary.xml#hu1_ff4229f5-ced5-48a6-8531-3ea1a10b39e2">
+                                <foreign xml:lang="ibe">hu</foreign> - <gloss>to die</gloss>.</ref>
+                            Other words created by this strategy, however, are likely to be new
+                            inventions: <foreign xml:lang="ibe">ɔ̀fanàg</foreign> -
+                                <gloss>bread</gloss>, from <foreign xml:lang="ibe">fanàg</foreign>
+                            - <gloss>continuously knead</gloss>, <ref type="pair" target="dictionary.xml#ògbegel_897f3725-d48b-4b1b-8cdd-c8c440c45481">
+                                <foreign xml:lang="ibe">ògbegel</foreign> - <gloss>car</gloss>
+                            </ref> from <ref type="pair" target="dictionary.xml#gbegel_cfd66ab0-2553-446b-b884-9938117844c4">
+                                <foreign xml:lang="ibe">gbegel</foreign> - <gloss>to roll</gloss>
+                            </ref>, <foreign xml:lang="ibe">otìlátɔ</foreign> - <gloss>pen</gloss>
+                            from <foreign xml:lang="ibe">tì lí atɔ</foreign> - <gloss>write
+                                down</gloss>, or <ref type="pair" target="dictionary.xml#ɔ̀hùródùg_602eef2f-bd6b-49dc-8039-cf28a580c4a3">
+                                <foreign xml:lang="ibe">ɔ̀hùródùg</foreign> - <gloss>shoe</gloss>
+                            </ref> from <foreign xml:lang="ibe">hùr òdùg</foreign> - <gloss>put a
+                                leg inside</gloss>. The examples show, that verbal extensions,
+                            objects or adjuncts can be incorporated. These new inventions all have
+                                <foreign xml:lang="ibe">/o/</foreign> or <foreign xml:lang="ibe">/ɔ/</foreign> as the initial vowel, depending on the <term ref="terminology.xml#vowel-atr"/>
+                            <abbr corresp="glossary.xml#atr"/>
+                            value of the verb. Yet, there are not many new inventions, as new
+                            concepts are usually borrowed from Yoruba or English. Speakers stated
+                            that only rarely Abesabesi equivalents are coined to prevent people who
+                            do not understand Abesabesi to understand the topic of a conversation
+                            only by understanding the loanwords. </p>
+
+                        <p>The results of this nominalization process are thus abstract verbal nouns
+                            or concrete objects. They are not different from any other regular noun
+                            and can be used in the same syntactic context or be modified. </p>
+                    </div>
+                    <div xml:id="ch7-sc1-2" n="7.1.2">
+                        <head>Complex Nominalization</head>
+                    </div>
+                </div>
+                <div xml:id="ch7-sc2" n="7.2">
+                    <head>Composition</head>
+                </div>
+                <div xml:id="ch7-sc3" n="7.3">
+                    <head>Object incorporation</head>
+                </div>
+                <div xml:id="ch7-sc4" n="7.4">
+                    <head>Reduplication</head>
+                </div>
+            </div>
+            <div xml:id="ch8" n="8">
+                <head>Clause structure</head>
+                <div xml:id="ch8-sc1" n="8.1">
+                    <head>Argument structure</head>
+
+                    <p>As Abesabesi does not have a case marking system for core arguments, subjects
+                        and object marking is based on word order. The only phenomena that come
+                        close to case marking are the <abbr corresp="glossary.xml#loch"/>, and the
+                        valence-increasing auxiliary verbs. Both mark specific thematic roles, but
+                        are optional. </p>
+                    <p>The preverbal argument position is reserved for the subject, while the
+                        postverbal position is reserved for one or two objects. In clauses with an
+                        intransitive verb, the subject is the only argument and can have an
+                        agent-like (Example <ref target="#ex8-1"/> a) or a patient-like role
+                        (Example <ref target="#ex8-1"/> b).</p>
+                    <joinGrp xml:id="ex8-1" n="8.1">
+                        <ptr n="a" target="examples.xml#ibe224-00.091"/>
+                        <ptr n="b" target="examples.xml#ibe224-00.029"/>
+                    </joinGrp>
+                    <p>In clauses with transitive verbs, the subject is the more agent-like
+                        argument, while the object is the more patient-like argument. </p>
+                    <joinGrp xml:id="ex8-2" n="8.2">
+                        <ptr n="" target="examples.xml#ibe327-00.115"/>
+                    </joinGrp>
+                    <p>A special case are most verbs for body states or feelings. Such verbs are
+                        called <abbr corresp="glossary.xml#absv"/> henceforth. These body states or
+                        feelings are read as an active instance that superimposes the feeling onto a
+                        patient. A noun for the body state or feeling (or in some cases a non-human
+                        pronoun) occupies the subject position of an <abbr corresp="glossary.xml#absv"/> and the experiencer occupies the object
+                        position.</p>
+                    <joinGrp xml:id="ex8-3" n="8.3">
+                        <ptr n="a" target="examples.xml#ibe017-00.105"/>
+                        <ptr n="b" target="examples.xml#ibe182-00.112"/>
+                        <ptr n="c" target="examples.xml#ibe224-00.031"/>
+                    </joinGrp>
+                    <p>In clauses with ditransitive verbs, the position immediately after the verb
+                        is reserved for the primary object and the second postverbal position is
+                        reserved for a secondary object. Abesabesi is a secundative language, as the
+                        primary object is the argument for the recipient and the secondary object
+                        the theme.</p>
+                    <joinGrp xml:id="ex8-4" n="8.4">
+                        <ptr n="a" target="examples.xml#ibe057-00.198"/>
+                        <ptr n="b" target="examples.xml#ibe089-00.025"/>
+                    </joinGrp>
+
+                    <p>Other optional arguments are added through valence-increasing auxiliaries.
+                        These auxiliaries take primary objects and mark a particular thematic role.
+                        Their position can be pre- <ref target="#ex8-5"/> a) or postverbal (example
+                            <ref target="#ex8-5"/> b).</p>
+
+                    <joinGrp xml:id="ex8-5" n="8.5">
+                        <ptr n="a" target="examples.xml#ibe057-00.159"/>
+                        <ptr n="b" target="examples.xml#ibe057-00.188"/>
+                    </joinGrp>
+
+                    <p> What has been called the dative object is in fact also the primary object of
+                        the auxiliary <ref target="dictionary.xml#ʃa2_f73a0eb2-b242-447a-aa40-76d79a7d74ba">
+                            <foreign xml:lang="ibe">ʃa</foreign>
+                        </ref>. However, it differs from other auxiliary verb construction in two
+                        points. Firstly it is obligatory in clauses with the verb <ref type="pair" target="dictionary.xml#gbà ʃa_9c29d334-fc47-4b87-ae07-931a7c8ac548">
+                            <foreign xml:lang="ibe">gbà</foreign> - <gloss>give</gloss>
+                        </ref>, which are equivalent to clauses with the ditransitive verb <ref type="pair" target="dictionary.xml#ka2_f08f8720-39e5-4378-99c2-256403c98ae4">
+                            <foreign xml:lang="ibe">ka</foreign> - <gloss>give</gloss>
+                        </ref>. </p>
+
+                    <joinGrp xml:id="ex8-6" n="8.6">
+                        <ptr n="a" target="examples.xml#ibe089-00.010"/>
+                        <ptr n="b" target="examples.xml#ibe089-00.016"/>
+                    </joinGrp>
+
+                    <p>And secondly, its pronominalized form has formed an incomplete paradigm set
+                        through contraction (see Section <ref target="#ch4-sc2-3"/>).</p>
+
+                    <p>Subjects and objects are also distinguished in pronouns. There are two
+                        different paradigms for subject and object pronouns (see Section <ref target="#ch4-sc2-3"/>). Object pronouns do not distinguish primary from
+                        secondary objects. If the primary and secondary object are both
+                        pronominalized, they are distinguished through word order, as the secondary
+                        object follows the primary object.</p>
+
+                    <joinGrp xml:id="ex8-7" n="8.7">
+                        <ptr target="examples.xml#ibe229-00.096"/>
+                    </joinGrp>
+                </div>
+                <div xml:id="ch8-sc2" n="8.2">
+                    <head>Predicate nominal clauses and related constructions</head>
+                </div>
+                <div xml:id="ch8-sc3" n="8.3">
+                    <head>Adjuncts</head>
+                </div>
+                <div xml:id="ch8-sc4" n="8.4">
+                    <head>Subordination</head>
+                </div>
+                <div xml:id="ch8-sc5" n="8.5">
+                    <head>Questions</head>
+                </div>
+                <div xml:id="ch8-sc6" n="8.6">
+                    <head>Negation</head>
+                    <div xml:id="ch8-sc6-1" n="8.6.1">
+                        <head>Standard Negation</head>
+                        <p> This is the basic way to negate declarative verbal main clauses.
+                            Abesabesi's standard negation includes the clitic <foreign xml:lang="ibe">è</foreign> and the lack of the <abbr corresp="glossary.xml#oneh"/> (Example <ref target="#ex8-8"/>). If
+                            subject pronouns are required, the irrealis pronouns with a HL melody
+                            must be used (see Section <ref target="#ch6-1"/>}, example <ref target="#ex8-9"/>). </p>
+                        <joinGrp xml:id="ex8-8" n="8.1">
+                            <ptr n="a" target="examples.xml#ibe363-00.014"/>
+                            <ptr n="b" target="examples.xml#ibe363-00.043"/>
+                        </joinGrp>
+                        <joinGrp xml:id="ex8-9" n="8.2">
+                            <ptr n="a" target="examples.xml#ibe124-00.199"/>
+                            <ptr n="b" target="examples.xml#ibe124-00.207"/>
+                        </joinGrp>
+                    </div>
+                    <div xml:id="ch8-sc6-2" n="8.6.2">
+                        <head>Negation of other clause types</head>
+                    </div>
+                    <div xml:id="ch8-sc6-3" n="8.6.3">
+                        <head>Constituent negation</head>
+                    </div>
+                    <div xml:id="ch8-sc6-4" n="8.6.4">
+                        <head>Negative indefinite pronouns and polarity-sensitivity</head>
+                    </div>
+                </div>
+
+            </div>
+            <div xml:id="ch9" n="9">
+                <head>Information structure</head>
+                <div xml:id="ch9-sc1" n="9.1">
+                    <head>Focus construction</head>
+                    <index>
+                        <term ref="terminology.xml#focus-construction"/>
+                    </index>
+                </div>
+                <div xml:id="ch9-sc2" n="9.2">
+                    <head>Negative focus construction</head>
+                </div>
+                <div xml:id="ch9-sc3" n="9.3">
+                    <head>Relativized focus construction</head>
+                </div>
+                <div xml:id="ch9-sc4" n="9.4">
+                    <head>Contrastive focus construction</head>
+                    <index>
+                        <term ref="terminology.xml#focus-contrastive"/>
+                    </index>
+                    <p> If the proposition of a clause is contrary to the presupposition of the
+                        interlocutor, Abesabesi marks it with the conjunction <foreign xml:lang="ibe">ŋ̀gí</foreign>. This construction will be called "<term ref="terminology.xml#focus-contrastive">Contrastive focus</term>".
+                        Example <ref target="#ex9-1"/> shows a situation where information is
+                        corrected by the speaker. </p>
+                    <joinGrp xml:id="ex9-1" n="9.1">
+                        <ptr target="examples.xml#ibe190-00.104"/>
+                    </joinGrp>
+                </div>
+                <div xml:id="ch9-sc5" n="9.5">
+                    <head>Dislocation</head>
+                </div>
+
+            </div>
+            <interpGrp>
+                <interp xml:id="qual">Quality</interp>
+                <interp xml:id="typRel">Typological relevance</interp>
+                <interp xml:id="langRel">Relevance within language</interp>
+            </interpGrp>
+        </body>
+        <back>
+            <divGen type="index"/>
+        </back>
+
+    </text>
+</TEI>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/xsl" href="file:/U:/MySecondaryData/ERG/Transformations/Glossary.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="firstP">
+                    <abbr>1</abbr>
+                    <expan>First person</expan>
+                </item>
+                <item xml:id="secondP">
+                    <abbr>2</abbr>
+                    <expan>Second person</expan>
+                </item>
+                <item xml:id="thirdP">
+                    <abbr>3</abbr>
+                    <expan>Third person</expan>
+                </item>
+                <item xml:id="np">
+                    <abbr>NP</abbr>
+                    <expan>Noun phrase</expan>
+                </item>
+                <item xml:id="vp">
+                    <abbr>VP</abbr>
+                    <expan>Verb phrase</expan>
+                </item>
+                <item xml:id="pp">
+                    <abbr>PP</abbr>
+                    <expan>Preposition phrase</expan>
+                </item>
+                <item xml:id="neg">
+                    <abbr>NEG</abbr>
+                    <expan>Negation</expan>
+                </item>
+                <item xml:id="vh">
+                    <abbr>VH</abbr>
+                    <expan>Vowel harmony</expan>
+                </item>
+                <item xml:id="atr">
+                    <abbr>ATR</abbr>
+                    <expan>Advanced tongue root</expan>
+                </item>
+                <item xml:id="absv">
+                    <abbr>ABSV</abbr>
+                    <expan>Active body state verb</expan>
+                </item>
+                <item xml:id="sg">
+                    <abbr>SG</abbr>
+                    <expan>Singular</expan>
+                </item>
+                <item xml:id="pl">
+                    <abbr>PL</abbr>
+                    <expan>Plural</expan>
+                </item>
+                <item xml:id="obj">
+                    <abbr>OBJ</abbr>
+                    <expan>Object</expan>
+                </item>
+                <item xml:id="s">
+                    <abbr>S</abbr>
+                    <expan>Subject</expan>
+                </item>
+                <item xml:id="poss">
+                    <abbr>POSS</abbr>
+                    <expan>Possessive</expan>
+                </item>
+                <item xml:id="prog">
+                    <abbr>PROG</abbr>
+                    <expan>Progressive</expan>
+                </item>
+                <item xml:id="prf">
+                    <abbr>PRF</abbr>
+                    <expan>Perfect</expan>
+                </item>
+                <item xml:id="fut">
+                    <abbr>FUT</abbr>
+                    <expan>future</expan>
+                </item>
+                <item xml:id="nfut">
+                    <abbr>NFUT</abbr>
+                    <expan>Non-future</expan>
+                </item>
+                <item xml:id="hab">
+                    <abbr>HAB</abbr>
+                    <expan>Habitual</expan>
+                </item>
+                <item xml:id="des">
+                    <abbr>DES</abbr>
+                    <expan>Habitual</expan>
+                </item>
+                <item xml:id="epn">
+                    <abbr>EPN</abbr>
+                    <expan>Habitual</expan>
+                </item>
+                <item xml:id="pst">
+                    <abbr>PST</abbr>
+                    <expan>Past</expan>
+                </item>
+                <item xml:id="par">
+                    <abbr>PAR</abbr>
+                    <expan>Partitive</expan>
+                </item>
+                <item xml:id="sequ">
+                    <abbr>SEQU</abbr>
+                    <expan>Sequential</expan>
+                </item>
+                <item xml:id="hum">
+                    <abbr>HUM</abbr>
+                    <expan>Human</expan>
+                </item>
+                <item xml:id="nhum">
+                    <abbr>NHUM</abbr>
+                    <expan>Non-human</expan>
+                </item>
+                <item xml:id="idp">
+                    <abbr>IDP</abbr>
+                    <expan>Independent</expan>
+                </item>
+                <item xml:id="log">
+                    <abbr>LOG</abbr>
+                    <expan>Logophoric</expan>
+                </item>
+                <item xml:id="foc">
+                    <abbr>FOC</abbr>
+                    <expan>Focus</expan>
+                </item>
+                <item xml:id="cpor">
+                    <abbr>CPOR</abbr>
+                    <expan>Comparator</expan>
+                </item>
+                <item xml:id="sup">
+                    <abbr>SUP</abbr>
+                    <expan>Superlative</expan>
+                </item>
+                <item xml:id="cfoc">
+                    <abbr>CFOC</abbr>
+                    <expan>Contrastive focus</expan>
+                </item>
+                <item xml:id="rel">
+                    <abbr>REL</abbr>
+                    <expan>Relativizer</expan>
+                </item>
+                <item xml:id="comp">
+                    <abbr>COMP</abbr>
+                    <expan>Complementizer</expan>
+                </item>
+                <item xml:id="sip">
+                    <abbr>SIP</abbr>
+                    <expan>Sentence initial particle</expan>
+                </item>
+                <item xml:id="dat">
+                    <abbr>DAT</abbr>
+                    <expan>Dative</expan>
+                </item>
+                <item xml:id="ben">
+                    <abbr>BEN</abbr>
+                    <expan>Beneficient</expan>
+                </item>
+                <item xml:id="com">
+                    <abbr>COM</abbr>
+                    <expan>Comitative</expan>
+                </item>
+                <item xml:id="oneh">
+                    <abbr>1H</abbr>
+                    <expan>First position high tone</expan>
+                </item>
+                <item xml:id="loch">
+                    <abbr>LocH</abbr>
+                    <expan>Locative high tone</expan>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

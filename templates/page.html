@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Abesabesi Grammar</title>
+        <meta charset="UTF-8"/>
+        <meta data-template="config:app-meta"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="$shared/resources/css/bootstrap-3.0.3.min.css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/styles.css"/>
+        <script type="text/javascript" src="$shared/resources/scripts/jquery/jquery-1.7.1.min.js"/>
+        <script type="text/javascript" src="$shared/resources/scripts/loadsource.js"/>
+        <script type="text/javascript" src="$shared/resources/scripts/bootstrap-3.0.3.min.js"/>
+        <script src="modules/sorttable.js"/>
+        <script>sorttable.sort_alpha = function(a,b) { return a[0].localeCompare(b[0], "de"); }
+        window.onload = function() {
+        $('[data-autoclick="true"]').click();
+    };</script>
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+        <link href="resources/css/DoulosSIL-webfont-example.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"/>        
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""/>
+        <style>
+            html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+        </style>
+        <link rel="icon" type="image/ico" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/jpg" href="resources/images/favicon.ico"/>
+
+    </head>
+        <body class="w3-light-grey">
+        <!-- Top container -->
+            <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+              <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();">
+                <i class="fa fa-bars"/>  Menu</button>
+                <a href="index.html" class="w3-bar-item w3-right w3-button">Abesabesi Grammar</a>
+            </div>
+            
+            <!-- Sidebar/menu -->
+            <nav class="w3-sidebar w3-collapse w3-white" style="z-index:3;width:300px;" id="mySidebar">
+            <br/>
+              <div class="w3-container w3-row">
+                <!--<div class="w3-col s2">
+                  <img src="resources/images/favicon.ico" class="w3-margin-right w3-margin-top" style="width:30px"/>
+                </div>-->
+                <div class=" w3-bar">
+                    <a href="index.html" class="w3-wide" style="font-size:20px">Abesabesi Grammar</a>
+                    <!--<a href="#" class="w3-button">
+                        <strong>Jonas</strong>
+                    </a>-->
+                <!--  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
+                  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
+                    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>-->
+                  
+                </div>
+              </div>
+              <hr/>
+              <!--<div class="w3-container">
+                <h5></h5>
+              </div>-->
+              <div class="w3-bar-block">
+                  <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu">
+                    <i class="fa fa-remove fa-fw"/>  Close Menu</a>
+                <form class="w3-bar-item w3-padding" method="get" action="search.html">
+                  <i class="fa fa-search fa-fw"/>
+                  <input class="jl-input" type="text" placeholder="Search..." name="searchphrase"/>
+                </form>            
+                              
+                  <hr/>
+                 <a href="index.html" class="w3-bar-item w3-button w3-padding" onclick="">
+                    <i class="fa fa-home fa-fw"/>  Home</a>
+                <a href="advanced-search.html" class="w3-bar-item w3-button w3-padding" onclick="">
+                    <i class="fa fa-search-plus fa-fw"/>  Advanced Search</a>
+                <a href="toc.html" class="w3-bar-item w3-button w3-padding">
+                    <i class="fa fa-book fa-fw"/>  Content</a>
+                <a href="index-list.html" class="w3-bar-item w3-button w3-padding">
+                    <i class="fa fa-list fa-fw"/>  Index</a> 
+                <div class="w3-bar-item w3-button" onclick="myAccFunc('info')">
+                  <i class="fa fa-info fa-fw"/>  About</div>
+                <div id="info" class="w3-hide w3-white">
+                  <a href="language.html" class="w3-bar-item w3-button w3-margin-left" onclick="openTabLeft('inner-content-language')">  Language</a>
+                  <a href="ikaram.html" class="w3-bar-item w3-button w3-margin-left" onclick="openTabLeft('inner-content-ikaram')">  Ikaram</a>
+                  <a href="grammar.html" class="w3-bar-item w3-button w3-margin-left" onclick="openTabLeft('inner-content-grammar')">  Grammar</a>
+                  <a href="docProject.html" class="w3-bar-item w3-button w3-margin-left" onclick="openTabLeft('inner-content-docProject')">  Documentation Project</a>
+                  <a href="acknowledgements.html" class="w3-bar-item w3-button w3-margin-left" onclick="openTabLeft('inner-content-acknowledgements')">  Acknowledgements</a>
+                </div>
+                   <br/>
+                <br/>
+                <a href="grammar-entry.html" class="w3-bar-item w3-button w3-padding">
+                  <i class="fa fa-archive fa-fw"/>  Grammar</a> 
+                <a href="dictionary.html" class="w3-bar-item w3-button">
+                  <i class="fa fa-list-alt fa-fw"/> Dictionary</a>
+                <a href="texts.html" class="w3-bar-item w3-button">
+                  <i class="fa fa-book-reader fa-fw"/> Texts</a>
+                <a href="examples.html" class="w3-bar-item w3-button w3-padding">
+                  <i class="fas fa-comment fa-fw"/>  Examples</a> 
+              
+              <!--
+                  <div id="grammar-switch" class="w3-bar-item w3-button" onclick="myAccFunc('grammar-alternatives')">
+                    <i class="fa fa-archive fa-fw"/>  Grammar</div>
+                  <div id="grammar-alternatives" class="w3-hide w3-white">
+                    <a href="resources/pages/dictionary.html" class="w3-bar-item w3-button" onclick="openDictionary()">
+                        <i class="fa fa-list-alt fa-fw"/> Dictionary</a>
+                    <a href="resources/pages/texts.html" class="w3-bar-item w3-button" onclick="openTexts()">
+                        <i class="fa fa-book-reader fa-fw"/> Texts</a>
+                  </div>--> 
+                </div>
+            </nav>
+            
+            
+            <!-- Overlay effect when opening sidebar on small screens -->
+            <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"/>
+            
+            <!-- !Main ======================= PAGE CONTENT! -->
+          <div id="main" class="w3-main" style="margin-left:300px;margin-top:43px;">
+            
+           
+          </div>
+          
+          
+          
+          <!-- The Modals -->
+          <div id="modQual" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeMod('modQual')">x</span>
+              <h2>
+                    <i class="fa fa-check-square w3-text-red w3-xxlarge"/> Quality</h2>
+              <p>
+                <!--As no grammar author can be perfect in every field of grammar writing, the quality-bar displays how confident the author is about the quality of this grammar entry.-->
+                The quality tag indicates in which quality stage the current grammar entry is. Quality stages can be "Note", "Sketch", "Draft", and "Peer-reviewed".
+              </p>
+            </div>
+          </div> 
+          <div id="modTyp" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeMod('modTyp')">x</span>
+              <h2>
+                    <i class="fa fa-tasks w3-text-blue w3-xxlarge"/> Typological Relevance</h2>
+              <p>The typological relevance bar states how unique the phenomenon described in this grammar entry is cross-linguistically.</p>
+            </div>
+          </div> 
+          <div id="modRelLang" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeMod('modRelLang')">x</span>
+              <h2>
+                    <i class="fa fa-comments w3-text-orange w3-xxlarge"/> Relevance within Language</h2>
+              <p>Relevance within a language describes how frequently a phenomenon is used. Rarely used constructions have a low relevance within the language.</p>
+            </div>
+          </div> 
+          
+          
+          
+          <script type="application/javascript" src="modules/script.js?150"/>
+          <script>
+            <!--adjustAcc();--> 
+            setMap();
+          </script>
+        
+             <!-- favicon from https://openclipart.org/detail/275692/icon-book --> 
+    </body>
+</html>
