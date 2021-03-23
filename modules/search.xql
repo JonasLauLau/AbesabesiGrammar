@@ -4,12 +4,11 @@ module namespace search="http://www.example.org/abesabesi/search";
 
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace config="http://www.example.org/abesabesi/config" at "config.xqm";
-import module namespace app="http://www.example.org/abesabesi/templates" at "app.xql";
+import module namespace gram="http://www.example.org/abesabesi/grammarEntry" at "grammar-entry.xql";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
 declare variable $search:searchphrase := request:get-parameter("searchphrase", ());
 declare variable $search:grammar := doc("/db/apps/Abesabesi/resources/data/ekirom.xml");
-declare variable $search:terms := doc("/db/apps/Abesabesi/resources/data/terminology.xml");
 
  declare function search:searchphrase($node as node(), $model as map(*))
 {
@@ -49,7 +48,7 @@ declare variable $search:terms := doc("/db/apps/Abesabesi/resources/data/termino
         return
             <div>
                 <h6>From Section &#160;<a class="intext-button" href="grammar-entry.html?section={$div/@xml:id}"> {string($div/@n)}&#160;{string($div/head)}</a></h6>
-                {app:text-card($paragraph)}
+                {gram:paragraph($paragraph)}
             </div>   
     else
         <span>No results</span>

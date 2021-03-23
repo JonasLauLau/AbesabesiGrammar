@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+          <body>
+            <div xml:id="form">
+                <head>Form</head>
+                <div xml:id="wordClasses">
+                    
+                    <head>Word Classes</head>
+                    <div xml:id="nouns">
+                        <head>Nouns</head>
+                        <div xml:id="vowelElisionNouns">
+                            <head>Vowel Elision Nouns</head>
+                            <p/>
+                        </div>
+                    </div>
+                    <div xml:id="verbs">
+                        <head>Verbs</head>
+                    </div>
+                    <div xml:id="particles">
+                        <head>Particles</head>
+                        <div xml:id="mV" type="fomp" subtype="form">
+                            <head>
+                                <foreign>mV</foreign>
+                            </head>
+                            <entry>
+                                <form>
+                                    <gramGrp>
+                                        <gram type="pos">particle</gram>
+                                    </gramGrp>
+                                    <form type="allomorph">
+                                        <orth>mi</orth>
+                                        <pron>mi</pron>
+                                    </form>
+                                    <form type="allomorph">
+                                        <orth>mɪ</orth>
+                                        <pron>mɯ</pron>
+                                    </form>
+                                    <form type="allomorph">
+                                        <orth>mu</orth>
+                                        <pron>mu</pron>
+                                    </form>
+                                    <form type="allomorph">
+                                        <orth>mü</orth>
+                                        <pron>my</pron>
+                                    </form>
+                                </form>
+                                <sense location="#polarQuestions">
+                                    <gloss target="glossary.xml#prog"/>
+                                </sense>
+                                
+                                <!--                                <sense location="#negation">-->
+                                <!--                                    <gloss target="glossary.xml#neg"/>-->
+                                <!--                                </sense>-->
+                                <xr type="construction">
+                                    <ptr target="#polarQuestionCon"/>
+                                </xr>
+                            </entry>
+                            <p> The question particle mV occurs in <ref target="#polarQuestionCon">polar question constructions</ref>. Its <term target="terminology.xml#allomorph">allomorphs</term> are
+                                conditioned by the <ref target="#bigVH">fourfold vowel
+                                    harmony</ref>. The vowel in mV is thus realized as i, ɪ, u or ü,
+                                depending on the last vowel of the preceding word. As mV only occurs
+                                in <ref target="#polarQuestionCon">polar question
+                                    constructions</ref>, the preceding word is the constituent whose
+                                truth value is asked for. </p>
+                        </div>
+                        <div xml:id="degil" type="fomp" subtype="form">
+                            <head>
+                                <foreign>deǧil</foreign>
+                            </head>
+                            <entry>
+                                <form>
+                                    <gramGrp>
+                                        <gram type="pos">particle</gram>
+                                    </gramGrp>
+                                    <form type="allomorph">
+                                        <orth>deǧil</orth>
+                                        <pron>deːil</pron>
+                                    </form>
+                                </form>
+                                <sense location="#negation">
+                                    <gloss target="glossary.xml#neg"/>
+                                </sense>
+                                <xr type="construction">
+                                    <ptr target="#constituent-negation-construction"/>
+                                </xr>
+                                <xr type="construction">
+                                    <ptr target="#negationConstructionForNonVerbalPredicates"/>
+                                </xr>
+                            </entry>
+                            <p>
+                                The particle deǧil is invariant and occurs after 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div xml:id="boundForms">
+                    <head>Bound Forms</head>
+                    <div xml:id="affixes">
+                        <head>Affixes</head>
+                        <div xml:id="personAffixes">
+                            <head>Person affixes</head>
+                        </div>
+                    </div>
+                </div>
+                <div xml:id="phraseStructure">
+                    <head>Phrase Structure</head>
+                </div>
+                <div xml:id="contours">
+                    <head>Contours</head>
+                </div>
+                <div xml:id="constructions">
+                    <head>Constructions</head>
+                    <div xml:id="polarQuestionCon" type="fomp" subtype="construction">
+                        <head>Polar question construction</head>
+                        <entry>
+                            <form>
+                                <form type="formula">PHRASE + <ref target="#mV">mV</ref>
+                                </form>
+                            </form>
+                            <sense location="#polarQuestions"/> 
+                            <xr type="component">
+                                <ptr target="#mV"/>
+                            </xr>
+                        </entry>
+                    </div>
+                    <div xml:id="constituent-negation-construction">
+                        <head>Constituent negation construction</head>
+                        <entry>
+                            <form>
+                                <form type="formula">PHRASE + <ref target="#degil">deǧil</ref>
+                                </form>
+                            </form>
+                            <sense location="#negation"/>
+                            <xr type="component">
+                                <ptr target="#degil"/>
+                            </xr>
+                        </entry>
+                    </div>
+                    <div xml:id="negationConstructionForNonVerbalPredicates">
+                        <head>Negation construction for non-verbal Predicates</head>
+                        <entry>
+                            <form>
+                                <form type="formula">SUBJECT + <ref target="constituent-negation"> PHRASE + deǧil</ref>
+                                </form>
+                            </form>
+                            <sense location="#negation"/>
+                            <xr type="component">
+                                <ptr target="#constituent-negation-construction"/>
+                            </xr>
+                            <xr type="component">
+                                <ptr target="#degil"/>
+                            </xr>
+                        </entry>
+                    </div>
+                    
+                </div>
+            </div>
+            <div xml:id="function">
+                <head>Function</head>
+                <div xml:id="pragmatics">
+                    <head>Pragmatics</head>
+                    <div xml:id="speechActs">
+                        <head>Speech Acts</head>
+                        <div xml:id="requestingInformation">
+                            <head>Requesting Information</head>
+                            <div xml:id="polarQuestions" type="fomp" subtype="function">
+                                <head>Polar Questions</head>
+                                <entry>
+                                    <form location="#mV">
+                                        <gloss target="glossary.xml#pqm"/>
+                                    </form>
+                                    <form location="#polarQuestionCon"/>
+                                </entry>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div xml:id="negation">
+                    <head>Negation</head>
+                    <entry>
+                        <form location="#degil">
+                            <gloss target="glossary.xml#neg"/>
+                        </form>
+                        <form location="#constituent-negation-construction"/>
+                        <form location="#negationConstructionForNonVerbalPredicates"/>
+                    </entry>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

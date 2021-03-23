@@ -1,133 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="main">
-    <div class="w3-row-padding" style="padding-top:15px">
-      <div class="w3-row-padding w3-twothird jl-content">
-                <div class="w3-quarter">
-                  <div class="app:previousPage"/>
-                </div>
-                <div class="w3-half">
-                  <div class="w3-container w3-teal w3-padding-16" style="cursor:pointer">
-                      
-                          <div class="app:title"/>
-                  </div>
-                </div>
-                <div class="w3-quarter">
-                  <div class="app:nextPage"/>
-                </div>
-              </div>
-              <div class="w3-third jl-toolbar">
-                <table class="w3-table w3-striped w3-white">
-                      
-                  <tr class="w3-hover-teal jl-pointer" onclick="openMod('modQual')">
-                        <td>
-                                <i class="fa fa-check-square w3-text-red w3-large"/>
-                            </td>
-                    <td>Quality
-                    </td>
-                        <td>
-                          <div class="w3-grey" style="width:90px">
-                            <div class="app:tags?tag=#qual&amp;color=w3-red"/>
-                          </div>
-                        </td>
-                      </tr>
-                  <tr class="w3-hover-teal jl-pointer" onclick="openMod('modTyp')">
-                        <td>
-                                <i class="fa fa-tasks w3-text-blue w3-large"/>
-                            </td>
-                    <td>Typological Relevance
-                    </td>
-                        <td>
-                          <div class="w3-grey" style="width:90px">
-                                <div class="app:tags?tag=#typRel&amp;color=w3-blue"/>
-                            </div>
-                        </td>
-                      </tr>
-                  <tr class="w3-hover-teal jl-pointer" onclick="openMod('modRelLang')">
-                        <td>
-                                <i class="fa fa-comments w3-text-orange w3-large"/>
-                            </td>
-                        <td>Relevance within Language
-                        </td>
-                        <td>
-                          <div class="w3-grey" style="width:90px">
-                            <div class="app:tags?tag=#langRel&amp;color=w3-orange"/>
-                          </div>
-                        </td>
-                      </tr>
-                    </table>
-              </div>
+  <div class="w3-row-padding" style="padding-top:15px">
+    <div class="w3-row-padding w3-twothird jl-content">
+      <div class="w3-quarter">
+        <div data-template="gram:previousEntry"/>
+      </div>
+      <div class="w3-half">
+        <div class="w3-container w3-teal w3-padding-16" style="cursor:pointer"> 
+          <div data-template="gram:title"/>
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <div data-template="gram:nextEntry"/>
+      </div>
+    </div>
+    <div class="w3-third jl-toolbar">
+      <table class="w3-table w3-striped w3-white">
+
+        <tr class="w3-hover-teal jl-pointer" onclick="openMod('modQual')">
+          <td>
+            <i class="fa fa-check-square w3-text-red w3-large"/>
+          </td>
+          <td>Quality </td>
+          <td>
+            <div class="w3-grey" style="width:90px">
+              <div data-template="gram:tag" data-template-tag="#qual" data-template-color="w3-red"/>
             </div>
-            <div class="w3-margin w3-white">
-            <div class="w3-bar">
-                <div class="w3-bar-item breadcrumb-jl app:breadcrumb"/>
-                <span class=" w3-bar-item w3-right w3-hover-opacity w3-padding">
-                        <i id="toolbar-button" class="fa fa-bars w3-text-white" onClick="showToolbar()" style="font-size:30px"/>
-                </span>
-               <div class="w3-bar-item w3-right">
-                   <a class="w3-hover-opacity w3-text-grey w3-padding jl-pointer" title="back" onClick="back()">
-                        <i class="fa fa-arrow-circle-left" style="font-size:30px"/>
-                    </a>
-                   <a class="w3-hover-opacity w3-text-grey w3-padding jl-pointer" title="forward" onClick="forward()">
-                        <i class="fa fa-arrow-circle-right" style="font-size:30px"/>
-                    </a>
-               </div>
-               </div>
+          </td>
+        </tr>
+        <tr class="w3-hover-teal jl-pointer" onclick="openMod('modTyp')">
+          <td>
+            <i class="fa fa-tasks w3-text-blue w3-large"/>
+          </td>
+          <td>Typological Relevance </td>
+          <td>
+            <div class="w3-grey" style="width:90px">
+              <div data-template="gram:tag" data-template-tag="#typRel" data-template-color="w3-blue"/>
             </div>
-            <div class="w3-row-padding">
-              <div class=" w3-twothird jl-content">
-                <div class="app:content"/>
-                <div class="app:subsections"/>
-               </div>
-              
-            <div class="w3-third jl-toolbar">
-              <div class="w3-bar-block w3-white w3-margin-bottom">
-                <!--<span class="w3-text-red w3-button w3-bar-item">
+          </td>
+        </tr>
+        <tr class="w3-hover-teal jl-pointer" onclick="openMod('modRelLang')">
+          <td>
+            <i class="fa fa-comments w3-text-orange w3-large"/>
+          </td>
+          <td>Relevance within Language </td>
+          <td>
+            <div class="w3-grey" style="width:90px">
+              <div data-template="gram:tag" data-template-tag="#langRel" data-template-color="w3-orange"/>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="w3-margin w3-white">
+    <div class="w3-bar">
+      <div data-template="gram:breadcrumb"/>
+      <span class=" w3-bar-item w3-right w3-hover-opacity w3-padding">
+        <i id="toolbar-button" class="fa fa-bars w3-text-white" onClick="showToolbar()" style="font-size:30px"/>
+      </span>
+      <div class="w3-bar-item w3-right">
+        <a class="w3-hover-opacity w3-text-grey w3-padding jl-pointer" title="back" onClick="back()">
+          <i class="fa fa-arrow-circle-left" style="font-size:30px"/>
+        </a>
+        <a class="w3-hover-opacity w3-text-grey w3-padding jl-pointer" title="forward" onClick="forward()">
+          <i class="fa fa-arrow-circle-right" style="font-size:30px"/>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="w3-row-padding">
+    <div class="jl-content w3-twothird">
+      <div data-template="gram:content"/>
+      <div data-template="gram:subsections"/>
+    </div>
+
+    <div class="w3-third jl-toolbar">
+      <div class="w3-bar-block w3-white w3-margin-bottom">
+        <!--<span class="w3-text-red w3-button w3-bar-item">
                   <i class="fas fa-exclamation-triangle" style="padding-right:5px;"/> You are currently reading an older version (1.1)</span>
                  -->
-                <span onclick="hideToolbar()" class="w3-button w3-bar-item">
-                 <i class="fa fa-play fa-fw w3-text-grey"/> Hide toolbar</span>
-                
-              </div>
-              <h5>Keywords</h5>
-              <div class="app:keywords"/>
-             
-                <h5>Tools</h5>
-                
-                  <div class="w3-bar-block w3-white w3-margin-bottom">
-                    <a href="glossary.html" class="w3-button w3-bar-item" style="padding-left:10px;" title="Abbreviations used in the text reveal their meaning when hovered upon">
-                      <i class="far fa-list-alt" style="padding-right:5px;"/>  Abbreviations </a>
-                    <a href="bibliography.html" class="w3-button w3-bar-item" style="padding-left:10px;">
-                      <i class="fa fa-book-open" style="padding-right:5px;"/>  Bibliography</a>
-                    <a class="w3-button w3-bar-item" onclick="myAccFunc('oldV')" style="padding-left:10px;">
-                      <i class="fa fa-history" style="padding-right:5px;"/> Older versions</a>
-                <div id="oldV" class="w3-hide w3-white">
-                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.0 (25-11-2018)</a>
-                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.1 (17-12-2018)</a>
-                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.2 (04-04-2020 - current)</a>
-                  <a href="" class="w3-bar-item w3-button w3-margin-left">  Overview edits</a>
-                </div>
-                    <a class="w3-button w3-bar-item" onclick="myAccFunc('export')" style="padding-left:10px;">
-                      <i class="fa fa-file-download" style="padding-right:5px;"/> Export</a>
-                <div id="export" class="w3-hide w3-white">
-                  <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (this section)</a>
-                  <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (entire grammar)</a>
-                  <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (this section)</a>
-                  <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (entire grammar)</a>
-                </div>
-                </div>
-            
-                   
-              </div>
-            </div>
+        <span onclick="hideToolbar()" class="w3-button w3-bar-item">
+          <i class="fa fa-play fa-fw w3-text-grey"/> Hide toolbar</span>
+
+      </div>
+      <h5>Keywords</h5>
+      <div data-template="gram:keywords"/>
+
+      <h5>Tools</h5>
+
+      <div class="w3-bar-block w3-white w3-margin-bottom">
+        <a href="glossary.html" class="w3-button w3-bar-item" style="padding-left:10px;" title="Abbreviations used in the text reveal their meaning when hovered upon">
+          <i class="far fa-list-alt" style="padding-right:5px;"/> Abbreviations </a>
+        <a href="bibliography.html" class="w3-button w3-bar-item" style="padding-left:10px;">
+          <i class="fa fa-book-open" style="padding-right:5px;"/> Bibliography</a>
+        <a class="w3-button w3-bar-item" onclick="myAccFunc('oldV')" style="padding-left:10px;">
+          <i class="fa fa-history" style="padding-right:5px;"/> Older versions</a>
+        <div id="oldV" class="w3-hide w3-white">
+          <a href="" class="w3-bar-item w3-button w3-margin-left"> Version 1.0 (25-11-2018)</a>
+          <a href="" class="w3-bar-item w3-button w3-margin-left"> Version 1.1 (17-12-2018)</a>
+          <a href="" class="w3-bar-item w3-button w3-margin-left"> Version 1.2 (04-04-2020 -
+            current)</a>
+          <a href="" class="w3-bar-item w3-button w3-margin-left"> Overview edits</a>
+        </div>
+        <a class="w3-button w3-bar-item" onclick="myAccFunc('export')" style="padding-left:10px;">
+          <i class="fa fa-file-download" style="padding-right:5px;"/> Export</a>
+        <div id="export" class="w3-hide w3-white">
+          <a href="" class="w3-bar-item w3-button w3-margin-left"> TEI (this section)</a>
+          <a href="" class="w3-bar-item w3-button w3-margin-left"> TEI (entire grammar)</a>
+          <a href="" class="w3-bar-item w3-button w3-margin-left"> PDF (this section)</a>
+          <a href="" class="w3-bar-item w3-button w3-margin-left"> PDF (entire grammar)</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
   <footer class="w3-container w3-padding-16 w3-light-grey">
     <div class="w3-row">
-      <div class="w3-col" style="width:110px; padding:8px 16px 8px 0px"> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+      <div class="w3-col" style="width:110px; padding:8px 16px 8px 0px">
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
                     <img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
-                </a> </div>
-      <div class="w3-rest">The Abesabesi Grammar is edited by Jonas Lau and licensed under a 
-        <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
-          Attribution-NonCommercial-ShareAlike 4.0 International Licence</a>. |  <a href="legal.html" class="intext-button">Legal Notice</a>
-            </div> 
+                </a>
+      </div>
+      <div class="w3-rest">The Abesabesi Grammar is edited by Jonas Lau and licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+          Attribution-NonCommercial-ShareAlike 4.0 International Licence</a>. | <a href="legal.html" class="intext-button">Legal Notice</a>
+            </div>
     </div>
   </footer>
   <div id="modCite" class="modal">
@@ -135,7 +133,7 @@
       <span class="close" onclick="closeMod('modCite')">x</span>
       <h2>
         <i class="fa fa-marker w3-text-blue w3-xxlarge"/> Citing this element:</h2>
-      <p id="modCite-inner" class="app:cite?id="/>
+      <p id="modCite-inner" data-template="gram:citeMod" data-template-id=""/>
     </div>
-  </div> 
+  </div>
 </div>

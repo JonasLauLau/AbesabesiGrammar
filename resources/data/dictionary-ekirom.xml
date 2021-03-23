@@ -56,6 +56,10 @@
                <pron notation="ipa">baŋ</pron>
                <orth>bang</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">báŋ</pron>
+               <orth>báng</orth>
+            </form>
             <sense>
                <gloss>tie</gloss>
                <cit>
@@ -73,6 +77,10 @@
             <form type="lemma">
                <pron notation="ipa">haǹ</pron>
                <orth>haǹ</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">hán</pron>
+               <orth>hán</orth>
             </form>
             <sense>
                <gloss>pick</gloss>
@@ -438,6 +446,10 @@
                <pron notation="ipa">jas</pron>
                <orth>yas</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">jás</pron>
+               <orth>yás</orth>
+            </form>
             <sense>
                <gloss>take</gloss>
                <cit>
@@ -541,6 +553,14 @@
             <form type="lemma">
                <pron notation="ipa">asáá</pron>
                <orth>asáá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">aséé</pron>
+               <orth>aséé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">asóó</pron>
+               <orth>asóó</orth>
             </form>
             <sense>
                <gloss>1PL.COND</gloss>
@@ -647,6 +667,10 @@
             <form type="lemma">
                <pron notation="ipa">baj̀</pron>
                <orth>baỳ</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">báj</pron>
+               <orth>báy</orth>
             </form>
             <sense>
                <gloss>tear</gloss>
@@ -1140,6 +1164,26 @@
                <pron notation="ipa">-adiàg</pron>
                <orth>-adiàg</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">-odiòg</pron>
+               <orth>-odiòg</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">-àd</pron>
+               <orth>-àd</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">-òd</pron>
+               <orth>-òd</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">-àg</pron>
+               <orth>-àg</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">-òg</pron>
+               <orth>-òg</orth>
+            </form>
             <sense>
                <gloss>PLUR</gloss>
                <cit>
@@ -1207,6 +1251,10 @@
             <form type="lemma">
                <pron notation="ipa">sa</pron>
                <orth>sa</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">so</pron>
+               <orth>so</orth>
             </form>
             <sense>
                <gloss>2SG.OBJ</gloss>
@@ -1328,6 +1376,10 @@
                <pron notation="ipa">bèj</pron>
                <orth>bèy</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">ìbèj</pron>
+               <orth>ìbèy</orth>
+            </form>
             <sense>
                <gloss>where.DIR</gloss>
                <cit>
@@ -1363,6 +1415,10 @@
             <form type="lemma">
                <pron notation="ipa">na</pron>
                <orth>na</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">no</pron>
+               <orth>no</orth>
             </form>
             <sense>
                <gloss>1SG.OBJ</gloss>
@@ -2664,6 +2720,10 @@
                <pron notation="ipa">wuʃ</pron>
                <orth>wuṣ</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">wúʃ</pron>
+               <orth>wúṣ</orth>
+            </form>
             <sense>
                <gloss>collect</gloss>
                <cit>
@@ -2736,6 +2796,14 @@
                <pron notation="ipa">naá</pron>
                <orth>naá</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">neé</pron>
+               <orth>neé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">noó</pron>
+               <orth>noó</orth>
+            </form>
             <sense>
                <gloss>1SG.HAB</gloss>
                <cit>
@@ -2777,6 +2845,14 @@
             <form type="lemma">
                <pron notation="ipa">anáá</pron>
                <orth>anáá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">anéé</pron>
+               <orth>anéé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">anóó</pron>
+               <orth>anóó</orth>
             </form>
             <sense>
                <gloss>2PL.COND</gloss>
@@ -2972,6 +3048,14 @@
                <pron notation="ipa">báa</pron>
                <orth>báa</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">bée</pron>
+               <orth>bée</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">bóo</pron>
+               <orth>bóo</orth>
+            </form>
             <sense>
                <gloss>DES</gloss>
                <cit>
@@ -3041,6 +3125,14 @@
             <form type="lemma">
                <pron notation="ipa">ka</pron>
                <orth>ka</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ke</pron>
+               <orth>ke</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ko</pron>
+               <orth>ko</orth>
             </form>
             <sense>
                <gloss>PRF</gloss>
@@ -3489,6 +3581,10 @@
             <form type="lemma">
                <pron notation="ipa">to</pron>
                <orth>to</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">tó</pron>
+               <orth>tó</orth>
             </form>
             <sense>
                <gloss>pound</gloss>
@@ -4046,6 +4142,14 @@
                <pron notation="ipa">kinà</pron>
                <orth>kinà</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">kinè</pron>
+               <orth>kinè</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">kinò</pron>
+               <orth>kinò</orth>
+            </form>
             <sense>
                <gloss>PRF.NEG</gloss>
                <cit>
@@ -4169,6 +4273,14 @@
             <form type="lemma">
                <pron notation="ipa">bá</pron>
                <orth>bá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">bé</pron>
+               <orth>bé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">bó</pron>
+               <orth>bó</orth>
             </form>
             <sense>
                <gloss>FUT</gloss>
@@ -4714,6 +4826,10 @@
                <pron notation="ipa">moní</pron>
                <orth>moní</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">ní</pron>
+               <orth>ní</orth>
+            </form>
             <sense>
                <gloss>Q.NEG</gloss>
                <cit>
@@ -5248,6 +5364,10 @@
                <pron notation="ipa">ìbùrɛ́</pron>
                <orth>ìbùrẹ́</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">ìbúrɛ́</pron>
+               <orth>ìbúrẹ́</orth>
+            </form>
             <sense>
                <gloss>that_time</gloss>
                <cit>
@@ -5315,6 +5435,10 @@
             <form type="lemma">
                <pron notation="ipa">ʃag</pron>
                <orth>ṣag</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ʃág</pron>
+               <orth>ṣág</orth>
             </form>
             <sense>
                <gloss>sweep</gloss>
@@ -5547,6 +5671,14 @@
             <form type="lemma">
                <pron notation="ipa">saá</pron>
                <orth>saá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">seé</pron>
+               <orth>seé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">soó</pron>
+               <orth>soó</orth>
             </form>
             <sense>
                <gloss>2SG.HAB</gloss>
@@ -5814,6 +5946,10 @@
                <pron notation="ipa">nunù</pron>
                <orth>nunù</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">núnù</pron>
+               <orth>núnù</orth>
+            </form>
             <sense>
                <gloss>meet</gloss>
                <cit>
@@ -5923,6 +6059,10 @@
             <form type="lemma">
                <pron notation="ipa">lam</pron>
                <orth>lam</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">lám</pron>
+               <orth>lám</orth>
             </form>
             <sense>
                <gloss>light</gloss>
@@ -6432,6 +6572,14 @@
                <pron notation="ipa">baá</pron>
                <orth>baá</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">beé</pron>
+               <orth>beé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">boó</pron>
+               <orth>boó</orth>
+            </form>
             <sense>
                <gloss>3PL.HUM.HAB</gloss>
                <cit>
@@ -6517,6 +6665,10 @@
             <form type="lemma">
                <pron notation="ipa">ɲan</pron>
                <orth>nyan</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ɲán</pron>
+               <orth>nyán</orth>
             </form>
             <sense>
                <gloss>split</gloss>
@@ -7014,6 +7166,10 @@
                <pron notation="ipa">bug</pron>
                <orth>bug</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">búg</pron>
+               <orth>búg</orth>
+            </form>
             <sense>
                <gloss>beat</gloss>
                <cit>
@@ -7124,6 +7280,10 @@
                <pron notation="ipa">taj</pron>
                <orth>tay</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">táj</pron>
+               <orth>táy</orth>
+            </form>
             <sense>
                <gloss>pull</gloss>
                <cit>
@@ -7159,6 +7319,10 @@
             <form type="lemma">
                <pron notation="ipa">ɔ̀siŋ</pron>
                <orth>ọ̀sing</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ɔ̀sɛ</pron>
+               <orth>ọ̀sẹ</orth>
             </form>
             <sense>
                <gloss>father</gloss>
@@ -7243,6 +7407,14 @@
             <form type="lemma">
                <pron notation="ipa">màá</pron>
                <orth>màá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">mèé</pron>
+               <orth>mèé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">mòó</pron>
+               <orth>mòó</orth>
             </form>
             <sense>
                <gloss>HAB</gloss>
@@ -7342,6 +7514,10 @@
                <pron notation="ipa">è</pron>
                <orth>è</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">jè</pron>
+               <orth>yè</orth>
+            </form>
             <sense>
                <gloss>NEG</gloss>
                <cit>
@@ -7359,6 +7535,10 @@
             <form type="lemma">
                <pron notation="ipa">ka</pron>
                <orth>ka</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ki</pron>
+               <orth>ki</orth>
             </form>
             <sense>
                <gloss>pluck</gloss>
@@ -7445,6 +7625,14 @@
             <form type="lemma">
                <pron notation="ipa">íbá</pron>
                <orth>íbá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">íbé</pron>
+               <orth>íbé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">íbó</pron>
+               <orth>íbó</orth>
             </form>
             <sense>
                <gloss>3PL.HUM.Q</gloss>
@@ -7912,6 +8100,18 @@
                <pron notation="ipa">i- -aǹ</pron>
                <orth>i- -aǹ</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">i-</pron>
+               <orth>i-</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">-aǹ</pron>
+               <orth>-aǹ</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">-oǹ</pron>
+               <orth>-oǹ</orth>
+            </form>
             <sense>
                <gloss>GRND</gloss>
                <cit>
@@ -8332,6 +8532,10 @@
                <pron notation="ipa">wol</pron>
                <orth>wol</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">wól</pron>
+               <orth>wól</orth>
+            </form>
             <sense>
                <gloss>kill</gloss>
                <cit>
@@ -8460,6 +8664,14 @@
                <pron notation="ipa">báà</pron>
                <orth>báà</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">béè</pron>
+               <orth>béè</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">bóò</pron>
+               <orth>bóò</orth>
+            </form>
             <sense>
                <gloss>3PL.HUM.NEG</gloss>
                <cit>
@@ -8558,6 +8770,14 @@
                <pron notation="ipa">asaá</pron>
                <orth>asaá</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">aseé</pron>
+               <orth>aseé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">asoó</pron>
+               <orth>asoó</orth>
+            </form>
             <sense>
                <gloss>1PL.HAB</gloss>
                <cit>
@@ -8637,6 +8857,10 @@
             <form type="lemma">
                <pron notation="ipa">wuʃò</pron>
                <orth>wuṣò</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">wúʃ</pron>
+               <orth>wúṣ</orth>
             </form>
             <sense>
                <gloss>plant</gloss>
@@ -9190,6 +9414,10 @@
                <pron notation="ipa">gùm</pron>
                <orth>gùm</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">gùmʷ</pron>
+               <orth>gùmw</orth>
+            </form>
             <sense>
                <gloss>fill</gloss>
                <cit>
@@ -9317,6 +9545,14 @@
             <form type="lemma">
                <pron notation="ipa">bà</pron>
                <orth>bà</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">bè</pron>
+               <orth>bè</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">bò</pron>
+               <orth>bò</orth>
             </form>
             <sense>
                <gloss>3PL.HUM.S</gloss>
@@ -9614,6 +9850,10 @@
                <pron notation="ipa">deŋ</pron>
                <orth>deng</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">déŋ</pron>
+               <orth>déng</orth>
+            </form>
             <sense>
                <gloss>climb</gloss>
                <cit>
@@ -9758,6 +9998,10 @@
                <pron notation="ipa">si</pron>
                <orth>si</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">sí</pron>
+               <orth>sí</orth>
+            </form>
             <sense>
                <gloss>SEQU</gloss>
                <cit>
@@ -9773,6 +10017,14 @@
             <form type="lemma">
                <pron notation="ipa">anáà</pron>
                <orth>anáà</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">anéè</pron>
+               <orth>anéè</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">anóò</pron>
+               <orth>anóò</orth>
             </form>
             <sense>
                <gloss>2PL.NEG</gloss>
@@ -11164,6 +11416,10 @@
                <pron notation="ipa">jaj</pron>
                <orth>yay</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">jáj</pron>
+               <orth>yáy</orth>
+            </form>
             <sense>
                <gloss>sell</gloss>
                <cit>
@@ -11181,6 +11437,10 @@
             <form type="lemma">
                <pron notation="ipa">ihélegòdùg</pron>
                <orth>ihélegòdùg</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">hélegòdùg</pron>
+               <orth>hélegòdùg</orth>
             </form>
             <sense>
                <gloss>toe</gloss>
@@ -11674,6 +11934,14 @@
                <pron notation="ipa">anaá</pron>
                <orth>anaá</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">aneé</pron>
+               <orth>aneé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">anoó</pron>
+               <orth>anoó</orth>
+            </form>
             <sense>
                <gloss>2PL.HAB</gloss>
                <cit>
@@ -11989,6 +12257,14 @@
             <form type="lemma">
                <pron notation="ipa">náá</pron>
                <orth>náá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">néé</pron>
+               <orth>néé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">nóó</pron>
+               <orth>nóó</orth>
             </form>
             <sense>
                <gloss>1SG.COND</gloss>
@@ -12343,6 +12619,10 @@
             <form type="lemma">
                <pron notation="ipa">ʃum</pron>
                <orth>ṣum</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">tʃúm</pron>
+               <orth>tṣúm</orth>
             </form>
             <sense>
                <gloss>break</gloss>
@@ -13731,6 +14011,10 @@
             <form type="lemma">
                <pron notation="ipa">òbúʃo</pron>
                <orth>òbúṣo</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa"/>
+               <orth/>
             </form>
             <sense>
                <gloss>wall</gloss>
@@ -15124,6 +15408,10 @@
                <pron notation="ipa">ked</pron>
                <orth>ked</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">kéd</pron>
+               <orth>kéd</orth>
+            </form>
             <sense>
                <gloss>crack</gloss>
                <cit>
@@ -15884,6 +16172,10 @@
                <pron notation="ipa">ba</pron>
                <orth>ba</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">bo</pron>
+               <orth>bo</orth>
+            </form>
             <sense>
                <gloss>3PL.HUM.POSS</gloss>
                <cit>
@@ -16304,6 +16596,14 @@
                <pron notation="ipa">á</pron>
                <orth>á</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">é</pron>
+               <orth>é</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ó</pron>
+               <orth>ó</orth>
+            </form>
             <sense>
                <gloss>PROG</gloss>
                <cit>
@@ -16413,6 +16713,14 @@
             <form type="lemma">
                <pron notation="ipa">báá</pron>
                <orth>báá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">béé</pron>
+               <orth>béé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">bóó</pron>
+               <orth>bóó</orth>
             </form>
             <sense>
                <gloss>3PL.HUM.COND</gloss>
@@ -17197,6 +17505,14 @@
             <form type="lemma">
                <pron notation="ipa">sáà</pron>
                <orth>sáà</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">séè</pron>
+               <orth>séè</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">sóò</pron>
+               <orth>sóò</orth>
             </form>
             <sense>
                <gloss>2SG.NEG</gloss>
@@ -18318,6 +18634,10 @@
                <pron notation="ipa">biŋ</pron>
                <orth>bing</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">bíŋ</pron>
+               <orth>bíng</orth>
+            </form>
             <sense>
                <gloss>tie</gloss>
                <cit>
@@ -18485,6 +18805,10 @@
             <form type="lemma">
                <pron notation="ipa">igaàrí</pron>
                <orth>igaàrí</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">gaàrí</pron>
+               <orth>gaàrí</orth>
             </form>
             <sense>
                <gloss>cassava_flour</gloss>
@@ -19758,6 +20082,14 @@
                <pron notation="ipa">asáà</pron>
                <orth>asáà</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">aséè</pron>
+               <orth>aséè</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">asóò</pron>
+               <orth>asóò</orth>
+            </form>
             <sense>
                <gloss>1PL.NEG</gloss>
                <cit>
@@ -19875,6 +20207,10 @@
             <form type="lemma">
                <pron notation="ipa">mos</pron>
                <orth>mos</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">mós</pron>
+               <orth>mós</orth>
             </form>
             <sense>
                <gloss>fry</gloss>
@@ -20621,6 +20957,10 @@
             <form type="lemma">
                <pron notation="ipa">ɲɛgùm</pron>
                <orth>nyẹgùm</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ɲɛgùmu</pron>
+               <orth>nyẹgùmu</orth>
             </form>
             <sense>
                <gloss>find_missing_piece</gloss>
@@ -21514,6 +21854,10 @@
                <pron notation="ipa">hãs</pron>
                <orth>hãs</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">hã́s</pron>
+               <orth>hã́s</orth>
+            </form>
             <sense>
                <gloss>peel</gloss>
                <cit>
@@ -21856,6 +22200,14 @@
                <pron notation="ipa">náà</pron>
                <orth>náà</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">néè</pron>
+               <orth>néè</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">nóò</pron>
+               <orth>nóò</orth>
+            </form>
             <sense>
                <gloss>1SG.NEG</gloss>
                <cit>
@@ -22093,6 +22445,10 @@
             <form type="lemma">
                <pron notation="ipa">miní</pron>
                <orth>miní</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">ní</pron>
+               <orth>ní</orth>
             </form>
             <sense>
                <gloss>Q</gloss>
@@ -23014,6 +23370,10 @@
                <pron notation="ipa">ka</pron>
                <orth>ka</orth>
             </form>
+            <form type="variant">
+               <pron notation="ipa">ki</pron>
+               <orth>ki</orth>
+            </form>
             <sense>
                <gloss>give</gloss>
                <cit>
@@ -23121,6 +23481,10 @@
             <form type="lemma">
                <pron notation="ipa">iʃaga</pron>
                <orth>iṣaga</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">atʃaga</pron>
+               <orth>atṣaga</orth>
             </form>
             <sense>
                <gloss>tooth</gloss>
@@ -23439,6 +23803,10 @@
             <form type="lemma">
                <pron notation="ipa">moŋ</pron>
                <orth>mong</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">móŋ</pron>
+               <orth>móng</orth>
             </form>
             <sense>
                <gloss>dry_roast </gloss>
@@ -24085,6 +24453,14 @@
             <form type="lemma">
                <pron notation="ipa">sáá</pron>
                <orth>sáá</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">séé</pron>
+               <orth>séé</orth>
+            </form>
+            <form type="variant">
+               <pron notation="ipa">sóó</pron>
+               <orth>sóó</orth>
             </form>
             <sense>
                <gloss>2SG.COND</gloss>

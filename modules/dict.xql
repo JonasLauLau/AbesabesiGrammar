@@ -5,11 +5,10 @@ module namespace dict="http://www.example.org/abesabesi/dict";
 
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace config="http://www.example.org/abesabesi/config" at "config.xqm";
-import module namespace app="http://www.example.org/abesabesi/templates" at "app.xql";
-
+import module namespace gram="http://www.example.org/abesabesi/grammarEntry" at "grammar-entry.xql";
+import module namespace igt="http://www.example.org/abesabesi/igt" at "igt.xql";
 
 declare default element namespace "http://www.tei-c.org/ns/1.0";
-declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare variable $dict:default-entry:= "odʒíbɛ̀rɛ̀_003a55e8-367f-4910-a2e7-e66b8adbdf76";
 declare variable $dict:dictionary := doc("/db/apps/Abesabesi/resources/data/dictionary-ekirom.xml");
@@ -21,7 +20,7 @@ declare function dict:entry($node as node(), $model as map(*))
     let $entry-id := request:get-parameter('entry', $dict:default-entry)
     return
         if ($searchphrase)
-        then
+        then 
             dict:entry-with-id(dict:findEntryID($searchphrase))
         else
             let $entry := $dict:dictionary//entry[@xml:id = $entry-id][1]
@@ -32,10 +31,10 @@ declare function dict:entry($node as node(), $model as map(*))
 declare function dict:findEntryID($searchphrase as xs:string)
 {
     let $normalizedSP := lower-case(normalize-unicode(fn:normalize-space($searchphrase)))
-   let $result-lemmaExact := $dict:dictionary//entry/form/orth[lower-case(normalize-unicode(fn:normalize-space(data(.)))) = $normalizedSP]
-   let $result-lemmaContains := $dict:dictionary//entry/form/orth[fn:contains(lower-case(normalize-unicode(fn:normalize-space(data(.)))),$normalizedSP)]
-   let $result-lemmaPronExact := $dict:dictionary//entry/form/pron[lower-case(normalize-unicode(fn:normalize-space(data(.)))) = $normalizedSP]
-   let $result-lemmaPronContains := $dict:dictionary//entry/form/pron[fn:contains(lower-case(normalize-unicode(fn:normalize-space(data(.)))),$normalizedSP)]
+   let $result-lemmaExact := $dict:dictionary//entry/form[@type='lemma']/orth[lower-case(normalize-unicode(fn:normalize-space(data(.)))) = $normalizedSP]
+   let $result-lemmaContains := $dict:dictionary//entry/form[@type='lemma']/orth[fn:contains(lower-case(normalize-unicode(fn:normalize-space(data(.)))),$normalizedSP)]
+   let $result-lemmaPronExact := $dict:dictionary//entry/form[@type='lemma']/pron[lower-case(normalize-unicode(fn:normalize-space(data(.)))) = $normalizedSP]
+   let $result-lemmaPronContains := $dict:dictionary//entry/form[@type='lemma']/pron[fn:contains(lower-case(normalize-unicode(fn:normalize-space(data(.)))),$normalizedSP)]
    let $result-glossExact := $dict:dictionary//entry/sense/gloss[lower-case(normalize-unicode(fn:normalize-space(data(.)))) = $normalizedSP]
    let $result-glossContains := $dict:dictionary//entry/sense/gloss[fn:contains(lower-case(normalize-unicode(fn:normalize-space(data(.)))),$normalizedSP)]
    let $result-defExact := $dict:dictionary//entry/sense/cit/quote[lower-case(normalize-unicode(fn:normalize-space(data(.)))) = $normalizedSP]
@@ -100,11 +99,12 @@ declare function dict:entry-with-id($entry as node())
     else
         <div>
         {
+            let $variants := $entry/form[@type='variant']
             for $sense in $entry/sense
             return
             <div class="w3-container w3-white w3-padding-16 w3-margin-bottom">
                 <div class="jl-bar">
-                    <h1 class="jl-dict-entry" style="padding-left:16px">{data($entry/form/orth)}</h1>
+                    <h1 class="jl-dict-entry" style="padding-left:16px">{data($entry/form[@type='lemma']/orth)}</h1>
                     <i class="jl-dict-entry">{data($sense/cit/gramGrp/gram[@type='pos'])}</i>
                     
                 </div>
@@ -124,7 +124,31 @@ declare function dict:entry-with-id($entry as node())
                         else
                             ()
                     }
-                    <tr><td><b>Pronunciation</b></td><td class="jl-txt">{data($entry/form/pron)}</td> </tr>
+                    { 
+                        if ($variants)
+                        then
+                            <tr><td><b>Variants</b></td><td class="jl-txt">{data($entry/form[@type='lemma']/orth)}
+                            {
+                            if ($variants)
+                            then
+                                for $variant in $variants
+                                return
+                                    concat(' | ', data($variant/orth))
+                            else ()
+                            }
+                            </td></tr>
+                        else ()
+                    
+                    }
+                    <tr><td><a href="grammar-entry.html?section=ch2-sc6"><b>Pronunciation</b></a></td><td class="jl-txt">{data($entry/form[@type='lemma']/pron)}{
+                    if ($variants)
+                    then
+                        for $variant in $variants
+                        return
+                            concat(' | ', data($variant/pron))
+                    else ()
+                    }
+                    </td> </tr>
                      {
                         let $vh := $sense/cit/gramGrp/gram[@type='vh']
                         return
@@ -136,14 +160,15 @@ declare function dict:entry-with-id($entry as node())
                                 return
                                     if (fn:contains($vh-kind, "+u"))
                                     then
-                                        <tr><td><b>Prefix vowel harmony</b></td>
+                                        <tr><td><a href="grammar-entry.html?section=ch2-sc4-4"><b>Prefix vowel harmony</b></a></td>
                                         <td class="jl-txt">{fn:substring-after($vh-kind, ":")}</td></tr>
                                     else
-                                        <tr><td><b>Suffix vowel harmony</b></td>
+                                        <tr><td><a href="grammar-entry.html?section=ch2-sc4-4"><b>Suffix vowel harmony</b></a></td>
                                         <td class="jl-txt">{fn:substring-after($vh-kind, ":")}</td></tr>
                             else
                                 ()
                     }
+                    
                     {
                         for $etymology in $entry/etym
                             return
@@ -177,24 +202,48 @@ declare function dict:entry-with-id($entry as node())
 declare function dict:findInstances($id as xs:string)
 {
     let $fullTarget := fn:concat("dictionary.xml#", $id)
-    let $refs := $app:doc//div//ref[data(@target) = $fullTarget]
+    let $refsGram := gram:get-dictEntries($fullTarget)
+    let $refsEx := igt:get-dictEntries($fullTarget)
     return
-        if ($refs)
-        then
-            <div class="w3-container w3-white w3-padding-16 w3-margin-bottom">
-            <table class="w3-table">
-                <tr>
-                <td><b>Sections that contain this lexeme </b></td><td>
-                {for $ref in $refs
-                 let $div := $ref/ancestor::div[1]
-                    return
-                        <a style="padding:0px 16px;" href="grammar-entry.html?section={data($div/@xml:id)}">{data($div/@n)}</a>
-                }
-                </td>
-                </tr>
-                </table>
-            </div>
-        else ()
+        <div>
+         {
+         if ($refsGram)
+         then
+             <div class="w3-container w3-white w3-padding-16 w3-margin-bottom">
+             <table class="w3-table">
+                 <tr>
+                 <td><b>Sections that contain this lexeme </b></td><td>
+                 {for $ref in $refsGram
+                  let $div := $ref/ancestor::div[1]
+                     return
+                         <a style="padding:0px 16px;" href="grammar-entry.html?section={data($div/@xml:id)}">{data($div/@n)}</a>
+                 }
+                 </td>
+                 </tr>
+                 </table>
+             </div>
+         else ()
+         }
+                  {
+         if ($refsEx)
+         then
+             <div class="w3-container w3-white w3-padding-16 w3-margin-bottom">
+             <table class="w3-table">
+                 <tr>
+                 <td><b>Examples that contain this lexeme </b></td><td>
+                 {for $ref in $refsEx
+                  let $ex := $ref/ancestor::cit[1]
+                  order by $ex/@xml:id
+                     return <span>
+                         <a style="padding:0px 16px;" href="examples.html#{data($ex/@xml:id)}">{data($ex/@xml:id)}</a><br/></span>
+                 }
+                 </td>
+                 </tr>
+                 </table>
+             </div>
+         else ()
+         }
+        </div>
  
     
     
@@ -223,7 +272,7 @@ declare function dict:list($node as node(), $model as map(*))
                          return
                              <tr onclick="window.location='dictionary.html?entry={$entry/@xml:id}';">
                                  
-                                 <td class="jl-txt">{data($entry/form/orth)}</td>
+                                 <td class="jl-txt">{data($entry/form[@type='lemma']/orth)}</td>
                                  <td>{data($sense/gloss)}</td>
                                  <td>{data($sense/cit/gramGrp/gram[@type='pos'])}</td>
                              </tr>

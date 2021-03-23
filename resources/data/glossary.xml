@@ -30,6 +30,10 @@
                     <abbr>3</abbr>
                     <expan>Third person</expan>
                 </item>
+                <item xml:id="emph">
+                    <abbr>EMPH</abbr>
+                    <expan>Emphasis</expan>
+                </item>
                 <item xml:id="np">
                     <abbr>NP</abbr>
                     <expan>Noun phrase</expan>

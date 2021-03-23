@@ -16,6 +16,16 @@ var dm = document.getElementById("dictionary-main");
 
 var modals = document.getElementsByClassName('modal');
 
+//var vid = document.getElementById('video21');
+//vid.addEventListener("error", hideElement('videoButton21'));
+
+//Video
+//document.getElementById("video").currentTime = 40;
+
+function hideElement(id) {
+    var element = document.getElementById(id);
+    element.visibility = ('hidden');
+}
 
 
 // Toggle between showing and hiding the sidebar, and add overlay effect
@@ -173,9 +183,8 @@ function openMod(id) {
 }
 
 function openMod(id, content) {
-    var fullContent = "app:cite?id="+content
     document.getElementById(id).style.display = "block";
-    document.getElementById("modCite-inner").className = fullContent;
+    document.getElementById("modCite-inner").dataset.template.id = content;
 }
 
 // When the user clicks on <span> (x), close the modal

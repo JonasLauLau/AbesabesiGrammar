@@ -11,10 +11,13 @@ import module namespace templates="http://exist-db.org/xquery/templates" ;
  : The following modules provide functions which will be called by the 
  : templating.
  :)
-import module namespace config="http://www.example.org/abesabesi/config" at "config.xqm";
 import module namespace app="http://www.example.org/abesabesi/templates" at "app.xql";
-import module namespace dict="http://www.example.org/abesabesi/dict" at "dict.xql";
+import module namespace config="http://www.example.org/abesabesi/config" at "config.xqm";
 import module namespace search="http://www.example.org/abesabesi/search" at "search.xql";
+import module namespace gram="http://www.example.org/abesabesi/grammarEntry" at "grammar-entry.xql";
+import module namespace term="http://www.example.org/abesabesi/terms" at "terms.xql";
+import module namespace igt="http://www.example.org/abesabesi/igt" at "igt.xql";
+import module namespace bib="http://www.example.org/abesabesi/bibliography" at "bib.xql";
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 

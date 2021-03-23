@@ -19,8 +19,6 @@
         <body>
             
             <cit type="example" xml:id="ibe298-00.088">
-                <media mimeType="audio/wav" url="ibe298-00m.wav"/>
-                <media mimeType="video/mp4" url="ibe298-00m.mp4"/>
                 <index>
                     <term ref="terminology.xml#vowel-nasality"/>
                 </index>
@@ -52,7 +50,7 @@
                             <note ana="#txt">hɔ̃</note>
                             <note ana="#gls">cultivate</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ebid_17685b5b-1ebb-4976-a187-19b24a7e604f">
                             <note ana="#txt">ebid</note>
                             <note ana="#gls">palm_fruit</note>
                         </w>
@@ -67,43 +65,43 @@
                 <quote>
                     <s>
                         <note ana="#gls">if I bring my book today, I will eat it</note>
-                        <w lemmaRef="dictionary.xml#hɔ̃_35e67248-594f-4de8-a081-058dd559e973">
+                        <w lemmaRef="dictionary.xml#náá_7b8c3f90-c02a-48e2-8071-77eb6d222056">
                             <note ana="#txt">náá</note>
                             <note ana="#gls">1sg.cond</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#toǹ_e09b5a6a-b021-41b7-8c8b-d2a9a943a533">
                             <note ana="#txt">toǹ</note>
                             <note ana="#gls">carry</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ìwé_41a48876-7ed5-46a7-a598-0733d4898578">
                             <note ana="#txt">ìwé</note>
                             <note ana="#gls">book</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">no</note>
                             <note ana="#gls">1sg.poss</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ba1_88eca15b-eb83-44cc-950b-d1e0b486f4c5">
                             <note ana="#txt">ba</note>
                             <note ana="#gls">come</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ìdʒɛ_8ab3559e-6e85-4802-93c9-b690b232a285">
                             <note ana="#txt">ìdʒɛ,</note>
                             <note ana="#gls">today</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ǹ_ba463397-99e8-40ea-b78e-ba27d85d280b">
                             <note ana="#txt">ǹ</note>
                             <note ana="#gls">1sg</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bá_2bf6fb8e-d777-4c65-bd5f-a45e2113b14b">
                             <note ana="#txt">bá</note>
                             <note ana="#gls">fut</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#kàj1_dd6d5283-13f5-4e79-8b8c-591c094647ce">
                             <note ana="#txt">kàj</note>
                             <note ana="#gls">read</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɛ_da0d0a8e-0b9b-440c-829b-aec462f3d8fa">
                             <note ana="#txt">ɛ</note>
                             <note ana="#gls">3sg.nhum.obj</note>
                         </w>
@@ -120,18 +118,18 @@
                 <quote>
                     <s>
                         <note ana="#gls">They like me.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bè</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#dɛ̀n_8b2e148d-a728-4114-ae17-cb57194b0ef1">
                             <note ana="#txt">dɛ̀n</note>
                             <note ana="#gls">like</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">na</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -144,25 +142,25 @@
             <cit type="example" xml:id="ibe281-00.198">
                 <quote>
                     <s>
-                        <note ana="#gls">I saw them.</note>
-                        <w>
+                        <note ana="#gls">they will arrest you.</note>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bà</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bá_2bf6fb8e-d777-4c65-bd5f-a45e2113b14b">
                             <note ana="#txt">bá</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#fut"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#kèd1_5459d762-889f-4669-b6ba-401272b2c133">
                             <note ana="#txt">kèd</note>
                             <note ana="#gls">arrest</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#sa_0ba0c439-a315-4f3f-9374-2f3029d445b2">
                             <note ana="#txt">so</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#secondP"/>
@@ -176,19 +174,19 @@
                 <quote>
                     <s>
                         <note ana="#gls">They tied the goat.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bè</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#fe1_aa1c08c3-62a4-46ce-a694-f8c07e4b679e">
                             <note ana="#txt">fe</note>
                             <note ana="#gls">tie</note>
                         </w>
-                        <w>
-                            <note ana="#txt">ɛbuji</note>
+                        <w lemmaRef="dictionary.xml#ɛbuj_43ea3d5f-d490-4307-af57-77689b4fcae4">
+                            <note ana="#txt">ɛbuj</note>
                             <note ana="#gls">goat</note>
                         </w>
                         <w>
@@ -202,60 +200,60 @@
                 <quote>
                     <s>
                         <note ana="#gls">It was me who swept the floor.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ònì_ec05abd0-984a-4dc5-87b0-ef74d8893595">
                             <note ana="#txt">ònì</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#gí_0065938c-8b08-499c-957e-5a3ff46423ed">
                             <note ana="#txt">gí</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#foc"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ʃag_39ca991b-8b52-4bc9-8426-50cb5b93e58b">
                             <note ana="#txt">ʃag</note>
                             <note ana="#gls">sweep</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#atɔ_6e7f71a4-a4f2-4db8-9e47-8943116e0dcd">
                             <note ana="#txt">atɔ</note>
                             <note ana="#gls">ground</note>
                         </w>
                     </s>
                 </quote>
             </cit>
-            <cit type="example" xml:id="ibe065-00.066">
+            <cit type="example" corresp="ibe065-00-066.mp4" xml:id="ibe065-00.066">
                 <quote>
                     <s>
                         <note ana="#gls">It is me they gave birth to first.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ònì_ec05abd0-984a-4dc5-87b0-ef74d8893595">
                             <note ana="#txt">ònì</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#gí_0065938c-8b08-499c-957e-5a3ff46423ed">
                             <note ana="#txt">gí</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#foc"/>
                             </note>
                         </w>
-                        <w>
-                            <note ana="#txt">bà</note>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
+                            <note ana="#txt">bò</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                                 <abbr corresp="glossary.xml#s"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#kud_7f14497c-0416-403e-92fc-61dc6f4a9d4a">
                             <note ana="#txt">kud</note>
                             <note ana="#gls">do_first</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#dʒo_df0569bf-b3c8-49c7-a7e7-8a1fda24cd47">
                             <note ana="#txt">dʒo</note>
                             <note ana="#gls">give_birth</note>
                         </w>
@@ -266,35 +264,35 @@
                 <quote>
                     <s>
                         <note ana="#gls">It is me he did a favor for.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ònì_ec05abd0-984a-4dc5-87b0-ef74d8893595">
                             <note ana="#txt">ònì</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#gí_0065938c-8b08-499c-957e-5a3ff46423ed">
                             <note ana="#txt">gí</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#foc"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔ́_02aa319c-481b-4a62-988b-bc8ced3af53b">
                             <note ana="#txt">ɔ́</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#s"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#mĩ_0b6f79dc-1414-4963-a512-c559a1beb536">
                             <note ana="#txt">mĩ</note>
                             <note ana="#gls">do</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#èɲèm_eeca4108-5c8b-4be8-8a56-3109db646f1c">
                             <note ana="#txt">èɲèm</note>
                             <note ana="#gls">favor</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ʃa2_f73a0eb2-b242-447a-aa40-76d79a7d74ba">
                             <note ana="#txt">ʃa</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#dat"/>
@@ -307,7 +305,7 @@
                 <quote>
                     <s>
                         <note ana="#gls">It was me who swept the floor.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ònì_ec05abd0-984a-4dc5-87b0-ef74d8893595">
                             <note ana="#txt">ònì</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -315,11 +313,11 @@
                             </note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#ʃag_39ca991b-8b52-4bc9-8426-50cb5b93e58b">
                             <note ana="#txt">ʃag</note>
                             <note ana="#gls">sweep</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#atɔ_6e7f71a4-a4f2-4db8-9e47-8943116e0dcd">
                             <note ana="#txt">atɔ</note>
                             <note ana="#gls">ground</note>
                         </w>
@@ -330,7 +328,7 @@
                 <quote>
                     <s>
                         <note ana="#gls">Me and my older sibling.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ònì_ec05abd0-984a-4dc5-87b0-ef74d8893595">
                             <note ana="#txt">ònì</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -338,15 +336,15 @@
                             </note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#íni_e5aa7aed-da83-4173-9b89-57118cce918c">
                             <note ana="#txt">íni</note>
                             <note ana="#gls">and</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ohij_94037e3d-d22d-47de-9bc9-a601062f9e30">
                             <note ana="#txt">ohij</note>
                             <note ana="#gls">older_sibling</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">no</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -360,7 +358,7 @@
                 <quote>
                     <s>
                         <note ana="#gls">Her and her husband.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#àu_f67073de-e180-464c-822f-6bdca70f604d"> 
                             <note ana="#txt">àu</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
@@ -368,15 +366,15 @@
                             </note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#àti_f3da0b40-4912-49fc-b747-62ff0c07bf01">
                             <note ana="#txt">àti</note>
                             <note ana="#gls">and</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#owos_565b4936-646c-4c95-9275-8992741f36b3">
                             <note ana="#txt">owos</note>
                             <note ana="#gls">husband</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#u_97e324fd-e2fd-4134-9442-bce44eb8e628">
                             <note ana="#txt">u</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
@@ -389,43 +387,48 @@
             <cit type="example" xml:id="ibe301-00.135">
                 <quote>
                     <s>
-                        <note ana="#gls">They beat his family and himself.</note>
-                        <w>
+                        <note ana="#gls">Now, they beat his family and himself.</note>
+                        <w lemmaRef="dictionary.xml#dibɛ́n_87849470-18e1-498a-90a7-e23a91ceb59f">
+                            <note ana="#txt">dibɛ́n</note>
+                            <note ana="#gls">now</note>
+                        </w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bò</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-
-                        <w>
+                        <w lemmaRef="dictionary.xml#bug_4bf51fc7-6682-4aa1-8e87-f6c4cc64d8be">
                             <note ana="#txt">bug</note>
                             <note ana="#gls">beat</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#àti_f3da0b40-4912-49fc-b747-62ff0c07bf01">
                             <note ana="#txt">àti</note>
                             <note ana="#gls">and</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔni_5a7750dd-47ba-4d55-b593-685e577c5d5a">
                             <note ana="#txt">ani</note>
                             <note ana="#gls">people</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#u_97e324fd-e2fd-4134-9442-bce44eb8e628">
                             <note ana="#txt">u</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#hum"/>.<abbr corresp="glossary.xml#poss"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#àti_f3da0b40-4912-49fc-b747-62ff0c07bf01">
                             <note ana="#txt">àti</note>
                             <note ana="#gls">and</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#àtɛ̀n_4a1b4596-6940-4063-9204-90d877781ef2">
                             <note ana="#txt">àtɛ̀n</note>
-                            <note ana="#gls">and</note>
+                            <note ana="#gls">
+                                <abbr corresp="glossary.xml#emph"/>
+                            </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#u_97e324fd-e2fd-4134-9442-bce44eb8e628">
                             <note ana="#txt">u</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
@@ -439,26 +442,26 @@
                 <quote>
                     <s>
                         <note ana="#gls">There is no person like him/her.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔni_5a7750dd-47ba-4d55-b593-685e577c5d5a">
                             <note ana="#txt">ɔni</note>
                             <note ana="#gls">person</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#èdʒì1_13507b7c-3de4-44a1-a8da-0ec532ca9caa">
                             <note ana="#txt">èdʒì</note>
                             <note ana="#gls">like</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#àu_f67073de-e180-464c-822f-6bdca70f604d">
                             <note ana="#txt">àu</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#idp"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#té_c2258897-4d89-474c-8924-9bcef58d751e">
                             <note ana="#txt">té</note>
                             <note ana="#gls">exist</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#è_4ebcd6c7-baea-4528-9acf-745827b39596">
                             <note ana="#txt">è</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#neg"/>
@@ -475,7 +478,7 @@
                             <note ana="#txt">ègido</note>
                             <note ana="#gls">only</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ònì_ec05abd0-984a-4dc5-87b0-ef74d8893595">
                             <note ana="#txt">ònì</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -495,14 +498,14 @@
                             <note ana="#gls">for</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#àbès_c88881c1-1206-4f23-b42c-a725787ef4df">
                             <note ana="#txt">àbès</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#idp"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#àgbɛ̀_c91ea7c9-3380-4b0c-bd98-7d6c13b82860">
                             <note ana="#txt">àgbɛ̀</note>
                             <note ana="#gls">farmer</note>
                         </w>
@@ -514,7 +517,7 @@
                 <quote>
                     <s>
                         <note ana="#gls">It is me.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ònì_ec05abd0-984a-4dc5-87b0-ef74d8893595">
                             <note ana="#txt">ònì</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -522,7 +525,7 @@
                             </note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#gó_3f327d79-c6e7-4534-b0ce-0dfcb18a4a93">
                             <note ana="#txt">gó</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#foc"/>
@@ -535,39 +538,39 @@
                 <quote>
                     <s>
                         <note ana="#gls">the house of them, who want to marry this year</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#iʃo_5d00f214-2d5c-4148-87ed-576c37739395">
                             <note ana="#txt">iʃo</note>
                             <note ana="#gls">house</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#àba_f5c6e578-c065-4819-bc90-97536c0433bc">
                             <note ana="#txt">àba</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#idp"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#mi2_e701d582-6815-4172-b500-a28b2e02ca9a">
                             <note ana="#txt">mi</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#rel"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bá_2bf6fb8e-d777-4c65-bd5f-a45e2113b14b">
                             <note ana="#txt">bé</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#fut"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#moɲo_7498bb91-fb7e-489e-bfa3-2e9880b7d406">
                             <note ana="#txt">moɲo</note>
                             <note ana="#gls">marry</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ijel_647f8458-e24f-4ce8-b8fa-1ae04af2e144">
                             <note ana="#txt">ijel</note>
                             <note ana="#gls">year</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#èéni_23bac33e-dc27-462c-8880-dbd7c425b655">
                             <note ana="#txt">èéni</note>
                             <note ana="#gls">this</note>
                         </w>
@@ -578,7 +581,7 @@
                 <quote>
                     <s>
                         <note ana="#gls">two of them</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#àba_f5c6e578-c065-4819-bc90-97536c0433bc">
                             <note ana="#txt">àba</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
@@ -586,7 +589,7 @@
                             </note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#ídiàn_f92120d2-8b4e-4fd9-b2a3-79cf31c63adb">
                             <note ana="#txt">ídiàn</note>
                             <note ana="#gls">two</note>
                         </w>
@@ -597,12 +600,11 @@
                 <quote>
                     <s>
                         <note ana="#gls">a dead chickens</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ìkokò_27c20bdf-791d-4ce7-8684-777e94fd7bdf">
                             <note ana="#txt">ìkokò</note>
                             <note ana="#gls">chicken</note>
                         </w>
-
-                        <w>
+                        <w lemmaRef="dictionary.xml#ehuhu_d466cc8c-c018-46cd-8dc2-f09d4c8e82b1">
                             <note ana="#txt">ehuhu</note>
                             <note ana="#gls">dead</note>
                         </w>
@@ -618,12 +620,12 @@
                 <quote>
                     <s>
                         <note ana="#gls">a dead person</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔni_5a7750dd-47ba-4d55-b593-685e577c5d5a">
                             <note ana="#txt">ɔni</note>
                             <note ana="#gls">person</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#ohuhu_42318f08-9678-4eac-9526-c9d1952a359a">
                             <note ana="#txt">ohuhu</note>
                             <note ana="#gls">dead</note>
                         </w>
@@ -639,11 +641,11 @@
                             <note ana="#gls">permission</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#té_c2258897-4d89-474c-8924-9bcef58d751e">
                             <note ana="#txt">té</note>
                             <note ana="#gls">exist</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#sá2_c6a367b2-5bc0-49b5-99af-c33bd1c254ac">
                             <note ana="#txt">sá</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#secondP"/>
@@ -663,15 +665,15 @@
                             <note ana="#gls">place_name</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#té_c2258897-4d89-474c-8924-9bcef58d751e">
                             <note ana="#txt">té</note>
                             <note ana="#gls">exist</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#èkiròm_7296a2f1-c391-4c3b-a5b1-688b183877b4">
                             <note ana="#txt">èkiròm</note>
                             <note ana="#gls">Ikaram</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#è_4ebcd6c7-baea-4528-9acf-745827b39596">
                             <note ana="#txt">è</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#neg"/>
@@ -684,12 +686,12 @@
                 <quote>
                     <s>
                         <note ana="#gls">Where is your house?</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#iʃo_5d00f214-2d5c-4148-87ed-576c37739395">
                             <note ana="#txt">iʃo</note>
                             <note ana="#gls">house</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#sa_0ba0c439-a315-4f3f-9374-2f3029d445b2">
                             <note ana="#txt">so</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#secondP"/>
@@ -697,23 +699,23 @@
                                 <abbr corresp="glossary.xml#poss"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#síkɔ́_0f996e0e-45de-40d5-a2d9-43d5adc848c6">
                             <note ana="#txt">síkɔ́</note>
                             <note ana="#gls">where_is</note>
                         </w>
                     </s>
                 </quote>
             </cit>
-            <cit type="example" xml:id="ibe117-00.079">
+            <cit type="example" xml:id="ibe017-00.079">
                 <quote>
                     <s>
                         <note ana="#gls">What about your family?</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔni_5a7750dd-47ba-4d55-b593-685e577c5d5a">
                             <note ana="#txt">ani</note>
                             <note ana="#gls">people</note>
                         </w>
-
-                        <w>
+                        
+                        <w lemmaRef="dictionary.xml#sa_0ba0c439-a315-4f3f-9374-2f3029d445b2">
                             <note ana="#txt">sa</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#secondP"/>
@@ -721,7 +723,7 @@
                                 <abbr corresp="glossary.xml#poss"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#síkɔ́_0f996e0e-45de-40d5-a2d9-43d5adc848c6">
                             <note ana="#txt">síkɔ́</note>
                             <note ana="#gls">what_about</note>
                         </w>
@@ -732,18 +734,18 @@
                 <quote>
                     <s>
                         <note ana="#gls">A horse is running.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ègèdʒi_d14d3d16-eeca-4122-bd41-bb000bd42118">
                             <note ana="#txt">ègèdʒi</note>
                             <note ana="#gls">horse</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#á_aa7df61c-f251-46b0-a7fa-d6781e9a49bf">
                             <note ana="#txt">á</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#prog"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ʃu_f17c1005-a2bd-4d48-b41a-f19595251aae">
                             <note ana="#txt">ʃu</note>
                             <note ana="#gls">run</note>
                         </w>
@@ -754,11 +756,11 @@
                 <quote>
                     <s>
                         <note ana="#gls">The snake died.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɛɲɔ_9ae38bd4-e274-4fd1-a240-58740c179ea3">
                             <note ana="#txt">ɛɲɔ</note>
                             <note ana="#gls">snake</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#hu1_ff4229f5-ced5-48a6-8531-3ea1a10b39e2">
                             <note ana="#txt">hu</note>
                             <note ana="#gls">die</note>
                         </w>
@@ -769,22 +771,22 @@
                 <quote>
                     <s>
                         <note ana="#gls">My wife beat the goat.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#oɲo_5152bb42-1d47-4056-beff-5ea419a01d08">
                             <note ana="#txt">oɲo</note>
                             <note ana="#gls">wife</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">no</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#poss"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bug_4bf51fc7-6682-4aa1-8e87-f6c4cc64d8be">
                             <note ana="#txt">bug</note>
                             <note ana="#gls">beat</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɛbuj_43ea3d5f-d490-4307-af57-77689b4fcae4">
                             <note ana="#txt">ɛbuj</note>
                             <note ana="#gls">goat</note>
                         </w>
@@ -795,23 +797,23 @@
                 <quote>
                     <s>
                         <note ana="#gls">I am hungry.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#imũ_4c85f41e-3aff-4317-ac4e-a752fb555cd0">
                             <note ana="#txt">imũ</note>
                             <note ana="#gls">hunger</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#á_aa7df61c-f251-46b0-a7fa-d6781e9a49bf">
                             <note ana="#txt">á</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#prog"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#kɛ̀m_57c93167-a94e-47c5-a168-bd964f605277">
                             <note ana="#txt">kɛ̀m</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#absv"/>_hunger</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">na</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -825,7 +827,7 @@
                 <quote>
                     <s>
                         <note ana="#gls">I am sick.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɛ́_a366d1e3-890c-4c9f-8f2b-32c29e6f9191">
                             <note ana="#txt">ɛ́</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
@@ -833,12 +835,12 @@
                             </note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#dìg2_72b09f1c-6965-4135-85a2-0e2e752e1de3">
                             <note ana="#txt">dìg</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#absv"/>_sickness</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">no</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -852,23 +854,23 @@
                 <quote>
                     <s>
                         <note ana="#gls">I am feeling cold.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔ̀ʃìŋ_75f69125-f0f3-4c2d-8503-02190c66300b">
                             <note ana="#txt">ɔ̀ʃìŋ</note>
                             <note ana="#gls">cold</note>
                         </w>
 
-                        <w>
+                        <w lemmaRef="dictionary.xml#á_aa7df61c-f251-46b0-a7fa-d6781e9a49bf">
                             <note ana="#txt">é</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#prog"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#mi1_778d94d3-ac51-4692-a9ca-9e8a5a14a6ed">
                             <note ana="#txt">mi</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#absv"/>_cold</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">no</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -882,23 +884,23 @@
                 <quote>
                     <s>
                         <note ana="#gls">They gave us money.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bà</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ka2_f08f8720-39e5-4378-99c2-256403c98ae4">
                             <note ana="#txt">ki</note>
                             <note ana="#gls">give</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ès_02c86648-a740-4160-ab4e-6daa3a7ad692">
                             <note ana="#txt">ès</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#obj"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɛmũ_9ffa69b4-5b54-456d-b48e-339b0fe296ab">
                             <note ana="#txt">ɛmũ</note>
                             <note ana="#gls">money</note>
                         </w>
@@ -909,23 +911,23 @@
                 <quote>
                     <s>
                         <note ana="#gls">They taught me Ekiromi.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bà</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#kɔ́1_e7cf7710-4b28-4f6d-9316-a2a8dba92f3b">
                             <note ana="#txt">kɔ́</note>
                             <note ana="#gls">teach</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">na</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#èkiròm_7296a2f1-c391-4c3b-a5b1-688b183877b4">
                             <note ana="#txt">èkiròm</note>
                             <note ana="#gls">Ekiromi</note>
                         </w>
@@ -936,31 +938,31 @@
                 <quote>
                     <s>
                         <note ana="#gls">They fight against me.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bà</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ton_27b830fe-93c9-45a1-882c-2f101da41c41">
                             <note ana="#txt">ton</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#com"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">no</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#á_aa7df61c-f251-46b0-a7fa-d6781e9a49bf">
                             <note ana="#txt">á</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#prog"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#kɔn1_e7aac233-28d6-4f51-b71e-27ce31789200">
                             <note ana="#txt">kɔn</note>
                             <note ana="#gls">fight</note>
                         </w>
@@ -971,23 +973,23 @@
                 <quote>
                     <s>
                         <note ana="#gls">They waited for me.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bà</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#nàbù_7315f2fe-d6af-4b52-af3a-99dc43e70b7b">
                             <note ana="#txt">nàbù</note>
                             <note ana="#gls">wait</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#kpa2_cd1a9075-9ef8-4604-b16d-6e99890e50da">
                             <note ana="#txt">kpa</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#ben"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#na_0cae61f8-b2b9-4b6d-8d8b-1cda35e99c38">
                             <note ana="#txt">na</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#obj"/>
@@ -1000,21 +1002,21 @@
                 <quote>
                     <s>
                         <note ana="#gls">They gave you a book.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bà</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#gbà1_fd0e28d8-e4b4-43d9-a089-7e8ddd5d8364">
                             <note ana="#txt">gbà</note>
                             <note ana="#gls">put</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ìwé_41a48876-7ed5-46a7-a598-0733d4898578">
                             <note ana="#txt">ìwé</note>
                             <note ana="#gls">book</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#sá2_c6a367b2-5bc0-49b5-99af-c33bd1c254ac">
                             <note ana="#txt">sá</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#secondP"/>
                                 <abbr corresp="glossary.xml#sg"/>. <abbr corresp="glossary.xml#dat"/>
@@ -1027,27 +1029,27 @@
                 <quote>
                     <s>
                         <note ana="#gls">They gave a book to the king.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#bà_6192512a-e98e-4bb5-9bfc-fb4b417e5167">
                             <note ana="#txt">bà</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#hum"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#gbà1_fd0e28d8-e4b4-43d9-a089-7e8ddd5d8364">
                             <note ana="#txt">gbà</note>
                             <note ana="#gls">put</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ìwé_41a48876-7ed5-46a7-a598-0733d4898578">
                             <note ana="#txt">ìwé</note>
                             <note ana="#gls">book</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ʃa2_f73a0eb2-b242-447a-aa40-76d79a7d74ba">
                             <note ana="#txt">ʃa</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#dat"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔmis_f6876478-4364-403c-8f3d-ad913441aa98">
                             <note ana="#txt">ɔmis</note>
                             <note ana="#gls">king</note>
                         </w>
@@ -1058,13 +1060,13 @@
                 <quote>
                     <s>
                         <note ana="#gls">He picked one out of the oranges and gave it to him.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#mi3_960d37d9-cccb-47df-a1da-1eb16aaed4d4">
                             <note ana="#txt">mi</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#sip"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔ́_02aa319c-481b-4a62-988b-bc8ced3af53b">
                             <note ana="#txt">ɔ́</note>
                             <note ana="#gls"> <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#hum"/>
@@ -1076,25 +1078,29 @@
                                 <abbr corresp="glossary.xml#pst"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#haǹ_0077e01d-a5eb-4bc0-98ca-97c6f675c076">
                             <note ana="#txt">haǹ</note>
                             <note ana="#gls">pick</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ekìn_d2efb603-de74-4c28-84c5-0ed54439acd4">
+                            <note ana="#txt">ekìn</note>
+                            <note ana="#gls">one</note>
+                        </w>
+                        <w lemmaRef="dictionary.xml#ìwùd_962b79a0-6edd-42dc-b854-db2841df14e7">
                             <note ana="#txt">ìwùd</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#par"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#òrom̀bó_4b7084bc-594b-4e93-ab94-f9bc997fda6f">
                             <note ana="#txt">òrom̀bó</note>
                             <note ana="#gls">orange</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ìdɛ́n_ed7ee3a3-16e7-4bda-94f7-647db8fe4fe0">
                             <note ana="#txt">ìdɛ́n</note>
                             <note ana="#gls">those</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#si_66fcd619-f8e7-4ee5-ad50-384b26bc7dfe">
                             <note ana="#txt">si</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#sequ"/>
@@ -1106,18 +1112,18 @@
                                 <abbr corresp="glossary.xml#pst"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ka2_f08f8720-39e5-4378-99c2-256403c98ae4">
                             <note ana="#txt">ki</note>
                             <note ana="#gls">give</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#u_97e324fd-e2fd-4134-9442-bce44eb8e628">
                             <note ana="#txt">u</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
                                 <abbr corresp="glossary.xml#sg"/>.<abbr corresp="glossary.xml#hum"/>.<abbr corresp="glossary.xml#obj"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɛ_da0d0a8e-0b9b-440c-829b-aec462f3d8fa">
                             <note ana="#txt">ɛ</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
@@ -1131,7 +1137,7 @@
                 <quote>
                     <s>
                         <note ana="#gls">The dog sleeps.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ebo_a2d7fd54-a7c4-4fe0-b7c0-7311348a90c5">
                             <note ana="#txt">ebo</note>
                             <note ana="#gls">dog</note>
                         </w>
@@ -1141,7 +1147,7 @@
                                 <abbr corresp="glossary.xml#oneh"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#miʃ_697490a5-6dea-4713-a662-bb08b7c15707">
                             <note ana="#txt">miʃ</note>
                             <note ana="#gls">sleep</note>
                         </w>
@@ -1156,15 +1162,15 @@
                 <quote>
                     <s>
                         <note ana="#gls">The dog does not sleep.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ebo_a2d7fd54-a7c4-4fe0-b7c0-7311348a90c5">
                             <note ana="#txt">ebo</note>
                             <note ana="#gls">dog</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#miʃ_697490a5-6dea-4713-a662-bb08b7c15707">
                             <note ana="#txt">miʃ</note>
                             <note ana="#gls">sleep</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#è_4ebcd6c7-baea-4528-9acf-745827b39596">
                             <note ana="#txt">è</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#neg"/>
@@ -1181,7 +1187,7 @@
                 <quote>
                     <s>
                         <note ana="#gls">We climbed.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#à_3f201c98-a757-4ce9-b68f-d3ad240bbd88">
                             <note ana="#txt">à</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
@@ -1194,9 +1200,9 @@
                                 <abbr corresp="glossary.xml#oneh"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#deŋ_651b78aa-8b3e-4db7-9a24-2c4f9748a0b5">
                             <note ana="#txt">deŋ</note>
-                            <note ana="#gls">sleep</note>
+                            <note ana="#gls">climb</note>
                         </w>
                         <w>
                             <note ana="#txt">[àdéŋ]</note>
@@ -1209,18 +1215,18 @@
                 <quote>
                     <s>
                         <note ana="#gls">We did not climb.</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#asáà_d07efc02-f0d1-40ef-999f-8992f11c3768">
                             <note ana="#txt">asáà</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#neg"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#deŋ_651b78aa-8b3e-4db7-9a24-2c4f9748a0b5">
                             <note ana="#txt">deŋ</note>
-                            <note ana="#gls">sleep</note>
+                            <note ana="#gls">climb</note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#è_4ebcd6c7-baea-4528-9acf-745827b39596">
                             <note ana="#txt">è</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#neg"/>
@@ -1238,42 +1244,42 @@
                 <quote>
                     <s>
                         <note ana="#gls">he is not writing a letter, he is sleeping</note>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔ́ɔ̀_59fe5ca1-481c-4390-a2ac-599e23f7a152">
                             <note ana="#txt">ɔ́ɔ̀</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#firstP"/>
                                 <abbr corresp="glossary.xml#pl"/>.<abbr corresp="glossary.xml#neg"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#á_aa7df61c-f251-46b0-a7fa-d6781e9a49bf">
                             <note ana="#txt">á</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#prog"/>
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#kɔ_64c42627-1076-45ef-b4af-3ac6598ac279">
                             <note ana="#txt">kɔ</note>
                             <note ana="#gls">
                                 write
                             </note>
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ìwé_41a48876-7ed5-46a7-a598-0733d4898578">
                             <note ana="#txt">ìwé</note>
                             <note ana="#gls">letter</note>                            
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#è_4ebcd6c7-baea-4528-9acf-745827b39596">
                             <note ana="#txt">è,</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#neg"/>
                             </note>                            
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ŋ̀gí_c6d21bcc-f3fd-4345-bd31-c2afaaa1bc00">
                             <note ana="#txt">ŋ̀gí</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#cfoc"/>
                             </note>                            
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#ɔ́_02aa319c-481b-4a62-988b-bc8ced3af53b">
                             <note ana="#txt">ɔ́</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#thirdP"/>
@@ -1281,13 +1287,13 @@
                                 <abbr corresp="glossary.xml#hum"/>
                             </note>                            
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#á_aa7df61c-f251-46b0-a7fa-d6781e9a49bf">
                             <note ana="#txt">á</note>
                             <note ana="#gls">
                                 <abbr corresp="glossary.xml#prog"/>
                             </note>                            
                         </w>
-                        <w>
+                        <w lemmaRef="dictionary.xml#miʃ_697490a5-6dea-4713-a662-bb08b7c15707">
                             <note ana="#txt">miʃ</note>
                             <note ana="#gls">sleep</note>                            
                         </w>

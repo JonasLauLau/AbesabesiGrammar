@@ -3,16 +3,16 @@
     <div class="w3-row-padding" style="padding-top:15px">
         <div class="w3-row-padding w3-twothird jl-content">
             <div class="w3-quarter">
-                <div class="app:previousText"/>
+                <div class="igt:previousText"/>
             </div>
             <div class="w3-half">
                 <div class="w3-container w3-teal w3-padding-16" style="cursor:pointer">
                     
-                    <div class="app:title-text"/>
+                    <div class="igt:title-text"/>
                 </div>
             </div>
             <div class="w3-quarter">
-                <div class="app:nextText"/>
+                <div class="igt:nextText"/>
             </div>
         </div>
         
@@ -20,24 +20,19 @@
     <hr/>
     <div class="w3-row-padding">
         <div class="w3-twothird jl-content">
-            <div class="app:content-text"/>
+            <div class="igt:content-text"/>
         </div>
-        
         <div class="w3-third">
             <div class="w3-bar-block w3-white w3-margin-bottom">
                 <a class="w3-button w3-bar-item" style="padding-left:35px;">
                     Metadata </a>
-                <a class="w3-button w3-bar-item" onclick="myAccFunc('audio')" style="padding-left:35px;">
-                    Audio </a>
-                <div class="app:audio"/>
-                <a class="w3-button w3-bar-item" onclick="myAccFunc('video')" style="padding-left:35px;">
-                    Video </a>
-                <div class="app:video"/>
-                <a class="w3-button w3-bar-item" style="padding-left:35px;">
+                <div data-template="igt:text-audio"/>
+                <div data-template="igt:text-video"/>
+                <a class="w3-button w3-bar-item" style="padding-left:35px;" href="https://www.elararchive.org/uncategorized/SO_cf9a1069-f36c-4446-898f-e74cbe4ea14e/">
                     Archive Deposit </a>
             </div>
             <h5>Texts</h5>
-            <div class="app:texts"/>
+            <div class="igt:texts"/>
             
             <h5>Tools</h5>
             
@@ -49,17 +44,22 @@
                 <a class="w3-button w3-bar-item" onclick="myAccFunc('oldV')" style="padding-left:10px;">
                     <i class="fa fa-history" style="padding-right:5px;"/> Older versions</a>
                 <div id="oldV" class="w3-hide w3-white">
+                    <a href="" class="w3-bar-item w3-button w3-margin-left w3-text-red">  !!! These versions are only mockups. The grammar has currently only one version !!!</a>
+                    
                     <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.0 (25-11-2018)</a>
                     <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.1 (17-12-2018)</a>
                     <a href="" class="w3-bar-item w3-button w3-margin-left">  Version 1.2 (04-04-2020 - current)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  Overview edits</a>
                 </div>
                 <a class="w3-button w3-bar-item" onclick="myAccFunc('export')" style="padding-left:10px;">
                     <i class="fa fa-file-download" style="padding-right:5px;"/> Export</a>
                 <div id="export" class="w3-hide w3-white">
-                    <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (this text)</a>
-                    <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (all texts)</a>
-                    <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (this text)</a>
-                    <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (all texts)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left w3-text-red">  !!! The export function is currently only a mockup !!!</a>
+                    
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (this database)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  TEI (entire grammar)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (this database)</a>
+                    <a href="" class="w3-bar-item w3-button w3-margin-left">  PDF (entire grammar)</a>
                 </div>
             </div>
             

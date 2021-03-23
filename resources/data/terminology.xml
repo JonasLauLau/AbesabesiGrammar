@@ -186,6 +186,22 @@
                     <term>Clause</term>
                     <gloss>A clause is a syntactic unit that minimally contains a subject and a predicate.</gloss>
                 </item>
+                <item xml:id="orthography">
+                    <term>Orthography</term>
+                    <gloss>An orthography of a language is a set of graphemes and the rules how to use those graphemes. It determines a standardized way to encode a text into written language.</gloss>
+                </item>
+                <item xml:id="tone">
+                    <term>Tone</term>
+                    <gloss>If pitch is used in a language to either distinguish lexemes or to express grammatical categories, the language is a tonal language.</gloss>
+                </item>
+                <item xml:id="number">
+                    <term>Number</term>
+                    <gloss>Number is a grammatical category that distinguishes whether there is one or more referents.</gloss>
+                </item>
+                <item xml:id="wordOrder">
+                    <term>Word order</term>
+                    <gloss>The order of words in a clause can be used to mark syntactic relations.</gloss>
+                </item>
             </list>
         </body>
     </text>

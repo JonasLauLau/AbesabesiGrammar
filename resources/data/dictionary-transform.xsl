@@ -32,6 +32,16 @@
                                     <xsl:value-of select="replace(replace(replace(replace(replace(replace(replace(replace(lexical-unit/form[@lang ='ibe']/text,'ɔ','ọ'), 'ɛ', 'ẹ'), 'ʷ','w'), 'ʃ','ṣ'),'j','y'),'dʒ','j'), 'ŋ', 'ng'), 'ɲ', 'ny')"/>
                                 </orth>
                             </form>
+                            <xsl:for-each select="variant">
+                                <form type="variant">
+                                    <pron notation="ipa">
+                                        <xsl:value-of select="form[@lang ='ibe']/text"/>
+                                    </pron>
+                                    <orth>
+                                        <xsl:value-of select="replace(replace(replace(replace(replace(replace(replace(replace(form[@lang ='ibe']/text,'ɔ','ọ'), 'ɛ', 'ẹ'), 'ʷ','w'), 'ʃ','ṣ'),'j','y'),'dʒ','j'), 'ŋ', 'ng'), 'ɲ', 'ny')"/>
+                                    </orth>
+                                </form>
+                            </xsl:for-each>
                             <xsl:for-each select="sense">
                                 <sense>
                                     <gloss>

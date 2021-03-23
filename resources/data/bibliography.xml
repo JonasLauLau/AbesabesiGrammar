@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bib-id.xsl"?>
+<xml xmlns="https://endnote.com/">
+    <records>
+        <record xml:id="d1e6">
+            
+            <ref-type name="Book">1</ref-type>
+            <contributors>
+                <authors>
+                    <author>Abimboye, Demola</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>The History of Ikaramu</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>2008</year>
+            </dates>
+            <pub-location>Lambe, Nigeria</pub-location>
+            <publisher>Bode Ogbon Communications Services</publisher>
+            <urls/>
+            <label>Abesabesi</label>
+        </record>
+        <record xml:id="d1e52">
+            
+            <ref-type name="Thesis">2</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Ìsọ̀rì Ọ̀rọ̀ Nínú Èkìròmì. Unpublished MA thesis</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>1998</year>
+            </dates>
+            <urls/>
+            <label>Abesabesi;Ekiromi;Numerals</label>
+        </record>
+        <record xml:id="d1e92">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>The category of number and the genetic classification of Èkiròmì</title>
+                <secondary-title>Inquiry in African Languages and Literatures</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Inquiry in African Languages and Literatures</full-title>
+            </periodical>
+            <pages>64-80</pages>
+            <volume>4</volume>
+            <keywords/>
+            <dates>
+                <year>2001</year>
+            </dates>
+            <urls/>
+            <label>Abesabesi;Classification;Ekiromi;Number</label>
+        </record>
+        <record xml:id="d1e145">
+            
+            <ref-type name="Thesis">2</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>The phonology of Àbèsàbèsì vowel harmony. Unpublished PhD
+                    dissertation</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>2008</year>
+            </dates>
+            <notes>ABSTRACT: ---------------------------------------------- - TOPIC: vowel harmony
+                in Abesabesi - FRAMEWORK: optimality theory - QUESTION: test the adequacy of OT to
+                account for the 3 Abesabesi harmonies (viz. ATR, Low-Vowel and ATR+ Rounding) -
+                OT-CONSTRAINTS: -- IDENT-IO[high], IDENT-IO[back], IDENT-IO[round], Align [A]R,
+                Align [A]L, Align [-low]R, Align [round]L, Align [round]L if Hi, *Rt/Hi, *[A]/low,
+                *[A]R, *[A]L - constraints are ranked differently in each language 1.7 SCOPE/1.8.1
+                DATA COLLECTION--------------------------------- - 1000 respondents in nine
+                communities - free speeches in informal gatherings - audio recordings, transcribed
+                Domains of Vowel Harmony: - root harmony - affixation: -- verbal nouns (no harmony)
+                -- verbal focus - pronouns -- sub (3rd pl) -- ob/poss (1sg, 2sg, 3pl) - tam
+                markers</notes>
+            <research-notes>ABSTRACT: ---------------------------------------------- - TOPIC: vowel
+                harmony in Abesabesi - FRAMEWORK: optimality theory - QUESTION: test the adequacy of
+                OT to account for the 3 Abesabesi harmonies (viz. ATR, Low-Vowel and ATR+ Rounding)
+                - OT-CONSTRAINTS: -- IDENT-IO[high], IDENT-IO[back], IDENT-IO[round], Align [A]R,
+                Align [A]L, Align [-low]R, Align [round]L, Align [round]L if Hi, *Rt/Hi, *[A]/low,
+                *[A]R, *[A]L - constraints are ranked differently in each language 1.7 SCOPE/1.8.1
+                DATA COLLECTION--------------------------------- - 1000 respondents in nine
+                communities - free speeches in informal gatherings - audio recordings, transcribed
+                Domains of Vowel Harmony: - root harmony - affixation: -- verbal nouns (no harmony)
+                -- verbal focus - pronouns -- sub (3rd pl) -- ob/poss (1sg, 2sg, 3pl) - tam
+                markers</research-notes>
+            <urls/>
+            <label>Abesabesi</label>
+        </record>
+        <record xml:id="d1e191">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+                <secondary-authors>
+                    <author>Oyebade, F.</author>
+                    <author>Olumyiwa, O. T.</author>
+                </secondary-authors>
+            </contributors>
+            <titles>
+                <title>ATR + Roundedness harmony in Àbèsàbèsì: the case study of Akpes</title>
+                <secondary-title>Akungba Journal of Linguistics and Literature</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Akungba Journal of Linguistics and Literature</full-title>
+            </periodical>
+            <pages>85-102</pages>
+            <keywords/>
+            <dates>
+                <year>2010</year>
+            </dates>
+            <pub-location>Akure</pub-location>
+            <publisher>Font paperback</publisher>
+            <urls/>
+            <label>Abesabesi;Akpes</label>
+        </record>
+        <record xml:id="d1e258">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Àbèsàbèsì Orthography : A Proposal</title>
+                <secondary-title>IOSR Journal Of Humanities And Social Science</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>IOSR Journal Of Humanities And Social Science</full-title>
+            </periodical>
+            <pages>41-45</pages>
+            <volume>6</volume>
+            <issue>2</issue>
+            <keywords>
+                <keyword>consonants</keyword>
+                <keyword>nasalized vowels</keyword>
+                <keyword>tone</keyword>
+                <keyword>vowels</keyword>
+                <keyword>word</keyword>
+                <keyword>àbèsàbèsì multi-dialectal orthography</keyword>
+            </keywords>
+            <dates>
+                <year>2012</year>
+            </dates>
+            <notes>...</notes>
+            <research-notes>...</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi-Orthography.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi;Dialects;Orthography;Tone</label>
+            <abstract>This paper proposes orthography for Àbèsàbèsì a language known as Akpes in
+                Literature with ethnographic identity ibe. Agoyi 2008 proposed the name Àbèsàbèsì
+                formed from the root morpheme Àbèsì ‘we’ because it is the only identity accepted by
+                all the nine communities that speak variant of the language. All speakers of the
+                language are aware of the endangered status of the language hence the need to have a
+                writing system that will be used in writing literature in the language for teaching
+                and documenting the language. In line with Nigeria National Policy on Education
+                2004section 4 subsection 19e states that the medium of instruction in the primary
+                school shall be the language of the environment for the first three years. During
+                this period, English shall be thought as a subject. To be able to implement this
+                policy there is the need to propose orthography for the languages to assist speakers
+                of minority languages who feel the need to safe their languages from death. Since
+                the speakers are familiar with the Yoruba orthography, this paper proposes graphemes
+                that are close to the Yoruba graphemes. The orthography is based mostly on a
+                co-language orthography principle. The proposed graphemes ware tested with literate
+                speakers of the language. In all 37 graphemes are proposed for the consonants,
+                vowels and tone phonemes the various dialects attest. This research is sponsored by
+                Àbèsàbèsì Language Development committee.</abstract>
+        </record>
+        <record xml:id="d1e351">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Morphology of Àbèsàbèsì Numerals: A Case Study of Èkiròmì</title>
+                <secondary-title>International Journal of Business and Social
+                    Science</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>International Journal of Business and Social Science</full-title>
+            </periodical>
+            <pages>231-240</pages>
+            <volume>3</volume>
+            <issue>20</issue>
+            <keywords/>
+            <dates>
+                <year>2012</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi-Ekiromi.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi;Ekiromi;Morphology;Numerals</label>
+            <abstract>This paper explores the mathematical conceptualization and arithmetical
+                operations that are expressed by the linguistic forms of the numeral systems of
+                ‘Àbè sà bè si’ (Known in literature as Akpes (etymology ibe), Èkiròmì lect in
+                particular) a member of the Edoid language family of Niger Congo language. Direction
+                of Èkiròmì counting is from left to right. The morphology of the numerals
+                indicates È kiròmì basic elements as 1, 2, 3, 4, 5, 10, 20 and three basic points
+                of bundles as10, 20 and 400. Thus African Languages may start with the same basic
+                elements but combine them in intricate and create ways and patterns to produce
+                unique and effective numeral systems cf. Oyebade and Agoyi (in
+                preparation).</abstract>
+        </record>
+        <record xml:id="d1e418">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>ATR + Roundedness harmony in Àbèsàbèsì: the case study of Ọ̀ṣùgù</title>
+                <secondary-title>International Journal of Business and Social
+                    Science</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>International Journal of Business and Social Science</full-title>
+            </periodical>
+            <pages>243-256</pages>
+            <volume>3</volume>
+            <issue>23</issue>
+            <keywords/>
+            <dates>
+                <year>2012</year>
+            </dates>
+            <notes>1.1 Phonology overview: Better than 2008! (see nb-phonlogy) 1.2 Vowel Harmony -
+                interaction between ATR, low-vowel and rounding harmonies</notes>
+            <research-notes>1.1 Phonology overview: Better than 2008! (see nb-phonlogy) 1.2 Vowel
+                Harmony - interaction between ATR, low-vowel and rounding harmonies</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi-Osugu.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>ATR;Abesabesi;Osugu;Vowel Harmony</label>
+        </record>
+        <record xml:id="d1e488">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Classification of Abesabesi</title>
+                <secondary-title>International Journal of Language and Literatures</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>International Journal of Language and Literatures</full-title>
+            </periodical>
+            <pages>37-51</pages>
+            <volume>1</volume>
+            <issue>1</issue>
+            <keywords/>
+            <dates>
+                <year>2013</year>
+            </dates>
+            <notes>------------GENERAL----------------- Abesabesi is one branch with Edoid reasons:
+                (1998, 2001) inflection of number, lexico-statistics (2008) vowel harmony patterns,
+                downstep LEXICOSTATISTICS: High resemblance of Edoid languages to AB --&amp;gt; see
+                table</notes>
+            <research-notes>------------GENERAL----------------- Abesabesi is one branch with Edoid
+                reasons: (1998, 2001) inflection of number, lexico-statistics (2008) vowel harmony
+                patterns, downstep LEXICOSTATISTICS: High resemblance of Edoid languages to AB
+                --&amp;gt; see table</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi - 2013 - Classification of Abesabesi.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>ATR;Abesabesi;Classification;Historical Linguistics</label>
+        </record>
+        <record xml:id="d1e558">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Language, Invasion and Insecurity: The History of Àbèsàbèsì</title>
+                <secondary-title>American Journal of Social Issues and Humanities</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>American Journal of Social Issues and Humanities</full-title>
+            </periodical>
+            <pages>68-77</pages>
+            <volume>3</volume>
+            <issue>2</issue>
+            <keywords/>
+            <dates>
+                <year>2013</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi-History.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi</label>
+            <abstract>Language is a unifying factor in human society. The genesis of any nation and
+                people threatened by lack of trust, insecurity and struggle may be traced to
+                language related problem. While developed nations in the world guide and develop
+                their languages, informed nations with many languages often allow each linguistic
+                group to develop her linguistic wealth alongside the national lingua-franca ( e.g
+                USA and UK). Nigeria is a nation well known for its linguistic diversity. This paper
+                examines the linguistic phenomenon linked to the History of Àbèsàbèsì, a language
+                spoken in nine communities in Akoko (North West, Ondo State) and the implication of
+                such linguistic indices for the unity of Nigeria.</abstract>
+        </record>
+        <record xml:id="d1e625">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Ǹń Kpasi Àbèsàbèsì: Mo Gbọ́ Àbèsàbèsì: I Understand Àbèsàbèsì</title>
+                <secondary-title>International Journal of Humanities and Social Science
+                    Invention</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>International Journal of Humanities and Social Science
+                    Invention</full-title>
+            </periodical>
+            <pages>42-52</pages>
+            <volume>2</volume>
+            <issue>2</issue>
+            <keywords/>
+            <dates>
+                <year>2013</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi-NnKpasiAbesabesi.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi</label>
+            <abstract>This booklet tests Agoyi 2012 roposed orthography for Àbèsàbèsì a language
+                known as Akpes in Literature with ethnographic identity ibe. In Agoyi 2012 I
+                mentioned that Agoyi 2008 proposed the name Àbèsàbèsì formed from the root morpheme
+                Àbèsì ‘we’ because it is the only identity accepted by all the nine communities that
+                speak variant of the language. After proposing orthography for an unwritten language
+                there is the need to subject the orthography to test; such test will help to
+                determine how easy to learn the writing system will be for the targeted learners.
+                The first edition of the booklet was printed in 2012 in Ikare Akoko Ondo State,
+                Nigeria in honour of the Akala of Ikaramu on his ìwúyè and first Installation
+                ceremony. This edition came as a result of demands for a review of the first edition
+                by Àbèsàbèsì sons and daughters at home and in diaspora. The booklet is my
+                contribution to implementation Nigeria National Policy on Education 2004 section 4
+                subsection 19e which states that ‘the medium of instruction in the primary school
+                shall be the language of the environment for the first three years. During this
+                period, English shall be thought as a subject’. The booklet will assist speakers of
+                Àbèsàbèsì a minority languages who feel the need to safe their languages from death.
+                To assist the learner comprehension of the content, the booklet adopts a trilingual
+                model: Àbèsàbèsì, Yoruba, and English. The booklet teaches the alphabets, parts of
+                the body, some essential questions and greetings in the language. The research is
+                sponsored by Àbèsàbèsì Language Development committee.</abstract>
+        </record>
+        <record xml:id="d1e693">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Àbèsàbèsì Language Documentation and Maintenance</title>
+                <secondary-title>The International Journal Of Engineering And
+                    Science</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>The International Journal Of Engineering And Science</full-title>
+            </periodical>
+            <pages>1-7</pages>
+            <volume>3</volume>
+            <issue>7</issue>
+            <keywords/>
+            <dates>
+                <year>2014</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi - 2014 - Àbèsàbèsì Language Documentation and
+                        Maintenance.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi;LDD;Language Maintenance</label>
+        </record>
+        <record xml:id="d1e757">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Àbèsàbèsì Syllable and Syllabification: A Generative Phonological
+                    Approach</title>
+                <secondary-title>Ago-Iwoye Journal of Languages and Literary
+                    Studies</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Ago-Iwoye Journal of Languages and Literary Studies</full-title>
+            </periodical>
+            <pages>246-270</pages>
+            <volume>6</volume>
+            <keywords>
+                <keyword>candidate</keyword>
+                <keyword>constraint</keyword>
+                <keyword>deletion</keyword>
+                <keyword>lects</keyword>
+                <keyword>optimal</keyword>
+                <keyword>syllable</keyword>
+                <keyword>violation</keyword>
+                <keyword>àbèsàbèsì</keyword>
+            </keywords>
+            <dates>
+                <year>2015</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi-Syllable.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi;Optimality Theory;Syllable;Vowel Deletion</label>
+        </record>
+        <record xml:id="d1e843">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Achieving Millennium Development Goals in Africa through Indigenous
+                    Language-Public Health Policy in Africa : A case Study of Àbèsàbèsì speaking
+                    community</title>
+                <secondary-title>International Journal of Media, Journalism and Mass Communications
+                    (IJMJMC)</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>International Journal of Media, Journalism and Mass Communications
+                    (IJMJMC)</full-title>
+            </periodical>
+            <pages>26-35</pages>
+            <volume>1</volume>
+            <issue>2</issue>
+            <keywords>
+                <keyword>culture</keyword>
+                <keyword>hygiene</keyword>
+                <keyword>language</keyword>
+                <keyword>taboo</keyword>
+                <keyword>water</keyword>
+                <keyword>yoruba</keyword>
+                <keyword>àbèsàbèsì</keyword>
+            </keywords>
+            <dates>
+                <year>2015</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi-PublicHealth.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi;Public Health</label>
+        </record>
+        <record xml:id="d1e930">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Allison, Idris Olawale</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Vowel Deletion and Insertion in Úwù</title>
+                <secondary-title>Journal of Language and Education</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Journal of Language and Education</full-title>
+            </periodical>
+            <pages>19-29</pages>
+            <volume>3</volume>
+            <issue>2</issue>
+            <keywords>
+                <keyword>autosegmental phonology</keyword>
+                <keyword>deletion and insertion are</keyword>
+                <keyword>earlier scholarly works in</keyword>
+                <keyword>have proven that vowel</keyword>
+                <keyword>insertion</keyword>
+                <keyword>linear phonology</keyword>
+                <keyword>productive phonological processes</keyword>
+                <keyword>prothesis</keyword>
+                <keyword>the area of phonology</keyword>
+                <keyword>two of the most</keyword>
+                <keyword>vowel deletion</keyword>
+            </keywords>
+            <dates>
+                <year>2017</year>
+            </dates>
+            <isbn>2411739020173</isbn>
+            <electronic-resource-num>10.17323/2411-7390-2017-3-2-19-29</electronic-resource-num>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://6814-Article Text-8531-8-10-20180212.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Autosegmental Phonology;Prothesis;Uwu;Vowel Deletion;Vowel Insertion</label>
+        </record>
+        <record xml:id="d1e1035">
+            
+            <ref-type name="Book">1</ref-type>
+            <contributors>
+                <authors>
+                    <author>Atoyebi, Joseph Dele</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>A Reference Grammar of Oko. A West Benue-Congo Language of North-Central
+                    Nigeria</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>2010</year>
+            </dates>
+            <pub-location>Köln</pub-location>
+            <publisher>Rüdiger Köppe</publisher>
+            <isbn>9783896455536</isbn>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Atoyebi - 2010 - A Reference Grammar of Oko. A West
+                        Benue-Congo Language of North-Central Nigeria.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Benue-Congo;Grammar;Nigeria;Oko-Eni-Osayen</label>
+        </record>
+        <record xml:id="d1e1092">
+            
+            <ref-type name="Thesis">2</ref-type>
+            <contributors>
+                <authors>
+                    <author>Ayoola, O. J.</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Aspects of the Phonology of Daja. Unpublished BA thesis</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>1986</year>
+            </dates>
+            <urls/>
+            <label>Abesabesi;Daja;Ekiromi</label>
+        </record>
+        <record xml:id="d1e1133">
+            
+            <ref-type name="Web Page">16</ref-type>
+            <contributors>
+                <authors>
+                    <author>Boyd, Graham</author>
+                    <author>Asiabuka, Chigozie Cyril</author>
+                    <author>Medupin, Aderemi</author>
+                    <author>Osunsanya, Alfred Babutunde</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Mid-term Assessment of the Millennium Villages Project in Nigeria at
+                    Ikaram/Ibaram in Ondo State and at Pampaida in Kaduna State</title>
+                <secondary-title>The African Millennium Villages Initiative</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>The African Millennium Villages Initiative</full-title>
+            </periodical>
+            <keywords/>
+            <dates>
+                <year>2009</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://MVP Midterm Assessment.docx</url>
+                </pdf-urls>
+                <web-urls>
+                    <url>https://erc.undp.org/evaluation/evaluations/detail/4149</url>
+                </web-urls>
+            </urls>
+            <label>Akoko;Millennium Development Goals</label>
+        </record>
+        <record xml:id="d1e1202">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Chovwen, Anthony</author>
+                    <author>Orebiyi, Olabisi</author>
+                    <author>Abdou-Salam, Savadogo</author>
+                    <author>Afere, Taye</author>
+                    <author>Afolayan, Emmanuel</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Achieving the Millennium Development Goals: An Assessment of Water and
+                    Sanitation Intervention of the Ikaram Millennium Village, Nigeria</title>
+                <secondary-title>Researcher</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Researcher</full-title>
+            </periodical>
+            <pages>6-13</pages>
+            <volume>1</volume>
+            <issue>2</issue>
+            <keywords/>
+            <dates>
+                <year>2009</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://02_0571_Achieving_Millennium.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Akoko;Millennium Development Goals;Nigeria</label>
+        </record>
+        <record xml:id="d1e1278">
+            
+            <ref-type name="Book">1</ref-type>
+            <contributors>
+                <authors>
+                    <author>Crozier, D. H.</author>
+                    <author>Blench, Roger</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>An index of Nigerian languages</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>1992</year>
+            </dates>
+            <pub-location>Dallas, Texas</pub-location>
+            <publisher>Summer Institute of Linguistics</publisher>
+            <urls/>
+            <label>Historical Linguistics;Niger-Congo;Nigeria</label>
+        </record>
+        <record xml:id="d1e1327">
+            
+            <ref-type name="Book">1</ref-type>
+            <contributors>
+                <authors>
+                    <author>Dahl, Östen</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Tense and aspect systems</title>
+            </titles>
+            <periodical/>
+            <pages>213</pages>
+            <keywords/>
+            <dates>
+                <year>1985</year>
+            </dates>
+            <pub-location>Oxford</pub-location>
+            <publisher>Blackwell</publisher>
+            <isbn>0631141146</isbn>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Tense-Aspect.pdf</url>
+                </pdf-urls>
+            </urls>
+        </record>
+        <record xml:id="d1e1384">
+            
+            <ref-type name="Thesis">2</ref-type>
+            <contributors>
+                <authors>
+                    <author>Daramola, Samuel</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Aspects of the phonology of Akunnu. Unpublished BA thesis</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>1984</year>
+            </dates>
+            <urls/>
+            <label>Abesabesi;Akpes;Akunnu</label>
+        </record>
+        <record xml:id="d1e1424">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Elugbe, Ben Ohi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Morphology of the gerund in Degema and its reconstruction in
+                    Proto-Edoid</title>
+                <secondary-title>Studies in African Linguistics</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Studies in African Linguistics</full-title>
+            </periodical>
+            <pages>77-89</pages>
+            <volume>15</volume>
+            <issue>1</issue>
+            <keywords/>
+            <dates>
+                <year>1984</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Gerund_Degema.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Degema;Edoid;Gerund;Historical Linguistics</label>
+        </record>
+        <record xml:id="d1e1489">
+            
+            <ref-type name="Book">1</ref-type>
+            <contributors>
+                <authors>
+                    <author>Elugbe, Ben Ohiomamhe</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Comparative Edoid: phonology and lexicon</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>1989</year>
+            </dates>
+            <pub-location>Port Harcourt</pub-location>
+            <publisher>University of Port Harcourt Press</publisher>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Elugbe-ComparativeEdoid.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Bini;Comparative Linguistics;Edoid;Historical
+                Linguistics;Lexico-Semantics;Phonology</label>
+        </record>
+        <record xml:id="d1e1542">
+            
+            <ref-type name="Conference Proceedings">3</ref-type>
+            <contributors>
+                <authors>
+                    <author>Elugbe, Ben Ohiomamhe</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>The classification of Akpes and AIKA</title>
+                <secondary-title>Paper presented at the 31st Colloquium of African languages and
+                    linguistics, Leiden, Holland, August 27-29, 2001</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Paper presented at the 31st Colloquium of African languages and
+                    linguistics, Leiden, Holland, August 27-29, 2001</full-title>
+            </periodical>
+            <keywords/>
+            <dates>
+                <year>2001</year>
+            </dates>
+            <urls/>
+            <label>Abesabesi</label>
+        </record>
+        <record xml:id="d1e1589">
+            
+            <ref-type name="Conference Proceedings">3</ref-type>
+            <contributors>
+                <authors>
+                    <author>Elugbe, Ben Ohiomamhe</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Comparative Akedoid and West Benue-Congo</title>
+                <secondary-title>Paper presented at the International Congress "Towards
+                    Proto-Niger-Congo: Comparison and Reconstruction", 18-21 September
+                    2012</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Paper presented at the International Congress "Towards
+                    Proto-Niger-Congo: Comparison and Reconstruction", 18-21 September
+                    2012</full-title>
+            </periodical>
+            <keywords/>
+            <dates>
+                <year>2012</year>
+            </dates>
+            <pub-location>Paris</pub-location>
+            <publisher>LLACAN</publisher>
+            <isbn>9788578110796</isbn>
+            <accession-num>25246403</accession-num>
+            <electronic-resource-num>10.1017/CBO9781107415324.004</electronic-resource-num>
+            <notes>-----------------GENERAL-------------------- Re-classification of Akoko country
+                languages: - Akokoid: Arigidi, Erushu, etc. - Ahanoid: Ahan-Ayere - Akedoid: Akpes,
+                AIKA (Ukaan) + Edoid - Okoid: Oko-Osanyin West-BC --&amp;gt; Akedoid --&amp;gt;
+                Edoid + Akpes + AIKA</notes>
+            <research-notes>-----------------GENERAL-------------------- Re-classification of Akoko
+                country languages: - Akokoid: Arigidi, Erushu, etc. - Ahanoid: Ahan-Ayere - Akedoid:
+                Akpes, AIKA (Ukaan) + Edoid - Okoid: Oko-Osanyin West-BC --&amp;gt; Akedoid
+                --&amp;gt; Edoid + Akpes + AIKA</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Elugbe - 2012 - Comparative Akedoid and West
+                        Benue-Congo.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Benue-Congo;Classification;Historical Linguistics</label>
+        </record>
+        <record xml:id="d1e1665">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Fadoro, Jacob Oludare</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Phonological Variation in Akokoid</title>
+                <secondary-title>Journal of Education and Practice</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Journal of Education and Practice</full-title>
+            </periodical>
+            <pages>56-67</pages>
+            <volume>4</volume>
+            <issue>11</issue>
+            <keywords>
+                <keyword>akokoid</keyword>
+                <keyword>language change</keyword>
+                <keyword>phonological variation</keyword>
+            </keywords>
+            <dates>
+                <year>2013</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Akokoid_Phonological_Variation.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Akoko;Akokoid;Language Change;Phonological Variation</label>
+        </record>
+        <record xml:id="d1e1739">
+            
+            <ref-type name="Book">1</ref-type>
+            <contributors>
+                <authors>
+                    <author>Fishman, Joshua A</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Reversing language shift: theoretical and empirical foundations of assistance
+                    to threatened languages</title>
+            </titles>
+            <periodical/>
+            <pages>431</pages>
+            <keywords/>
+            <dates>
+                <year>1991</year>
+            </dates>
+            <pub-location>Clevedon</pub-location>
+            <publisher>Multilingual Matters</publisher>
+            <urls/>
+            <label>Language Endangerment;Language Revitalisation;Language Vitality</label>
+        </record>
+        <record xml:id="d1e1789">
+            
+            <ref-type name="Book Section">7</ref-type>
+            <contributors>
+                <authors>
+                    <author>Güldemann, Tom</author>
+                </authors>
+                <secondary-authors>
+                    <author>Güldemann, Tom</author>
+                </secondary-authors>
+            </contributors>
+            <titles>
+                <title>Historical linguistics and genealogical language classification in
+                    Africa</title>
+                <secondary-title>The Languages and Linguistics of Africa</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>The Languages and Linguistics of Africa</full-title>
+            </periodical>
+            <pages>58-444</pages>
+            <keywords/>
+            <dates>
+                <year>2018</year>
+            </dates>
+            <pub-location>Berlin/Boston</pub-location>
+            <publisher>De Gruyter</publisher>
+            <isbn>9783110421668</isbn>
+            <electronic-resource-num>10.1515/9783110421668-002</electronic-resource-num>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Güldemann-classification-Africa.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Africa;Classification;Greenberg;Historical Linguistics</label>
+        </record>
+        <record xml:id="d1e1866">
+            
+            <ref-type name="Book">1</ref-type>
+            <contributors>
+                <authors>
+                    <author>Hansford, Keir</author>
+                    <author>Bendor-Samuel, John</author>
+                    <author>Stanford, Ron</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>An Index of Nigerian Languages</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>1976</year>
+            </dates>
+            <pub-location>Accra</pub-location>
+            <publisher>Summer Institute of Linguistics</publisher>
+            <urls/>
+            <label>Niger-Congo;Nigeria</label>
+        </record>
+        <record xml:id="d1e1918">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Himmelmann, Nikolaus P</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Documentary and descriptive linguistics</title>
+                <secondary-title>Linguistics</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Linguistics</full-title>
+            </periodical>
+            <pages>161-195</pages>
+            <volume>36</volume>
+            <issue>1998</issue>
+            <keywords/>
+            <dates>
+                <year>1998</year>
+            </dates>
+            <notes>Intention: Establish documentary linguistics as an independent field and unlink
+                it from the descriptive framework. Presentation of a format for description Values:
+                - accessability for sociolinguistics, anthropology, discourse analysis, oral
+                history... --therefore separate doc and desc! - dissamination (p.165) - content:
+                comprehensive and representative -- as natural as possible -- language events
+                comprise more than just the sound</notes>
+            <research-notes>Intention: Establish documentary linguistics as an independent field and
+                unlink it from the descriptive framework. Presentation of a format for description
+                Values: - accessability for sociolinguistics, anthropology, discourse analysis, oral
+                history... --therefore separate doc and desc! - dissamination (p.165) - content:
+                comprehensive and representative -- as natural as possible -- language events
+                comprise more than just the sound</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Himmelmann - 1998 - Documentary and descriptive
+                        linguistics.161</url>
+                </pdf-urls>
+            </urls>
+            <label>Defining LDD;Ethics in LDD;LDD</label>
+        </record>
+        <record xml:id="d1e1988">
+            
+            <ref-type name="Book Section">7</ref-type>
+            <contributors>
+                <authors>
+                    <author>Hoffmann, Carl</author>
+                </authors>
+                <secondary-authors>
+                    <author>Hansford, Keir</author>
+                    <author>Bendor-Samuel, John</author>
+                    <author>Stanford, Ron</author>
+                </secondary-authors>
+            </contributors>
+            <titles>
+                <title>The languages of Nigeria by language family</title>
+                <secondary-title>An Index of Nigerian Languages</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>An Index of Nigerian Languages</full-title>
+            </periodical>
+            <pages>169-190</pages>
+            <keywords/>
+            <dates>
+                <year>1976</year>
+            </dates>
+            <pub-location>Accra</pub-location>
+            <publisher>Summer Institute of Linguistics</publisher>
+            <urls/>
+            <label>Niger-Congo;Nigeria</label>
+        </record>
+        <record xml:id="d1e2057">
+            
+            <ref-type name="Thesis">2</ref-type>
+            <contributors>
+                <authors>
+                    <author>Ibrahim-Arirabiyi, Femi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>A comparative reconstruction of Akpes lects, Akoko North, Ondo State. MA
+                    thesis</title>
+            </titles>
+            <periodical/>
+            <pages>64</pages>
+            <keywords/>
+            <dates>
+                <year>1989</year>
+            </dates>
+            <notes>Methodology: - comparative method - reconstruct a proto-language - revised
+                swadesh 100-word list (must be Ibadan 400 inferred from data) Findings: -
+                Lexicostatistics: -- Akunnu and Iludotun closest relatives -- Abesabesi is language
+                cluster --- reasons: mutual intellegibility not between all lects --- similarities
+                sometimes below 80 % (between 69 and 95%) -- no basis for drawing a tree diagram, as
+                two methods brought different results. Phonology: - Syllable: V, CV, N-, VN-, CVC -
+                Words: nouns and verbs begin with V, N- or CV - Vowels: 7 oral, 5 nasal (no õ, ẽ)
+                - distribution of vowels: -- all vowels occur in medial and final position -- all
+                oral vowels occur word-initially, except in Ase, Ikaram and Gedegede, where /u/ does
+                not occur word-initially. - Language does not show any vowel harmony (he means root
+                harmony) - consonants: -- max 23 + 5 labialized -- nasal harmony -- allophones j/ɲ,
+                ŋ/ɣ -- labialization: b, k, g, tʃ, h (only in Ase, Akunnu, Esuku, Daja and Ilodun)
+                --- interpreted as single phonemic unit, no process of labialization -- v, p, bʷ,
+                gʷ, tʃʷ, kʷ, hʷ not in all dialects -- nasalization --- nasal epenthesis as a result
+                of nasalized vowels before consonants</notes>
+            <research-notes>Methodology: - comparative method - reconstruct a proto-language -
+                revised swadesh 100-word list (must be Ibadan 400 inferred from data) Findings: -
+                Lexicostatistics: -- Akunnu and Iludotun closest relatives -- Abesabesi is language
+                cluster --- reasons: mutual intellegibility not between all lects --- similarities
+                sometimes below 80 % (between 69 and 95%) -- no basis for drawing a tree diagram, as
+                two methods brought different results. Phonology: - Syllable: V, CV, N-, VN-, CVC -
+                Words: nouns and verbs begin with V, N- or CV - Vowels: 7 oral, 5 nasal (no õ, ẽ)
+                - distribution of vowels: -- all vowels occur in medial and final position -- all
+                oral vowels occur word-initially, except in Ase, Ikaram and Gedegede, where /u/ does
+                not occur word-initially. - Language does not show any vowel harmony (he means root
+                harmony) - consonants: -- max 23 + 5 labialized -- nasal harmony -- allophones j/ɲ,
+                ŋ/ɣ -- labialization: b, k, g, tʃ, h (only in Ase, Akunnu, Esuku, Daja and Ilodun)
+                --- interpreted as single phonemic unit, no process of labialization -- v, p, bʷ,
+                gʷ, tʃʷ, kʷ, hʷ not in all dialects -- nasalization --- nasal epenthesis as a result
+                of nasalized vowels before consonants</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Ibrahim-Arirabiyi 1989 Akpes Comparative[7569].pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi</label>
+        </record>
+        <record xml:id="d9e1333">
+            <ref-type name="Book">1</ref-type>
+            <contributors>
+                <authors>
+                    <author>Lewis, M. Paul</author>
+                    <author>Simons, Gary F.</author>
+                    <author>Fennig, Charles D.</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Ethnologue: Languages of the World</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>2018</year>
+            </dates>
+            <pub-location>Dallas, Texas</pub-location>
+            <publisher>SIL International</publisher>
+            <urls>
+                <web-urls>
+                    <url>http://www.ethnologue.com</url>
+                </web-urls>
+            </urls>
+        </record>
+        <record xml:id="d1e2114">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Lewis, M. Paul</author>
+                    <author>Simons, Gary F.</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Assessing endangerment: Expanding Fishman's GIDS</title>
+                <secondary-title>Revue Roumaine de Linguistique</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Revue Roumaine de Linguistique</full-title>
+            </periodical>
+            <pages>103-120</pages>
+            <volume>55</volume>
+            <issue>2</issue>
+            <keywords/>
+            <dates>
+                <year>2010</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://RRL 2 2010 art01Lewis.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Language Endangerment;Language Vitality</label>
+            <abstract>Fishman's 8-level Graded Intergenerational Disruption Scale (GIDS) has served
+                as the seminal and best-known evaluative framework of language endangerment for
+                nearly two decades. It has provided the theoretical underpinnings for most
+                practitioners of language revitalization. More recently, UNESCO has developed a
+                6-level scale of endangerment. Ethnologue uses yet another set of five categories to
+                characterize language vitality. In this paper, these three evaluative systems are
+                aligned to form an amplified and elaborated evaluative scale of 13 levels, the
+                E(xpanded) GIDS. Any known language, including those languages for which there are
+                no longer speakers, can be categorized by using the resulting scale (unlike the
+                GIDS). A language can be evaluated in terms of the EGIDS by answering five key
+                questions regarding the identity function, vehicularity, state of intergenerational
+                language transmission, literacy acquisition status, and a societal profile of
+                generational language use. With only minor modification the EGIDS can also be
+                applied to languages which are being revitalized.</abstract>
+        </record>
+        <record xml:id="d1e2184">
+            
+            <ref-type name="Book Section">7</ref-type>
+            <contributors>
+                <authors>
+                    <author>Ohiri-Aniche, Chinyere</author>
+                </authors>
+                <secondary-authors>
+                    <author>Blench, Roger</author>
+                    <author>Spriggs, Matthew</author>
+                </secondary-authors>
+            </contributors>
+            <titles>
+                <title>Language diversification in the Akoko area of Western Nigeria</title>
+                <secondary-title>Archaeology and Language IV. Language change and cultural
+                    transformation</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Archaeology and Language IV. Language change and cultural
+                    transformation</full-title>
+            </periodical>
+            <pages>79-94</pages>
+            <keywords/>
+            <dates>
+                <year>1999</year>
+            </dates>
+            <pub-location>London, New York</pub-location>
+            <publisher>Routledge</publisher>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Ohiri-LangDiversificationAkoko.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>AIKA;Abesabesi;Ahan;Akoko;Akokoid;Nigeria;Uwu;Yoruba</label>
+        </record>
+        <record xml:id="d1e2258">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Olúmúyìwá, Tèmítọ́pẹ́</author>
+                    <author>Oshòdì, Bólúwájí</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>On the linguistic situation in Àkókó</title>
+                <secondary-title>California Linguistic Notes</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>California Linguistic Notes</full-title>
+            </periodical>
+            <pages>1-8</pages>
+            <volume>XXXVII</volume>
+            <issue>1</issue>
+            <keywords/>
+            <dates>
+                <year>2012</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://oshodi-ling-AKOK1.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi;Akoko;Language Vitality</label>
+            <abstract>It is a general belief among the non-Àkókó people and linguists who are not
+                conversant with Àkókó land to assume that Àkókó land is linguistically homogeneous.
+                That is why they erroneously refer to speech forms in the land as ‘Yorùbá Àkókó’ and
+                or Àkókó dialect’. However, this paper shows that Àkókó land is not linguistically
+                homogeneous, as speech forms in the area belong to the Yoruboid, Edoid, and Akokoid
+                branches of the YEAI subgroup of West Benue-Congo language family.
+                Introduction</abstract>
+        </record>
+        <record xml:id="d1e2328">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Oyebade, Francis</author>
+                    <author>Agoyi, Taiwo Opeyemi</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>The Linguistic Form and Computation System of Numerals in Yorùbá and Èkìròm:
+                    A Comparison</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Agoyi-Numerals_Yoruba_Ekirom.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi;Ekiromi;Nigeria;Numerals;Yoruba</label>
+        </record>
+        <record xml:id="d1e2372">
+            
+            <ref-type name="Conference Proceedings">3</ref-type>
+            <contributors>
+                <authors>
+                    <author>Oyetade, Solomon Oluwole</author>
+                </authors>
+                <secondary-authors>
+                    <author>Akinlabi, Akinbiyi</author>
+                    <author>Adesola, Oluseye</author>
+                </secondary-authors>
+            </contributors>
+            <titles>
+                <title>Language Endangerment in Nigeria: Perspectives with the Akpes Cluster of
+                    Akoko Languages</title>
+                <secondary-title>Proceedings of the 4th World Congress of African Linguistics New
+                    Brunswick 2003</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Proceedings of the 4th World Congress of African Linguistics New
+                    Brunswick 2003</full-title>
+            </periodical>
+            <keywords/>
+            <dates>
+                <year>2004</year>
+            </dates>
+            <pub-location>Cologne</pub-location>
+            <publisher>Rüdiger Köppe</publisher>
+            <notes>Migration, contact, bla bla -&amp;gt; Nigeria is very multilingual -&amp;gt; Some
+                bilingual situations result in language shift, where one language is not transmitted
+                anymore -&amp;gt; This paper shows the magnitude of the problem with a survey 2.
+                south west nigeria and lang endangerment - relatively linguisticallly homogeneous -
+                Yoruba is the principal language - virtually, all speakers of minority lang speak
+                Yoruba - integrated into the Yoruba socio-cultural milieu 5. Research Findings: -
+                Akpes is acquired simoultaneously with Yoruba - Superior ability in Yoruba compared
+                with Akpes - better Yoruba if: old, better-educated, better jobs - better Akpes if:
+                old 5.1: Language Use: - &amp;quot;Yoruba is already gaining a foothold in the
+                family, and in other contexts where one would expect Akpes.&amp;quot; (538)</notes>
+            <research-notes>Migration, contact, bla bla -&amp;gt; Nigeria is very multilingual
+                -&amp;gt; Some bilingual situations result in language shift, where one language is
+                not transmitted anymore -&amp;gt; This paper shows the magnitude of the problem with
+                a survey 2. south west nigeria and lang endangerment - relatively linguisticallly
+                homogeneous - Yoruba is the principal language - virtually, all speakers of minority
+                lang speak Yoruba - integrated into the Yoruba socio-cultural milieu 5. Research
+                Findings: - Akpes is acquired simoultaneously with Yoruba - Superior ability in
+                Yoruba compared with Akpes - better Yoruba if: old, better-educated, better jobs -
+                better Akpes if: old 5.1: Language Use: - &amp;quot;Yoruba is already gaining a
+                foothold in the family, and in other contexts where one would expect
+                Akpes.&amp;quot; (538)</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Oyetade - 2004 - Language Endangerment in Nigeria
+                        Perspectives with the Akpes Cluster of Akoko Languages.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Abesabesi;Akoko;Language Endangerment</label>
+        </record>
+        <record xml:id="d1e2448">
+            
+            <ref-type name="Thesis">2</ref-type>
+            <contributors>
+                <authors>
+                    <author>Raji, B. T.</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Ikaramu phonology. Unpublished MA thesis</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>1986</year>
+            </dates>
+            <notes>Glottolog: Raji, B. T. 1986. Ikaramu phonology. Univ. of Ilorin. University of
+                Ilorin. (Is this a BA or MA? Manuscript? Referred to by Crozier &amp;amp;Blench
+                (1992:135).)</notes>
+            <research-notes>Glottolog: Raji, B. T. 1986. Ikaramu phonology. Univ. of Ilorin.
+                University of Ilorin. (Is this a BA or MA? Manuscript? Referred to by Crozier
+                &amp;amp;Blench (1992:135).)</research-notes>
+            <urls/>
+            <label>Abesabesi;Ekiromi</label>
+        </record>
+        <record xml:id="d1e2494">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Reiman, D.</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Basic oral language documentation</title>
+                <secondary-title>Language Documentation &amp; Conservation</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Language Documentation &amp; Conservation</full-title>
+            </periodical>
+            <pages>254-268</pages>
+            <volume>4</volume>
+            <keywords>
+                <keyword>Article</keyword>
+                <keyword>oral annotation</keyword>
+                <keyword>oral language documentation</keyword>
+            </keywords>
+            <dates>
+                <year>2010</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://reiman.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Annotation;BOLD;LDD</label>
+            <abstract>Since at least 1992, when Michael Krauss presented the topic of language
+                endangerment in Language, linguists have been wrestling with the problem that
+                languages are disappearing from the earth faster than they can be satisfactorily
+                documented. This paper advocates a methodology for documenting languages that
+                minimizes the use of high-cost means of recording comments on recorded language data
+                (written annotation), focusing instead on making low-cost means (oral annotation)
+                more effective. I present here a brief history of the origins of the method, detail
+                how the annotation process is executed, and evaluate its effectiveness in several
+                dimensions. Finally, since it is an emerging technique, I will also discuss the
+                directions in which the research on this methodology ought to develop.</abstract>
+        </record>
+        <record xml:id="d1e2568">
+            
+            <ref-type name="Thesis">2</ref-type>
+            <contributors>
+                <authors>
+                    <author>Salffner, Sophie</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Tone in the phonology, lexicon and grammar of Ikaan. PhD Thesis</title>
+            </titles>
+            <periodical/>
+            <issue>September</issue>
+            <keywords>
+                <keyword>Department of Linguistics</keyword>
+                <keyword>SOAS Research Theses</keyword>
+            </keywords>
+            <dates>
+                <year>2009</year>
+            </dates>
+            <notes>2.5 GRAMMATICAL BACKGROUND 2.5.1 PHONOLOGY CONSONANTS - only pulmonic - no voiced
+                fricatives - voiced and voiceless approximants - s, l, ŋ only in loan words - p in
+                loan words and in òpú 'ten' - dʒ may also be palatal plosive VOWELS - height,
+                fronting, contrastive ATR value, length and nasality - all contrasting possibilities
+                of oral/nasal, +/-ATR, long short attested except /ẽ:, ʊ̃:/ - fully unspecified
+                vowel surfaces as /i, ɪ/ TONES - H, L - floating tone causes downstep on following H
+                SYLLABLE STRUCTURE AND MINIMAL WORD - V, CV, CVC - Coda just: /b, t, d, g, m, n, f,
+                ʃ, dʒ, r, ṛ/ - minimal word is bimoraic - most words consitst of a root prefixed
+                with vowel - if no prefix, vowel surfaces as bimoraic PHONOLOGICAL PROCESSES - no
+                vowel/consonant clusters -- processes are triggered to prevent CC/VV - VOWEL
+                DELETION -- V[-high] --&amp;gt; 0 / _ ##V -- Verb + Object - VOWEL ASSIMILATION --
+                also V##V -- replaces own features with the other V's features -- mora stays -- Noun
+                + Modifier - GLIDE FORMATION -- V##V with high vowels -- labialises/palatalises
+                preceeding consonant - VOWEL EPENTHESIS -- C##C -- inserted vowel: high, front/back
+                harmony with preceding vowel, toneless, surface with the tone of preceding TBU - /g,
+                m/ deletion -- if C1 is /g, m/, it gets deleted - /m/ DELETION AT syntactic
+                boundaries 2.5.2 MORPHOLOGY NOUNS - noun class prefix (mono/bimoraic oral vowel) -
+                syntactic tone: L - nominal use, H - predicative use) 2.5.3 SYNTAX - NP: N-Modifier
+                -- POSS-X-X-X-DEM - Main Clause: mainly SVO -- Subj can be dropped 3 TONE IN IKAAN
+                3.1 PREVIOUS RESEARCH - Abiodun's analysis (problems) -- too many processes, a lot
+                of exceptions -- L either default tone or floating L --- no underlying L --
+                subscribing to OCP + maintaining contrasting H and HH 3.2 BASICS - functional load
+                of tone low in lexicon (not many minmal pairs) but high in grammar TBU - mora - /m/
+                mora, /n, ŋm/ not moraic 3.3 TONES AND ALLOTONES - Surface: H, M, L, X - Underlying:
+                H [H, M] ; L [L, X] - No mid tone becauseː -- Distributionː No M after L -- Ceiling
+                effect -- Cumulation (terracing effect) - initial !H is accounted for by initial
+                floating L - X because: -- X just in phrase final position. H is not affected --
+                syntax triggers lowering CONTOUR TONES - just tonal sequences because: -- mora TBU,
+                sequences just on bimoraic syllables -- epenthetic vowels just copy the last part of
+                the sequence -- no downstep on LH -- contours after dropping intervocalic n 3.4
+                TONAL MELODIES - make grammar more economical - tone copying for unassociated tones
+                -- violates OCP -- spreading would not result in floating tones when deleting a
+                vowel -- copying does - L deletion at the word boundary (just for melodies!) 5.2.1
+                IMPERATIVE - verbs underlyingly toneless? -- different imperatives may be an
+                argument against this, but -- imperative melodies inferable from long verb form. -
+                irregular NFUT form: L 5.2.2 NONFUT - bimoraic prefixes have the two first tones of
+                melody - prefixes lexically bimoraic - tonal melody is fully autosegmental 5.2.3 HAB
+                - OCP(L) and H docking 5.2.4 ALTERNATIVE EXPLANATIONS - melody is lexically
+                distinguished (mono- vs bimoraic stems) - moras are counted by grammar -- Prob: not
+                autosegmental any more!</notes>
+            <research-notes>2.5 GRAMMATICAL BACKGROUND 2.5.1 PHONOLOGY CONSONANTS - only pulmonic -
+                no voiced fricatives - voiced and voiceless approximants - s, l, ŋ only in loan
+                words - p in loan words and in òpú 'ten' - dʒ may also be palatal plosive VOWELS -
+                height, fronting, contrastive ATR value, length and nasality - all contrasting
+                possibilities of oral/nasal, +/-ATR, long short attested except /ẽ:, ʊ̃:/ - fully
+                unspecified vowel surfaces as /i, ɪ/ TONES - H, L - floating tone causes downstep on
+                following H SYLLABLE STRUCTURE AND MINIMAL WORD - V, CV, CVC - Coda just: /b, t, d,
+                g, m, n, f, ʃ, dʒ, r, ṛ/ - minimal word is bimoraic - most words consitst of a root
+                prefixed with vowel - if no prefix, vowel surfaces as bimoraic PHONOLOGICAL
+                PROCESSES - no vowel/consonant clusters -- processes are triggered to prevent CC/VV
+                - VOWEL DELETION -- V[-high] --&amp;gt; 0 / _ ##V -- Verb + Object - VOWEL
+                ASSIMILATION -- also V##V -- replaces own features with the other V's features --
+                mora stays -- Noun + Modifier - GLIDE FORMATION -- V##V with high vowels --
+                labialises/palatalises preceeding consonant - VOWEL EPENTHESIS -- C##C -- inserted
+                vowel: high, front/back harmony with preceding vowel, toneless, surface with the
+                tone of preceding TBU - /g, m/ deletion -- if C1 is /g, m/, it gets deleted - /m/
+                DELETION AT syntactic boundaries 2.5.2 MORPHOLOGY NOUNS - noun class prefix
+                (mono/bimoraic oral vowel) - syntactic tone: L - nominal use, H - predicative use)
+                2.5.3 SYNTAX - NP: N-Modifier -- POSS-X-X-X-DEM - Main Clause: mainly SVO -- Subj
+                can be dropped 3 TONE IN IKAAN 3.1 PREVIOUS RESEARCH - Abiodun's analysis (problems)
+                -- too many processes, a lot of exceptions -- L either default tone or floating L
+                --- no underlying L -- subscribing to OCP + maintaining contrasting H and HH 3.2
+                BASICS - functional load of tone low in lexicon (not many minmal pairs) but high in
+                grammar TBU - mora - /m/ mora, /n, ŋm/ not moraic 3.3 TONES AND ALLOTONES - Surface:
+                H, M, L, X - Underlying: H [H, M] ; L [L, X] - No mid tone becauseː -- Distributionː
+                No M after L -- Ceiling effect -- Cumulation (terracing effect) - initial !H is
+                accounted for by initial floating L - X because: -- X just in phrase final position.
+                H is not affected -- syntax triggers lowering CONTOUR TONES - just tonal sequences
+                because: -- mora TBU, sequences just on bimoraic syllables -- epenthetic vowels just
+                copy the last part of the sequence -- no downstep on LH -- contours after dropping
+                intervocalic n 3.4 TONAL MELODIES - make grammar more economical - tone copying for
+                unassociated tones -- violates OCP -- spreading would not result in floating tones
+                when deleting a vowel -- copying does - L deletion at the word boundary (just for
+                melodies!) 5.2.1 IMPERATIVE - verbs underlyingly toneless? -- different imperatives
+                may be an argument against this, but -- imperative melodies inferable from long verb
+                form. - irregular NFUT form: L 5.2.2 NONFUT - bimoraic prefixes have the two first
+                tones of melody - prefixes lexically bimoraic - tonal melody is fully autosegmental
+                5.2.3 HAB - OCP(L) and H docking 5.2.4 ALTERNATIVE EXPLANATIONS - melody is
+                lexically distinguished (mono- vs bimoraic stems) - moras are counted by grammar --
+                Prob: not autosegmental any more!</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Salffner - 2010 - Tone in the phonology, lexicon and grammar
+                        of Ikaan. PhD Thesis.pdf</url>
+                </pdf-urls>
+                <web-urls>
+                    <url>http://eprints.soas.ac.uk/12438/</url>
+                </web-urls>
+            </urls>
+            <label>AIKA;Ikaan;Nigeria;Tone</label>
+            <abstract>This thesis investigates the forms, functions and behaviour of tone in the
+                phonology,lexicon, morphosyntax and the phonology-grammar interfaces in Ikaan
+                (Benue-Congo, Nigeria). The analysis is based on an annotated audio corpus of
+                recordings from 29 speakers collected during ten months of fieldwork complemented
+                with participant observation and informally collected data.\r\n\r\nThe study
+                demonstrates that tone operates at a wide range of levels of linguistic analysis in
+                Ikaan. As phonemes, tones distinguish meaning in minimal pairs and are subject to
+                phonological rules. As morphemes, tones and tonal melodies bear meaning in
+                inflection, derivation and reduplication. In the syntax, tones mark phrase
+                boundaries. At the phonology-semantics interface, constructionspecific constraints
+                on the tonal representation distinguish between predicating and referential nominal
+                modifiers. Combined with intonation and voicing, tones distinguish between
+                statements and morphosyntactically identical yes/no questions.\r\n\r\nThe research
+                identifies a range of unusual tonal behaviours in Ikaan. The two tones H and L
+                follow markedly different phonologies. In the association of lexical and grammatical
+                tonal melodies, H must be realised whereas non-associated L are deleted. Formerly
+                associated but de-linked L however are not deleted but remain floating. The OCP is
+                found to apply to L but not to H. H is downstepped after floating L but not after
+                overt L. In addition, three different locations of downstep are attested which
+                correlate with different syntactic and semantic properties of the respective
+                constructions. In two of these downstep locations, a leftward copying process occurs
+                in addition to a generally applicable rightward copying process so that two
+                directions of copying occur.\r\n\r\nThe thesis concludes by discussing the
+                implications of the Ikaan findings for the wider theoretical discourse with respect
+                to the status of the OCP, the directionality of spreading and the modelling of
+                downstep.</abstract>
+        </record>
+        <record xml:id="d1e2642">
+            
+            <ref-type name="Web Page">16</ref-type>
+            <contributors>
+                <authors>
+                    <author>Salffner, Sophie</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Ikaan and related dialects of Ukaan: an archive of language and cultural
+                    material from the Akaan people of Ikakumo (Ondo State, Nigeria)</title>
+                <secondary-title>SOAS, Endangered Languages Archive</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>SOAS, Endangered Languages Archive</full-title>
+            </periodical>
+            <keywords/>
+            <dates>
+                <year>2010</year>
+            </dates>
+            <urls>
+                <web-urls>
+                    <url>http://elar.soas.ac.uk/deposit/0034</url>
+                </web-urls>
+            </urls>
+            <label>AIKA;Benue-Congo</label>
+        </record>
+        <record xml:id="d1e2696">
+            
+            <ref-type name="Web Page">16</ref-type>
+            <contributors>
+                <authors>
+                    <author>Salffner, Sophie</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Farming, food and yam: language and cultural practices among Ikaan speakers:
+                    an archive of language and cultural material from the Akaan peaple of Ikakumo
+                    (Ondo State and Edo State, Nigeria)</title>
+                <secondary-title>SOAS, Endangered Languages Archive</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>SOAS, Endangered Languages Archive</full-title>
+            </periodical>
+            <keywords/>
+            <dates>
+                <year>2014</year>
+            </dates>
+            <urls>
+                <web-urls>
+                    <url>http://elar.soas.ac.uk/deposit/0259</url>
+                </web-urls>
+            </urls>
+            <label>AIKA;Benue-Congo</label>
+        </record>
+        <record xml:id="d1e2750">
+            
+            <ref-type name="Conference Proceedings">3</ref-type>
+            <contributors>
+                <authors>
+                    <author>Salffner, Sophie</author>
+                    <author>Sands, Bonny</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Why Ukaan is Hard to Classify</title>
+                <secondary-title>Paper presented at the International Congress "Towards
+                    Proto-Niger-Congo: Comparison and Reconstruction", 18-21 September
+                    2012</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Paper presented at the International Congress "Towards
+                    Proto-Niger-Congo: Comparison and Reconstruction", 18-21 September
+                    2012</full-title>
+            </periodical>
+            <pages>1-9</pages>
+            <keywords/>
+            <dates>
+                <year>2012</year>
+            </dates>
+            <pub-location>Paris</pub-location>
+            <publisher>LLACAN</publisher>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Salffner, Sands - 2012 - Why Ukaan is Hard to
+                        Classify.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>AIKA;Akoko;Historical Linguistics</label>
+        </record>
+        <record xml:id="d1e2817">
+            
+            <ref-type name="Web Page">16</ref-type>
+            <contributors>
+                <authors>
+                    <author>UNESCO</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Language Vitality and Endangerment</title>
+            </titles>
+            <periodical/>
+            <keywords/>
+            <dates>
+                <year>2003</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://UNESCO Ad Hoc Expert Group on Endangered Languages - 2003 -
+                        Language Vitality and Endangerment.pdf</url>
+                </pdf-urls>
+                <web-urls>
+                    <url>http://www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/CLT/pdf/Language_vitality_and_endangerment_EN.pdf</url>
+                </web-urls>
+            </urls>
+            <label>Language Endangerment;Language Vitality</label>
+        </record>
+        <record xml:id="d1e2870">
+            
+            <ref-type name="Book Section">7</ref-type>
+            <contributors>
+                <authors>
+                    <author>Williamson, Kay</author>
+                </authors>
+                <secondary-authors>
+                    <author>Bendor-Samuel, John</author>
+                </secondary-authors>
+            </contributors>
+            <titles>
+                <title>Benue-Congo overview</title>
+                <secondary-title>The Niger-Congo languages</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>The Niger-Congo languages</full-title>
+            </periodical>
+            <pages>246-274</pages>
+            <keywords/>
+            <dates>
+                <year>1989</year>
+            </dates>
+            <pub-location>Lanham</pub-location>
+            <publisher>University Press of America</publisher>
+            <urls/>
+            <label>Benue-Congo</label>
+        </record>
+        <record xml:id="d1e2933">
+            
+            <ref-type name="Book Section">7</ref-type>
+            <contributors>
+                <authors>
+                    <author>Williamson, Kay</author>
+                    <author>Blench, Roger</author>
+                </authors>
+                <secondary-authors>
+                    <author>Heine, Bernd</author>
+                    <author>Nurse, Derek</author>
+                </secondary-authors>
+            </contributors>
+            <titles>
+                <title>Niger-Congo</title>
+                <secondary-title>African Languages. An Introduction</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>African Languages. An Introduction</full-title>
+            </periodical>
+            <pages>11-42</pages>
+            <keywords/>
+            <dates>
+                <year>2000</year>
+            </dates>
+            <pub-location>Cambridge</pub-location>
+            <publisher>Cambridge University Press</publisher>
+            <urls/>
+            <label>Africa;Historical Linguistics;Niger-Congo</label>
+        </record>
+        <record xml:id="d1e3003">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Woodbury, Anthony</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Defining Documentary Linguistics</title>
+                <secondary-title>Language Documentation and Description</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Language Documentation and Description</full-title>
+            </periodical>
+            <pages>35-51</pages>
+            <volume>1</volume>
+            <keywords/>
+            <dates>
+                <year>2003</year>
+            </dates>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Woodbury - 2003 - Defining Documentary Linguistics.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Best Practices in LDD;Defining LDD;Ethics in LDD;LDD</label>
+        </record>
+        <record xml:id="d1e3063">
+            
+            <ref-type name="Journal Article">0</ref-type>
+            <contributors>
+                <authors>
+                    <author>Yusuf, Ore</author>
+                </authors>
+            </contributors>
+            <titles>
+                <title>Yoruba Copula ni</title>
+                <secondary-title>Journal of West African Languages</secondary-title>
+            </titles>
+            <periodical>
+                <full-title>Journal of West African Languages</full-title>
+            </periodical>
+            <pages>83-93</pages>
+            <volume>20/1</volume>
+            <keywords/>
+            <dates>
+                <year>1990</year>
+            </dates>
+            <notes>·         ni is intuitively analysed by speakers as a verb ·         used in
+                questions, focus, copula sentences ·         Function 1: Focus o  Sentence initial
+                NPs are focused, i. e. isolated from the post-ni sentence and coded sentence
+                initially to give them prominence. ·         Function 2: Copula o   Equative and
+                Presentative ·         Function 3: Content questions: o   follows the wh-phrase -
+                Function 3: emphatic reading to the whole event</notes>
+            <research-notes>·         ni is intuitively analysed by speakers as a verb ·        
+                used in questions, focus, copula sentences ·         Function 1: Focus o  Sentence
+                initial NPs are focused, i. e. isolated from the post-ni sentence and coded sentence
+                initially to give them prominence. ·         Function 2: Copula o   Equative and
+                Presentative ·         Function 3: Content questions: o   follows the wh-phrase -
+                Function 3: emphatic reading to the whole event</research-notes>
+            <urls>
+                <pdf-urls>
+                    <url>internal-pdf://Yusuf - 1990 - Yoruba Copula ni.pdf</url>
+                </pdf-urls>
+            </urls>
+            <label>Copula;Yoruba</label>
+        </record>
+    </records>
+</xml>
